@@ -34,11 +34,22 @@ def normalize_value(raw: str) -> Optional[NormalizedValue]:
     if match is None:
         return None
     number = float(match.group(0).replace(",", ""))
+    if _parenthesised(raw, match.start(), match.end()):
+        number = -number  # a figure written in brackets is negative
 
     lowered = raw.lower()
     magnitude, factor = _find_magnitude(lowered)
     unit = _find_currency(lowered)
     return NormalizedValue(number=number * factor, unit=unit, magnitude=magnitude)
+
+
+def _parenthesised(raw: str, start: int, end: int) -> bool:
+    """True when the number sits inside brackets that open before it and close after
+    it, the convention for a negative figure. A bracketed unit or note elsewhere in
+    the string ("Revenue (net) 1,234") opens and closes before the number and so does
+    not count."""
+    before, after = raw[:start], raw[end:]
+    return before.count("(") > before.count(")") and ")" in after
 
 
 def _find_magnitude(lowered: str) -> tuple[Optional[str], float]:

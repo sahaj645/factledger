@@ -56,6 +56,20 @@ def test_uncertain_when_period_missing():
     assert r.verdict == UNCERTAIN and "period" in r.explanation
 
 
+def test_uncertain_when_a_scale_is_stated_on_only_one_side():
+    """A bare figure may be in the same scale with its unit unrecorded, so it cannot
+    be read as disagreeing with a figure that states one."""
+    a = claim("revenue from operations", "100 crore", period="FY2024", scope="consolidated")
+    b = claim("revenue from operations", "100", period="FY2024", scope="consolidated")
+    assert compare(a, b, reconcile=no).verdict == UNCERTAIN
+
+
+def test_equivalent_scales_still_corroborate():
+    a = claim("revenue from operations", "100 crore", period="FY2024", scope="consolidated")
+    b = claim("revenue from operations", "1,000 million", period="FY2024", scope="consolidated")
+    assert compare(a, b, reconcile=no).verdict == CORROBORATED
+
+
 def test_not_comparable_different_entity():
     a = claim("revenue from operations", "100 crore", subject="Acme Foods Limited",
               period="FY2024", scope="consolidated")

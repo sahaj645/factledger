@@ -64,6 +64,11 @@ def _compare_numeric(a: Claim, b: Claim, reconcile: Callable[..., str]) -> Compa
         return Comparison(NOT_COMPARABLE, "one value is a percentage, the other absolute")
     if va.unit and vb.unit and va.unit != vb.unit:
         return Comparison(NOT_COMPARABLE, f"different units: {va.unit} vs {vb.unit}")
+    if bool(va.unit or va.magnitude) != bool(vb.unit or vb.magnitude):
+        # One side states a scale and the other states none. The bare figure may be in
+        # the same scale with its unit unrecorded, so the gap cannot be read as
+        # disagreement.
+        return Comparison(UNCERTAIN, "a unit or magnitude is stated on only one side")
 
     ta, tb = _temporal(a), _temporal(b)
     if ta is None or tb is None:

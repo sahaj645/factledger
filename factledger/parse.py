@@ -20,6 +20,10 @@ class Block:
     char_start: int
     char_end: int
     bbox: tuple[float, float, float, float]  # x0, top, x1, bottom
+    # (char_start, char_end, bbox) per word, in page-text coordinates. Lets a table
+    # cell be located by where it sits on the page rather than by the first place its
+    # digits happen to appear.
+    words: list = field(default_factory=list)
 
 
 @dataclass(frozen=True)
@@ -63,11 +67,11 @@ def _parse_page(page, number: int) -> Page:
     page_text_parts: list[str] = []
     cursor = 0
     for idx, group in enumerate(line_groups):
-        text = "\n".join(_line_text(line) for line in group)
         start = cursor
+        text, words = _text_and_words(group, start)
         end = start + len(text)
         blocks.append(Block(index=idx, text=text, char_start=start, char_end=end,
-                            bbox=_group_bbox(group)))
+                            bbox=_group_bbox(group), words=words))
         page_text_parts.append(text)
         cursor = end + 2  # blocks are joined by "\n\n"
 
@@ -105,6 +109,28 @@ def _caption_above(table_bbox, blocks: list[Block]) -> Optional[str]:
 
 def _line_text(line: list[dict]) -> str:
     return " ".join(w["text"] for w in line)
+
+
+def _text_and_words(group: list[list[dict]], base: int) -> tuple[str, list]:
+    """Build the block's text and, alongside it, where each word landed in the page
+    text. Lines join with a newline and words with a space, matching _line_text."""
+    parts: list[str] = []
+    words: list = []
+    offset = 0
+    for line_no, line in enumerate(group):
+        if line_no:
+            parts.append("\n")
+            offset += 1
+        for word_no, w in enumerate(line):
+            if word_no:
+                parts.append(" ")
+                offset += 1
+            token = w["text"]
+            words.append((base + offset, base + offset + len(token),
+                          (w["x0"], w["top"], w["x1"], w["bottom"])))
+            parts.append(token)
+            offset += len(token)
+    return "".join(parts), words
 
 
 def _group_lines(words: list[dict]) -> list[list[dict]]:

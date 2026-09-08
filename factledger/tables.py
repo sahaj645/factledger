@@ -20,7 +20,7 @@ from factledger.normalize import normalize_scope, normalize_period, unit_context
 def build_table_claims(page: Page, doc_id: str) -> tuple[list[Claim], list[Rejection]]:
     claims, rejections = [], []
     for table in page.tables:
-        locate = _locator(table, page.blocks)
+        locate = _locator(table, page.blocks, page.text)
         c, r = table_to_claims(table.rows, table.caption, locate, doc_id, page.number)
         claims.extend(c)
         rejections.extend(r)
@@ -133,7 +133,7 @@ def _header_text(rows, header_rows: int) -> list[str]:
     return [cell for hr in range(header_rows) for cell in (rows[hr] or []) if cell]
 
 
-def _locator(table: Table, blocks: list[Block]):
+def _locator(table: Table, blocks: list[Block], page_text: str):
     def locate(r: int, c: int, value: str) -> Optional[tuple[int, int]]:
         bbox = None
         if r < len(table.cell_bbox) and c < len(table.cell_bbox[r]):
@@ -141,11 +141,22 @@ def _locator(table: Table, blocks: list[Block]):
         block = _block_for(bbox, blocks) if bbox else None
         if block is None:
             return None
+        inside = [w for w in block.words if _center_in(w[2], bbox)]
+        if inside:
+            span = (min(w[0] for w in inside), max(w[1] for w in inside))
+            if page_text[span[0]:span[1]] == value:
+                return span  # the cell's own position, not merely a matching string
         idx = block.text.find(value)
         if idx < 0:
             return None
         return (block.char_start + idx, block.char_start + idx + len(value))
     return locate
+
+
+def _center_in(word_bbox, cell_bbox) -> bool:
+    cx = (word_bbox[0] + word_bbox[2]) / 2
+    cy = (word_bbox[1] + word_bbox[3]) / 2
+    return cell_bbox[0] <= cx <= cell_bbox[2] and cell_bbox[1] <= cy <= cell_bbox[3]
 
 
 def _block_for(bbox, blocks: list[Block]) -> Optional[Block]:

@@ -34,6 +34,20 @@ def test_magnitude_words_apply_the_right_factor():
     assert normalize_value("8,594 crore").number == 85_940_000_000
 
 
+def test_bracketed_figures_are_negative():
+    """Accounting writes a negative in brackets. Reading it as positive would make a
+    loss corroborate a profit of the same size."""
+    assert normalize_value("(1,679.68)").number == -1679.68
+    assert normalize_value("(5.4%)").number == -5.4
+    assert normalize_value("₹ (1,679.68) million").number == -1_679_680_000
+    assert normalize_value("-1,679.68").number == -1679.68
+
+
+def test_brackets_that_are_not_around_the_number_do_not_negate():
+    assert normalize_value("Revenue (net) 1,234").number == 1234
+    assert normalize_value("EBITDA (in million) 250").number == 250_000_000
+
+
 def test_value_with_no_number_is_none():
     assert normalize_value("consolidated basis") is None
 

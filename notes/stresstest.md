@@ -69,6 +69,64 @@ UNCERTAIN: 100 vs 150 differ across column, and the difference does not account 
 A regression test covers both halves: that region-style columns no longer contradict,
 and that scope/period columns leave `column_label` empty.
 
+## Defect found: a bracketed figure was read as positive
+
+Accounting writes a negative in brackets. The value parser searched for the first
+number in the string and ignored the brackets around it, so `(1,679.68)` became
+positive 1,679.68. The development corpus contains exactly this: a claim extracted as
+`Loss for the year = (1,679.68)`.
+
+Two consequences, both demonstrated before the fix:
+
+| Pair | Verdict before | Should be |
+|---|---|---|
+| the same loss written `(1,679.68)` and `-1,679.68` | `CONTRADICTED` | corroborated |
+| a loss `(1,679.68)` against a profit `1,679.68` | `CORROBORATED` | contradicted |
+
+The second is the more serious of the two: the system asserted that a loss and a
+profit of the same size agree. A false contradiction is noise; a false corroboration
+of opposite facts is a wrong answer stated confidently.
+
+**Fix.** A number is negated when brackets open before it and close after it.
+Brackets that open and close before the number — a unit or a note, as in
+`Revenue (net) 1,234` or `EBITDA (in million) 250` — do not negate, and are covered
+by tests. After the fix the two pairs return corroborated and contradicted
+respectively.
+
+## Defect found: a scale stated on only one side was read as disagreement
+
+`100 crore` compared against a bare `100`, under the same entity, measure, period and
+scope, returned `CONTRADICTED`. The two figures may well be the same fact, with the
+second one's scale sitting in a header the extractor did not capture — a gap the
+audit shows really happens. The comparison treated an unrecorded unit as a stated
+one.
+
+This is the case the brief lists as "unit present on one side only", and it belongs
+with the null-qualifier rule: what is unknown has to block a contradiction rather
+than permit one. Comparison now returns `UNCERTAIN` and names the missing dimension.
+Figures that both state a scale are unaffected — `100 crore` against
+`1,000 million` still corroborates — and two bare figures still compare normally.
+
+## Defect found: two cells could share one character span
+
+A table cell was located by searching its layout block for the first place its digits
+appeared. A dense table collapses into a single layout block, so when the same figure
+occurs in two rows, both claims recorded the same span. On the earnings income
+statement, 10 spans were each claimed by two different rows — "Revenue for services"
+and "Revenue from customers" both pointed at the same 1,860.
+
+Evidence validation did not catch this, and could not: the span does quote the
+snippet back, and it does lie in one block. It is the wrong occurrence, which means
+the source view would highlight a number from another row. For a system whose central
+promise is that a claim can be traced to its exact place in the document, pointing at
+a different instance of the same value is a real failure even though every stated
+invariant held.
+
+**Fix.** Parsing now records where each word landed in the page text, so a cell is
+located by the words that sit inside its own bounding box, falling back to the string
+search only when that fails. Shared spans on that page went from 10 to 0, with every
+span still quoting its snippet back.
+
 ## Second finding: unreadable files raise rather than report
 
 Two files in the sweep raised `OSError: [Errno 22]` during parsing. They are
