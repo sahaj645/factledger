@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>factledger</title>
+<style>
+  body { font: 14px/1.5 system-ui, sans-serif; margin: 0; color: #1a1a1a; }
+  header { padding: 12px 20px; border-bottom: 1px solid #ddd; }
+  header h1 { font-size: 16px; margin: 0; font-weight: 600; }
+  main { display: grid; grid-template-columns: 260px 1fr 1fr; gap: 0; height: calc(100vh - 50px); }
+  section { overflow: auto; padding: 16px; border-right: 1px solid #eee; }
+  h2 { font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: #666; margin: 0 0 10px; }
+  .claim { padding: 8px; border: 1px solid #eee; border-radius: 6px; margin-bottom: 6px; cursor: pointer; }
+  .claim:hover { background: #f6f8fa; }
+  .claim.sel { border-color: #0969da; background: #ddf4ff; }
+  .measure { font-weight: 600; }
+  .meta { color: #666; font-size: 12px; }
+  mark { background: #fff3a3; padding: 1px 0; }
+  .src { white-space: pre-wrap; font-size: 13px; color: #333; }
+  .verdict { font-weight: 700; }
+  button, select, input { font: inherit; }
+  #verdict { border: 1px solid #eee; border-radius: 6px; padding: 12px; margin-top: 10px; min-height: 20px; }
+  .row { display: flex; gap: 8px; align-items: center; margin-bottom: 10px; flex-wrap: wrap; }
+</style>
+</head>
+<body>
+<header><h1>factledger</h1></header>
+<main>
+  <section>
+    <h2>Documents</h2>
+    <div class="row">
+      <input type="file" id="file" accept="application/pdf">
+      <button id="upload">Upload</button>
+    </div>
+    <div id="uploadStatus" class="meta"></div>
+    <div id="docs"></div>
+  </section>
+
+  <section>
+    <h2>Claims</h2>
+    <div id="claims"></div>
+  </section>
+
+  <section>
+    <h2>Evidence</h2>
+    <div id="detail" class="meta">Select a claim to see its source.</div>
+    <div id="src" class="src"></div>
+
+    <h2 style="margin-top:20px">Compare two claims</h2>
+    <div class="meta">Click two claims (they turn blue), then compare.</div>
+    <div class="row"><button id="compare">Compare selected</button></div>
+    <div id="verdict"></div>
+  </section>
+</main>
+
+<script>
+const esc = s => s.replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+let selected = [];
+
+async function loadDocs() {
+  const docs = await (await fetch('/api/documents')).json();
+  const el = document.getElementById('docs');
+  el.innerHTML = '';
+  docs.forEach(d => {
+    const b = document.createElement('div');
+    b.className = 'claim';
+    b.textContent = d.doc_id;
+    b.onclick = () => loadClaims(d.doc_id);
+    el.appendChild(b);
+  });
+}
+
+async function loadClaims(docId) {
+  const claims = await (await fetch('/api/claims?doc_id=' + encodeURIComponent(docId))).json();
+  const el = document.getElementById('claims');
+  el.innerHTML = '';
+  claims.forEach(c => {
+    const div = document.createElement('div');
+    div.className = 'claim';
+    div.dataset.id = c.id;
+    div.innerHTML = `<div class="measure">${esc(c.measure)}${c.value_raw ? ' = ' + esc(c.value_raw) : ''}</div>`
+      + `<div class="meta">${esc(c.subject)} · page ${c.page}`
+      + `${c.period ? ' · ' + esc(c.period) : ''}${c.scope ? ' · ' + esc(c.scope) : ''}</div>`;
+    div.onclick = () => { showEvidence(c); toggleSelect(div, c.id); };
+    el.appendChild(div);
+  });
+}
+
+async function showEvidence(c) {
+  document.getElementById('detail').innerHTML =
+    `<div class="measure">${esc(c.measure)}${c.value_raw ? ' = ' + esc(c.value_raw) : ''}</div>`
+    + `<div class="meta">${esc(c.subject)} · ${esc(c.doc_id)} · page ${c.page}</div>`;
+  const s = await (await fetch(`/api/source?doc_id=${encodeURIComponent(c.doc_id)}&page=${c.page}`)).json();
+  const t = s.text;
+  const [a, b] = [c.char_start, c.char_end];
+  document.getElementById('src').innerHTML =
+    esc(t.slice(0, a)) + '<mark>' + esc(t.slice(a, b)) + '</mark>' + esc(t.slice(b));
+}
+
+function toggleSelect(div, id) {
+  const i = selected.indexOf(id);
+  if (i >= 0) { selected.splice(i, 1); div.classList.remove('sel'); }
+  else { selected.push(id); div.classList.add('sel'); if (selected.length > 2) shift(); }
+}
+function shift() {
+  const drop = selected.shift();
+  const d = document.querySelector(`.claim[data-id="${drop}"]`);
+  if (d) d.classList.remove('sel');
+}
+
+document.getElementById('compare').onclick = async () => {
+  if (selected.length !== 2) { document.getElementById('verdict').textContent = 'Select exactly two claims.'; return; }
+  document.getElementById('verdict').textContent = 'Comparing…';
+  const r = await (await fetch(`/api/compare?a=${selected[0]}&b=${selected[1]}`)).json();
+  document.getElementById('verdict').innerHTML =
+    `<div class="verdict">${esc(r.verdict)}</div><div>${esc(r.explanation)}</div>`
+    + (r.reconciling_dimension ? `<div class="meta">reconciling dimension: ${esc(r.reconciling_dimension)}</div>` : '');
+};
+
+document.getElementById('upload').onclick = async () => {
+  const f = document.getElementById('file').files[0];
+  if (!f) return;
+  document.getElementById('uploadStatus').textContent = 'Ingesting ' + f.name + '…';
+  const fd = new FormData(); fd.append('file', f);
+  const r = await (await fetch('/api/upload', { method: 'POST', body: fd })).json();
+  document.getElementById('uploadStatus').textContent =
+    `${r.doc_id}: ${r.claims} claims, ${r.rejected} rejected` + (r.skipped ? ' (already ingested)' : '');
+  loadDocs();
+};
+
+loadDocs();
+</script>
+</body>
+</html>
