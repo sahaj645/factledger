@@ -8,7 +8,7 @@
       "blocks": 54,
       "claims": 9,
       "rejected": 22,
-      "seconds": 687.3
+      "seconds": 734.5
     },
     "delhivery-q4-fy24-earnings": {
       "pages": [
@@ -17,9 +17,9 @@
         17
       ],
       "blocks": 28,
-      "claims": 12,
-      "rejected": 17,
-      "seconds": 448.8
+      "claims": 126,
+      "rejected": 15,
+      "seconds": 180.6
     },
     "delhivery-prospectus-2022": {
       "pages": [
@@ -28,21 +28,23 @@
         47
       ],
       "blocks": 22,
-      "claims": 11,
+      "claims": 9,
       "rejected": 68,
-      "seconds": 1555.4
+      "seconds": 1364.9
     }
   },
   "rejections_by_reason": {
-    "value not found inside snippet": 7,
-    "snippet not a verbatim substring of block": 51,
-    "missing subject or measure": 49
+    "value not found inside snippet": 5,
+    "snippet not a verbatim substring of block": 46,
+    "missing subject or measure": 45,
+    "table cell without column header": 2,
+    "table cell without row label": 7
   },
   "totals": {
-    "claims_kept": 32,
-    "claims_rejected": 107,
-    "evidence_validation_failures": 58,
-    "evidence_pass_rate": 0.356
+    "claims_kept": 144,
+    "claims_rejected": 105,
+    "evidence_validation_failures": 51,
+    "evidence_pass_rate": 0.738
   },
   "hand_audit_range": {
     "document": "delhivery-annual-report-fy24",
