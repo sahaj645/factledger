@@ -23,6 +23,10 @@ class Qualifiers:
     scope: Optional[str] = None
     basis: Optional[str] = None
     as_of: Optional[str] = None
+    # What the claim's column said beyond its period and scope — the entity, segment,
+    # scenario or series a table column stands for. Two cells that differ only in this
+    # are not the same fact, so it has to travel with the claim.
+    column_label: Optional[str] = None
 
 
 @dataclass(frozen=True)

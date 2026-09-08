@@ -73,7 +73,8 @@ def _compare_numeric(a: Claim, b: Claim, reconcile: Callable[..., str]) -> Compa
     if (sa is None) != (sb is None):
         return Comparison(UNCERTAIN, "scope is stated on only one side")
 
-    diffs = _qualifier_diffs(ta, tb, sa, sb, a.qualifiers.basis, b.qualifiers.basis)
+    diffs = _qualifier_diffs(ta, tb, sa, sb, a.qualifiers.basis, b.qualifiers.basis,
+                             a.qualifiers.column_label, b.qualifiers.column_label)
     values_equal = _values_equal(a.value_raw, va, b.value_raw, vb)
 
     if not diffs:
@@ -125,7 +126,7 @@ def _temporal(claim: Claim) -> Optional[str]:
     return normalize_period(claim.qualifiers.period) or (claim.qualifiers.as_of or None)
 
 
-def _qualifier_diffs(ta, tb, sa, sb, ba, bb) -> list[str]:
+def _qualifier_diffs(ta, tb, sa, sb, ba, bb, ca=None, cb=None) -> list[str]:
     diffs = []
     if ta != tb:
         diffs.append("period")
@@ -133,6 +134,8 @@ def _qualifier_diffs(ta, tb, sa, sb, ba, bb) -> list[str]:
         diffs.append("scope")
     if ba and bb and ba.strip().lower() != bb.strip().lower():
         diffs.append("basis")
+    if (ca or "").strip().lower() != (cb or "").strip().lower():
+        diffs.append("column")
     return diffs
 
 

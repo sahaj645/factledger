@@ -74,6 +74,31 @@ def test_header_row_count_handles_multi_level():
     assert _header_row_count(rows) == 2
 
 
+def test_columns_that_differ_by_something_other_than_period_do_not_contradict():
+    """Two columns can be two regions, segments or series under one period. Dropping
+    what the column stood for would make their different values look like a
+    contradiction, which is the failure this system exists to avoid."""
+    rows = [
+        ["Metric", "North Region", "South Region"],
+        ["", "FY2024", "FY2024"],
+        ["Revenue", "100", "150"],
+    ]
+    claims, _ = build(rows)
+    assert [c.qualifiers.column_label for c in claims] == ["North Region", "South Region"]
+    result = compare(claims[0], claims[1], reconcile=lambda **kw: "unknown")
+    assert result.verdict != "CONTRADICTED"
+
+
+def test_column_label_drops_parts_already_read_as_scope_or_period():
+    rows = [
+        ["Particulars", "Standalone", "Consolidated"],
+        ["", "FY2024", "FY2024"],
+        ["Revenue", "1", "2"],
+    ]
+    claims, _ = build(rows)
+    assert all(c.qualifiers.column_label is None for c in claims)
+
+
 def test_scope_difference_reconciles_end_to_end():
     rows = [
         ["Particulars", "Standalone", "Consolidated"],

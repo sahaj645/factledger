@@ -28,6 +28,7 @@ CREATE TABLE IF NOT EXISTS claims (
     scope      TEXT,
     basis      TEXT,
     as_of      TEXT,
+    column_label TEXT,
     page       INTEGER NOT NULL,
     snippet    TEXT NOT NULL,
     char_start INTEGER NOT NULL,
@@ -66,13 +67,14 @@ def store_claims(conn: sqlite3.Connection, claims: list[Claim]) -> None:
     conn.executemany(
         """INSERT INTO claims
            (doc_id, subject, measure, kind, value_raw, period, scope, basis, as_of,
-            page, snippet, char_start, char_end)
-           VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+            column_label, page, snippet, char_start, char_end)
+           VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
         [
             (
                 c.evidence.doc_id, c.subject, c.measure, c.kind, c.value_raw,
                 c.qualifiers.period, c.qualifiers.scope, c.qualifiers.basis,
-                c.qualifiers.as_of, c.evidence.page, c.evidence.snippet,
+                c.qualifiers.as_of, c.qualifiers.column_label,
+                c.evidence.page, c.evidence.snippet,
                 c.evidence.char_span[0], c.evidence.char_span[1],
             )
             for c in claims
@@ -83,7 +85,7 @@ def store_claims(conn: sqlite3.Connection, claims: list[Claim]) -> None:
 
 def load_claims(conn: sqlite3.Connection, doc_id: str | None = None) -> list[Claim]:
     sql = ("SELECT doc_id, subject, measure, kind, value_raw, period, scope, basis, "
-           "as_of, page, snippet, char_start, char_end FROM claims")
+           "as_of, column_label, page, snippet, char_start, char_end FROM claims")
     params: tuple = ()
     if doc_id is not None:
         sql += " WHERE doc_id = ?"
@@ -93,7 +95,8 @@ def load_claims(conn: sqlite3.Connection, doc_id: str | None = None) -> list[Cla
 
 
 _CLAIM_COLUMNS = ("doc_id", "subject", "measure", "kind", "value_raw", "period",
-                  "scope", "basis", "as_of", "page", "snippet", "char_start", "char_end")
+                  "scope", "basis", "as_of", "column_label", "page", "snippet",
+                  "char_start", "char_end")
 
 
 def load_claim_rows(conn: sqlite3.Connection, doc_id: str | None = None) -> list[dict]:
@@ -134,10 +137,11 @@ def document_path(conn: sqlite3.Connection, doc_id: str) -> str | None:
 
 def _row_to_claim(row) -> Claim:
     (doc_id, subject, measure, kind, value_raw, period, scope, basis, as_of,
-     page, snippet, char_start, char_end) = row
+     column_label, page, snippet, char_start, char_end) = row
     return Claim(
         subject=subject, measure=measure, kind=kind, value_raw=value_raw,
-        qualifiers=Qualifiers(period=period, scope=scope, basis=basis, as_of=as_of),
+        qualifiers=Qualifiers(period=period, scope=scope, basis=basis, as_of=as_of,
+                              column_label=column_label),
         evidence=Evidence(doc_id=doc_id, page=page, snippet=snippet,
                           char_span=(char_start, char_end)),
     )
