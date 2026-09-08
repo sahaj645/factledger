@@ -1,6 +1,10 @@
 [
-  {"regex": "(?i)\\bfy\\s*'?(\\d{4})\\b", "template": "FY{}", "group": 1},
-  {"regex": "(?i)\\bfy\\s*'?(\\d{2})\\b", "template": "FY20{}", "group": 1},
-  {"regex": "(?i)fiscal(?:\\s+year)?\\s+(\\d{4})", "template": "FY{}", "group": 1},
-  {"regex": "(?i)(?:year|twelve months)\\s+ended\\s+(?:31st|31)?\\s*march,?\\s*(\\d{4})", "template": "FY{}", "group": 1}
+  {"regex": "(?i)\\bq([1-4])\\s*fy\\s*'?(\\d{4})\\b", "template": "Q{} FY{}"},
+  {"regex": "(?i)\\bq([1-4])\\s*fy\\s*'?(\\d{2})\\b", "template": "Q{} FY20{}"},
+  {"regex": "(?i)\\bfy\\s*'?(\\d{4})\\b", "template": "FY{}"},
+  {"regex": "(?i)\\bfy\\s*'?(\\d{2})\\b", "template": "FY20{}"},
+  {"regex": "(?i)fiscal(?:\\s+year)?\\s+(\\d{4})", "template": "FY{}"},
+  {"regex": "(?i)(?:year|twelve months)\\s+ended\\s+(?:31st|31)?\\s*march,?\\s*(\\d{4})", "template": "FY{}"},
+  {"regex": "(?i)march\\s+\\d{1,2},?\\s+(\\d{4})", "template": "FY{}"},
+  {"regex": "(?i)\\b31\\s*march,?\\s*(\\d{4})", "template": "FY{}"}
 ]

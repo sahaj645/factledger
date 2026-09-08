@@ -64,8 +64,29 @@ def normalize_period(text: Optional[str]) -> Optional[str]:
     for entry in _PERIODS:
         match = re.search(entry["regex"], text)
         if match:
-            return entry["template"].format(match.group(entry["group"]))
+            return entry["template"].format(*match.groups())
     return None
+
+
+def unit_context(text: Optional[str]) -> tuple[Optional[str], Optional[str]]:
+    """Find a magnitude word and a currency symbol in surrounding text, such as a
+    units legend in a table header or a corner cell. Returns the tokens as written so
+    a bare cell value can be reunited with the scale stated in its header."""
+    if not text:
+        return None, None
+    lowered = text.lower()
+    magnitude = next((w for w in _UNITS["multipliers"]
+                      if re.search(rf"\b{re.escape(w)}\b", lowered)), None)
+    currency = None
+    for symbol in _UNITS["currencies"]:
+        if symbol.isalpha():
+            if re.search(rf"\b{re.escape(symbol)}\b", lowered):
+                currency = symbol
+                break
+        elif symbol in lowered:
+            currency = symbol
+            break
+    return magnitude, currency
 
 
 def normalize_scope(text: Optional[str]) -> Optional[str]:

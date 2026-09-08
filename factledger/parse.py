@@ -6,8 +6,9 @@ bounding box, and its character span within the page's reconstructed text, so th
 a span can be quoted back exactly from the page later.
 """
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
+from typing import Optional
 
 import pdfplumber
 
@@ -22,10 +23,19 @@ class Block:
 
 
 @dataclass(frozen=True)
+class Table:
+    rows: list[list[Optional[str]]]              # cell text grid
+    cell_bbox: list[list[Optional[tuple]]]       # parallel grid of cell bboxes
+    bbox: tuple[float, float, float, float]
+    caption: Optional[str]                       # nearest heading/line above, if any
+
+
+@dataclass(frozen=True)
 class Page:
     number: int  # 1-based
     text: str
     blocks: list[Block]
+    tables: list[Table] = field(default_factory=list)
 
 
 @dataclass(frozen=True)
@@ -61,7 +71,36 @@ def _parse_page(page, number: int) -> Page:
         page_text_parts.append(text)
         cursor = end + 2  # blocks are joined by "\n\n"
 
-    return Page(number=number, text="\n\n".join(page_text_parts), blocks=blocks)
+    page_obj_text = "\n\n".join(page_text_parts)
+    tables = _extract_tables(page, blocks)
+    return Page(number=number, text=page_obj_text, blocks=blocks, tables=tables)
+
+
+def _extract_tables(page, blocks: list[Block]) -> list[Table]:
+    found = page.find_tables()
+    if not found:
+        found = page.find_tables(table_settings={"vertical_strategy": "text",
+                                                 "horizontal_strategy": "text"})
+    tables = []
+    for t in found:
+        grid = t.extract()
+        if not grid or not any(any(cell for cell in row) for row in grid):
+            continue
+        cell_bbox = [list(row.cells) for row in t.rows]
+        tables.append(Table(rows=grid, cell_bbox=cell_bbox, bbox=t.bbox,
+                            caption=_caption_above(t.bbox, blocks)))
+    return tables
+
+
+def _caption_above(table_bbox, blocks: list[Block]) -> Optional[str]:
+    tx0, ttop, tx1, _ = table_bbox
+    candidates = [
+        b for b in blocks
+        if b.bbox[3] <= ttop + 2 and min(tx1, b.bbox[2]) - max(tx0, b.bbox[0]) > 0
+    ]
+    if not candidates:
+        return None
+    return max(candidates, key=lambda b: b.bbox[3]).text
 
 
 def _line_text(line: list[dict]) -> str:

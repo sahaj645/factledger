@@ -11,11 +11,27 @@ import sys
 from typing import Callable
 
 from factledger import llm
-from factledger.parse import parse_pdf
-from factledger.extract import extract_from_block
+from factledger.parse import parse_pdf, Page
+from factledger.extract import extract_from_block, Claim, Rejection
+from factledger.tables import build_table_claims, in_table
 from factledger import store
 
 DB_PATH = os.environ.get("FACTLEDGER_DB", "factledger.db")
+
+
+def extract_page(page: Page, doc_id: str,
+                 complete: Callable[[str, str], str] = llm.complete
+                 ) -> tuple[list[Claim], list[Rejection]]:
+    """Table cells deterministically, narrative blocks via the model. Blocks that
+    fall inside a table are left to the deterministic path, not read by the model."""
+    claims, rejections = build_table_claims(page, doc_id)
+    for block in page.blocks:
+        if in_table(block, page.tables):
+            continue
+        kept, dropped = extract_from_block(block, page.number, doc_id, complete)
+        claims.extend(kept)
+        rejections.extend(dropped)
+    return claims, rejections
 
 
 def ingest_document(conn, path: str, complete: Callable[[str, str], str] = llm.complete) -> dict:
@@ -26,10 +42,9 @@ def ingest_document(conn, path: str, complete: Callable[[str, str], str] = llm.c
     store.store_document(conn, doc.doc_id, path)
     claims, rejected = [], 0
     for page in doc.pages:
-        for block in page.blocks:
-            kept, dropped = extract_from_block(block, page.number, doc.doc_id, complete)
-            claims.extend(kept)
-            rejected += len(dropped)
+        kept, dropped = extract_page(page, doc.doc_id, complete)
+        claims.extend(kept)
+        rejected += len(dropped)
     store.store_claims(conn, claims)
     return {"doc_id": doc.doc_id, "claims": len(claims), "rejected": rejected, "skipped": False}
 

@@ -16,8 +16,8 @@ from collections import Counter
 from pathlib import Path
 
 from factledger.parse import parse_pdf
-from factledger.extract import extract_from_block
 from factledger import store
+from run import extract_page
 
 INGEST = {
     "delhivery-annual-report-fy24": [4, 22],
@@ -25,7 +25,8 @@ INGEST = {
     "delhivery-prospectus-2022": [44, 45, 47],
 }
 AUDIT_RANGE = ("delhivery-annual-report-fy24", [22])
-EVIDENCE_FAILURES = {"snippet not a verbatim substring of block", "value not found inside snippet"}
+EVIDENCE_FAILURES = {"snippet not a verbatim substring of block", "value not found inside snippet",
+                     "table value not grounded in a single block"}
 
 DB = "factledger.db"
 DEV = Path("data/dev")
@@ -49,20 +50,20 @@ def run() -> dict:
         started = time.time()
         kept_claims = []
         for number, page in wanted.items():
-            print(f"[{doc.doc_id} p{number}] {len(page.blocks)} blocks...", flush=True)
-            for block in page.blocks:
-                blocks += 1
-                keep, drop = extract_from_block(block, number, doc.doc_id)
-                kept_claims.extend(keep)
-                claims += len(keep)
-                rejected += len(drop)
+            print(f"[{doc.doc_id} p{number}] {len(page.blocks)} blocks, "
+                  f"{len(page.tables)} tables...", flush=True)
+            blocks += len(page.blocks)
+            keep, drop = extract_page(page, doc.doc_id)
+            kept_claims.extend(keep)
+            claims += len(keep)
+            rejected += len(drop)
+            for r in drop:
+                reasons[r.reason] += 1
+            if stem == AUDIT_RANGE[0] and number in AUDIT_RANGE[1]:
+                audit_blocks += len(page.blocks)
+                audit_claims += len(keep)
                 for r in drop:
-                    reasons[r.reason] += 1
-                if stem == AUDIT_RANGE[0] and number in AUDIT_RANGE[1]:
-                    audit_blocks += 1
-                    audit_claims += len(keep)
-                    for r in drop:
-                        audit_reasons[r.reason] += 1
+                    audit_reasons[r.reason] += 1
         store.store_claims(conn, kept_claims)
         per_doc[doc.doc_id] = {
             "pages": pages, "blocks": blocks, "claims": claims,
