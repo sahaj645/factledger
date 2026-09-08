@@ -1,0 +1,23 @@
+{
+  "multipliers": {
+    "thousand": 1000,
+    "lakh": 100000,
+    "lakhs": 100000,
+    "million": 1000000,
+    "mn": 1000000,
+    "crore": 10000000,
+    "crores": 10000000,
+    "cr": 10000000,
+    "billion": 1000000000,
+    "bn": 1000000000
+  },
+  "currencies": {
+    "₹": "INR",
+    "rs.": "INR",
+    "rs": "INR",
+    "inr": "INR",
+    "$": "USD",
+    "usd": "USD",
+    "us$": "USD"
+  }
+}
