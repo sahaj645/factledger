@@ -1,0 +1,15 @@
+{
+  "tiers": [
+    {"name": "audited", "rank": 4,
+     "cues": ["auditor's report", "independent auditor", "audited financial statements", "report on the audit"]},
+    {"name": "annual_report", "rank": 3,
+     "cues": ["annual report", "directors' report", "management discussion and analysis"]},
+    {"name": "presentation", "rank": 2,
+     "cues": ["earnings presentation", "investor presentation", "results presentation", "earnings call"]},
+    {"name": "prospectus", "rank": 1,
+     "cues": ["prospectus", "red herring", "offer document"]},
+    {"name": "press_release", "rank": 1,
+     "cues": ["press release"]}
+  ],
+  "default": {"name": "other", "rank": 0}
+}
