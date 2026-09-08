@@ -1,0 +1,129 @@
+"""PDF -> layout blocks with page numbers and character offsets.
+
+A block is a run of lines that sit together on the page: vertically close and
+horizontally overlapping (same column). Each block records its verbatim text, its
+bounding box, and its character span within the page's reconstructed text, so that
+a span can be quoted back exactly from the page later.
+"""
+
+from dataclasses import dataclass
+from pathlib import Path
+
+import pdfplumber
+
+
+@dataclass(frozen=True)
+class Block:
+    index: int
+    text: str
+    char_start: int
+    char_end: int
+    bbox: tuple[float, float, float, float]  # x0, top, x1, bottom
+
+
+@dataclass(frozen=True)
+class Page:
+    number: int  # 1-based
+    text: str
+    blocks: list[Block]
+
+
+@dataclass(frozen=True)
+class Document:
+    doc_id: str
+    path: str
+    pages: list[Page]
+
+
+def parse_pdf(path: str) -> Document:
+    doc_id = Path(path).stem
+    pages: list[Page] = []
+    with pdfplumber.open(path) as pdf:
+        for i, page in enumerate(pdf.pages, start=1):
+            pages.append(_parse_page(page, i))
+    return Document(doc_id=doc_id, path=str(path), pages=pages)
+
+
+def _parse_page(page, number: int) -> Page:
+    words = page.extract_words(use_text_flow=False, keep_blank_chars=False)
+    lines = _group_lines(words)
+    line_groups = _group_blocks(lines)
+
+    blocks: list[Block] = []
+    page_text_parts: list[str] = []
+    cursor = 0
+    for idx, group in enumerate(line_groups):
+        text = "\n".join(_line_text(line) for line in group)
+        start = cursor
+        end = start + len(text)
+        blocks.append(Block(index=idx, text=text, char_start=start, char_end=end,
+                            bbox=_group_bbox(group)))
+        page_text_parts.append(text)
+        cursor = end + 2  # blocks are joined by "\n\n"
+
+    return Page(number=number, text="\n\n".join(page_text_parts), blocks=blocks)
+
+
+def _line_text(line: list[dict]) -> str:
+    return " ".join(w["text"] for w in line)
+
+
+def _group_lines(words: list[dict]) -> list[list[dict]]:
+    """Cluster words into visual lines by vertical position, ordered top-to-bottom
+    then left-to-right."""
+    if not words:
+        return []
+    ordered = sorted(words, key=lambda w: (round(w["top"], 1), w["x0"]))
+    tol = _median_height(words) * 0.6
+    lines: list[list[dict]] = [[ordered[0]]]
+    for w in ordered[1:]:
+        if abs(w["top"] - lines[-1][0]["top"]) <= tol:
+            lines[-1].append(w)
+        else:
+            lines.append([w])
+    for line in lines:
+        line.sort(key=lambda w: w["x0"])
+    return lines
+
+
+def _group_blocks(lines: list[list[dict]]) -> list[list[list[dict]]]:
+    """Group lines into blocks: a line joins the previous block when it is close
+    below it and their horizontal ranges overlap (same column)."""
+    if not lines:
+        return []
+    groups: list[list[list[dict]]] = [[lines[0]]]
+    for line in lines[1:]:
+        prev = groups[-1][-1]
+        gap = _line_top(line) - _line_bottom(prev)
+        height = _line_bottom(prev) - _line_top(prev)
+        same_column = _x_overlap(line, prev)
+        if same_column and gap <= height * 1.2:
+            groups[-1].append(line)
+        else:
+            groups.append([line])
+    return groups
+
+
+def _x_overlap(a: list[dict], b: list[dict]) -> bool:
+    a0, a1 = min(w["x0"] for w in a), max(w["x1"] for w in a)
+    b0, b1 = min(w["x0"] for w in b), max(w["x1"] for w in b)
+    return min(a1, b1) - max(a0, b0) > 0
+
+
+def _line_top(line: list[dict]) -> float:
+    return min(w["top"] for w in line)
+
+
+def _line_bottom(line: list[dict]) -> float:
+    return max(w["bottom"] for w in line)
+
+
+def _median_height(words: list[dict]) -> float:
+    heights = sorted(w["bottom"] - w["top"] for w in words)
+    return heights[len(heights) // 2]
+
+
+def _group_bbox(group: list[list[dict]]) -> tuple[float, float, float, float]:
+    words = [w for line in group for w in line]
+    return (min(w["x0"] for w in words), min(w["top"] for w in words),
+            max(w["x1"] for w in words), max(w["bottom"] for w in words))
