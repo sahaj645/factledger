@@ -145,8 +145,13 @@ def _qualifier_diffs(ta, tb, sa, sb, ba, bb, ca=None, cb=None) -> list[str]:
 
 
 def _values_equal(raw_a: str, va: NormalizedValue, raw_b: str, vb: NormalizedValue) -> bool:
-    ga, gb = _granularity(raw_a, va), _granularity(raw_b, vb)
-    return abs(va.number - vb.number) <= 0.5 * (ga + gb)
+    """Compare at the precision of the less precise figure. A value rounded to crore
+    and the same amount stated to two decimals in million agree; two figures that
+    differ in their last stated digit, like 6.5 and 6.6 per cent, do not."""
+    step = max(_granularity(raw_a, va), _granularity(raw_b, vb))
+    if step <= 0:
+        return va.number == vb.number
+    return round(va.number / step) == round(vb.number / step)
 
 
 def _granularity(raw: str, nv: NormalizedValue) -> float:

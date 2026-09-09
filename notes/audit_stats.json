@@ -8,7 +8,7 @@
       "blocks": 54,
       "claims": 9,
       "rejected": 22,
-      "seconds": 734.5
+      "seconds": 681.7
     },
     "delhivery-q4-fy24-earnings": {
       "pages": [
@@ -19,7 +19,7 @@
       "blocks": 28,
       "claims": 126,
       "rejected": 15,
-      "seconds": 180.6
+      "seconds": 178.2
     },
     "delhivery-prospectus-2022": {
       "pages": [
@@ -30,7 +30,7 @@
       "blocks": 22,
       "claims": 9,
       "rejected": 68,
-      "seconds": 1364.9
+      "seconds": 15066.7
     }
   },
   "rejections_by_reason": {

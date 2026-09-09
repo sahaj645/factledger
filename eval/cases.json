@@ -1,0 +1,173 @@
+[
+  {
+    "name": "same number different periods",
+    "expect": "NOT_COMPARABLE",
+    "why": "an equal value in two different years is a coincidence, not corroboration",
+    "a": {"subject": "Acme Foods Limited", "measure": "revenue from operations", "value": "100 crore", "period": "FY2023", "scope": "consolidated"},
+    "b": {"subject": "Acme Foods Limited", "measure": "revenue from operations", "value": "100 crore", "period": "FY2024", "scope": "consolidated"}
+  },
+  {
+    "name": "different numbers different periods",
+    "expect": "UNCERTAIN",
+    "why": "time is a candidate explanation for the change, so this is not a flat disagreement; with nothing able to say whether it accounts for the gap, the verdict stays unresolved and names the period",
+    "a": {"subject": "Acme Foods Limited", "measure": "revenue from operations", "value": "100 crore", "period": "FY2023", "scope": "consolidated"},
+    "b": {"subject": "Acme Foods Limited", "measure": "revenue from operations", "value": "150 crore", "period": "FY2024", "scope": "consolidated"}
+  },
+  {
+    "name": "a count that grew between two dates",
+    "expect": "RECONCILED_BY_CONTEXT",
+    "reconcile": "yes",
+    "why": "both figures are true and the difference in as-of date accounts for the change",
+    "a": {"subject": "Acme Foods Limited", "measure": "service locations", "value": "17,488", "period": "FY2022", "scope": "consolidated"},
+    "b": {"subject": "Acme Foods Limited", "measure": "service locations", "value": "18,793", "period": "FY2024", "scope": "consolidated"}
+  },
+  {
+    "name": "same number different scope",
+    "expect": "NOT_COMPARABLE",
+    "why": "the same figure under two different scopes is not one fact stated twice",
+    "a": {"subject": "Acme Foods Limited", "measure": "revenue from operations", "value": "100 crore", "period": "FY2024", "scope": "standalone"},
+    "b": {"subject": "Acme Foods Limited", "measure": "revenue from operations", "value": "100 crore", "period": "FY2024", "scope": "consolidated"}
+  },
+  {
+    "name": "same digits different units",
+    "expect": "CONTRADICTED",
+    "why": "matching digits under different magnitudes are different amounts",
+    "a": {"subject": "Acme Foods Limited", "measure": "revenue from operations", "value": "100 crore", "period": "FY2024", "scope": "consolidated"},
+    "b": {"subject": "Acme Foods Limited", "measure": "revenue from operations", "value": "100 million", "period": "FY2024", "scope": "consolidated"}
+  },
+  {
+    "name": "percentage against absolute",
+    "expect": "NOT_COMPARABLE",
+    "why": "a margin and an amount measure different quantities",
+    "a": {"subject": "Acme Foods Limited", "measure": "adjusted ebitda", "value": "0.93%", "period": "FY2024", "scope": "consolidated"},
+    "b": {"subject": "Acme Foods Limited", "measure": "adjusted ebitda", "value": "757.86 million", "period": "FY2024", "scope": "consolidated"}
+  },
+  {
+    "name": "annual against quarterly",
+    "expect": "UNCERTAIN",
+    "why": "a quarter and a full year are different periods, and the system does not read one as nested inside the other; it declines and names the period rather than calling it a disagreement",
+    "a": {"subject": "Acme Foods Limited", "measure": "revenue from operations", "value": "2,076 crore", "period": "Q4 FY2024", "scope": "consolidated"},
+    "b": {"subject": "Acme Foods Limited", "measure": "revenue from operations", "value": "8,142 crore", "period": "FY2024", "scope": "consolidated"}
+  },
+  {
+    "name": "consolidated against standalone",
+    "expect": "RECONCILED_BY_CONTEXT",
+    "reconcile": "yes",
+    "why": "one qualifier differs and plausibly accounts for the gap",
+    "a": {"subject": "Acme Foods Limited", "measure": "revenue from operations", "value": "74,540.82 million", "period": "FY2024", "scope": "standalone"},
+    "b": {"subject": "Acme Foods Limited", "measure": "revenue from operations", "value": "81,415.38 million", "period": "FY2024", "scope": "consolidated"}
+  },
+  {
+    "name": "qualifier differs but does not explain the gap",
+    "expect": "UNCERTAIN",
+    "reconcile": "no",
+    "why": "a difference that cannot account for the gap is not a reconciliation",
+    "a": {"subject": "Acme Foods Limited", "measure": "revenue from operations", "value": "74,540 million", "period": "FY2024", "scope": "standalone"},
+    "b": {"subject": "Acme Foods Limited", "measure": "revenue from operations", "value": "12,000 million", "period": "FY2024", "scope": "consolidated"}
+  },
+  {
+    "name": "current against historical state",
+    "expect": "RECONCILED_BY_CONTEXT",
+    "why": "a state that changes between two dates is a transition, not a contradiction",
+    "a": {"subject": "Priya Rao", "measure": "role: director", "kind": "entity_state", "value": "active", "as_of": "2023-03-31"},
+    "b": {"subject": "Priya Rao", "measure": "role: director", "kind": "entity_state", "value": "resigned", "as_of": "2024-07-01"}
+  },
+  {
+    "name": "incompatible states at the same time",
+    "expect": "CONTRADICTED",
+    "why": "two different states asserted for one moment cannot both hold",
+    "a": {"subject": "Priya Rao", "measure": "role: director", "kind": "entity_state", "value": "active", "as_of": "2024-03-31"},
+    "b": {"subject": "Priya Rao", "measure": "role: director", "kind": "entity_state", "value": "resigned", "as_of": "2024-03-31"}
+  },
+  {
+    "name": "same person stated twice",
+    "expect": "CORROBORATED",
+    "why": "one entity, one measure, one period, agreeing values",
+    "a": {"subject": "Priya Rao", "measure": "shareholding", "value": "6,694,800", "period": "FY2024", "scope": "consolidated"},
+    "b": {"subject": "Priya Rao", "measure": "shareholding", "value": "6,694,800", "period": "FY2024", "scope": "consolidated"}
+  },
+  {
+    "name": "two different people with similar names",
+    "expect": "NOT_COMPARABLE",
+    "why": "similar names are distinct entities until evidence links them",
+    "a": {"subject": "Priya Rao", "measure": "shareholding", "value": "6,694,800", "period": "FY2024", "scope": "consolidated"},
+    "b": {"subject": "Priya Rao Menon", "measure": "shareholding", "value": "11,664,200", "period": "FY2024", "scope": "consolidated"}
+  },
+  {
+    "name": "parent against subsidiary",
+    "expect": "NOT_COMPARABLE",
+    "why": "a parent and its subsidiary are distinct entities",
+    "a": {"subject": "Acme Foods Limited", "measure": "revenue from operations", "value": "100 crore", "period": "FY2024", "scope": "consolidated"},
+    "b": {"subject": "Acme Foods Logistics Private Limited", "measure": "revenue from operations", "value": "40 crore", "period": "FY2024", "scope": "consolidated"}
+  },
+  {
+    "name": "acquired entity bleed",
+    "expect": "NOT_COMPARABLE",
+    "why": "a figure belonging to an acquired company must not attach to the acquirer",
+    "a": {"subject": "Acme Foods Limited", "measure": "service locations", "value": "17,488", "period": "FY2022", "scope": "consolidated"},
+    "b": {"subject": "Northwind Logistics Private Limited", "measure": "service locations", "value": "13,087", "period": "FY2022", "scope": "consolidated"}
+  },
+  {
+    "name": "competing projections from different institutions",
+    "expect": "CONTRADICTED",
+    "why": "same subject, measure and period, values that differ in their last stated digit",
+    "a": {"subject": "Republic of Atlantis", "measure": "real gdp growth", "value": "6.6%", "period": "FY2026", "scope": "consolidated"},
+    "b": {"subject": "Republic of Atlantis", "measure": "real gdp growth", "value": "6.5%", "period": "FY2026", "scope": "consolidated"}
+  },
+  {
+    "name": "approximate or rounded values",
+    "expect": "CORROBORATED",
+    "why": "the same amount rounded to a coarser unit still agrees",
+    "a": {"subject": "Acme Foods Limited", "measure": "adjusted ebitda", "value": "757.86 million", "period": "FY2024", "scope": "consolidated"},
+    "b": {"subject": "Acme Foods Limited", "measure": "adjusted ebitda", "value": "76 crore", "period": "FY2024", "scope": "consolidated"}
+  },
+  {
+    "name": "missing period",
+    "expect": "UNCERTAIN",
+    "why": "without a period on both sides there is no shared coordinate to judge",
+    "a": {"subject": "Acme Foods Limited", "measure": "revenue from operations", "value": "100 crore", "scope": "consolidated"},
+    "b": {"subject": "Acme Foods Limited", "measure": "revenue from operations", "value": "150 crore", "period": "FY2024", "scope": "consolidated"}
+  },
+  {
+    "name": "missing scope",
+    "expect": "UNCERTAIN",
+    "why": "a scope stated on one side only leaves the comparison unresolved",
+    "a": {"subject": "Acme Foods Limited", "measure": "revenue from operations", "value": "100 crore", "period": "FY2024"},
+    "b": {"subject": "Acme Foods Limited", "measure": "revenue from operations", "value": "150 crore", "period": "FY2024", "scope": "consolidated"}
+  },
+  {
+    "name": "missing entity",
+    "expect": "NOT_COMPARABLE",
+    "why": "an unresolved subject can never support a contradiction",
+    "a": {"subject": "the Company", "measure": "revenue from operations", "value": "100 crore", "period": "FY2024", "scope": "consolidated"},
+    "b": {"subject": "Acme Foods Limited", "measure": "revenue from operations", "value": "150 crore", "period": "FY2024", "scope": "consolidated"}
+  },
+  {
+    "name": "unit present on one side only",
+    "expect": "UNCERTAIN",
+    "why": "a bare figure may carry an unrecorded scale, so the gap cannot be read as disagreement",
+    "a": {"subject": "Acme Foods Limited", "measure": "revenue from operations", "value": "100 crore", "period": "FY2024", "scope": "consolidated"},
+    "b": {"subject": "Acme Foods Limited", "measure": "revenue from operations", "value": "100", "period": "FY2024", "scope": "consolidated"}
+  },
+  {
+    "name": "two columns standing for different segments",
+    "expect": "UNCERTAIN",
+    "why": "cells from different columns are different facts, not a disagreement",
+    "a": {"subject": "Acme Foods Limited", "measure": "revenue from operations", "value": "100 crore", "period": "FY2024", "column_label": "North Region"},
+    "b": {"subject": "Acme Foods Limited", "measure": "revenue from operations", "value": "150 crore", "period": "FY2024", "column_label": "South Region"}
+  },
+  {
+    "name": "a loss and a profit of the same size",
+    "expect": "CONTRADICTED",
+    "why": "a bracketed figure is negative and cannot agree with its positive twin",
+    "a": {"subject": "Acme Foods Limited", "measure": "profit for the year", "value": "(1,679.68) million", "period": "FY2024", "scope": "consolidated"},
+    "b": {"subject": "Acme Foods Limited", "measure": "profit for the year", "value": "1,679.68 million", "period": "FY2024", "scope": "consolidated"}
+  },
+  {
+    "name": "the same loss written two ways",
+    "expect": "CORROBORATED",
+    "why": "brackets and a minus sign express the same negative amount",
+    "a": {"subject": "Acme Foods Limited", "measure": "profit for the year", "value": "(1,679.68) million", "period": "FY2024", "scope": "consolidated"},
+    "b": {"subject": "Acme Foods Limited", "measure": "profit for the year", "value": "-1,679.68 million", "period": "FY2024", "scope": "consolidated"}
+  }
+]
