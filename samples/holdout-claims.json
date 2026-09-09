@@ -1,0 +1,626 @@
+{
+  "claims": [
+    {
+      "id": 1,
+      "subject": "CHAPTER",
+      "measure": "ETTI",
+      "kind": "numeric",
+      "value_raw": "01",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "MY:"
+      },
+      "evidence": {
+        "doc_id": "india-economic-survey-2024-25",
+        "page": 4,
+        "snippet": "01",
+        "char_span": [
+          32,
+          34
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "subject": "industrial sector",
+      "measure": "growth",
+      "kind": "numeric",
+      "value_raw": "6.2 per cent",
+      "qualifiers": {
+        "period": "FY25",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "india-economic-survey-2024-25",
+        "page": 14,
+        "snippet": "The industrial sector is estimated to grow by 6.2 per cent in FY25",
+        "char_span": [
+          1830,
+          1896
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "subject": "fiscal consolidation",
+      "measure": "continuation",
+      "kind": "entity_state",
+      "value_raw": null,
+      "qualifiers": {
+        "period": "2024-25",
+        "scope": "centre and state level",
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "rbi-annual-report-2024-25",
+        "page": 22,
+        "snippet": "Fiscal consolidation continued both at the centre and state level.",
+        "char_span": [
+          408,
+          474
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "subject": "India",
+      "measure": "real GDP growth",
+      "kind": "numeric",
+      "value_raw": "7.8 percent",
+      "qualifiers": {
+        "period": "first quarter of FY2025/26",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "imf-india-2025-article-iv",
+        "page": 3,
+        "snippet": "real GDP expanded by 7.8 percent in the first quarter of FY2025/26",
+        "char_span": [
+          456,
+          522
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "subject": "",
+      "measure": "July WEO",
+      "kind": "numeric",
+      "value_raw": "6.4",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "ile > up > en > mob > rtn > xch > ded > are > ng > el a > tio > S > n r > DP > e G > adv > s hi > wth > f 6 > d i > t c > ow > cs > dlin > est > m Ju"
+      },
+      "evidence": {
+        "doc_id": "imf-india-2025-article-iv",
+        "page": 13,
+        "snippet": "6.4",
+        "char_span": [
+          2429,
+          2432
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "subject": "",
+      "measure": "July WEO",
+      "kind": "numeric",
+      "value_raw": "6.4",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "industry f > plied by n > t, which w > ility of pr > ers, includ > ange restr > and intro > has been > countries > nd around > ns. > S > obust, ac > growth is > ST reform > erse impa > gh U.S. ta > below po > .5 percent > n the near > hart). Hea > the 4-per > and the GS > e inflation > ic food pr > ly WEO)"
+      },
+      "evidence": {
+        "doc_id": "imf-india-2025-article-iv",
+        "page": 13,
+        "snippet": "6.4",
+        "char_span": [
+          2433,
+          2436
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "subject": "",
+      "measure": "July WEO",
+      "kind": "numeric",
+      "value_raw": "0.20",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "aced with > onresident > ill eliminat > ofessionals > ing Austra > ictions ha > duced so > extended > have been > 30 anti-d > ns. > S > companie > projected > , and a 20 > ct of U.S. t > riffs (assum > tential wo > over the > term, with > dline inflat > cent target > T reform. > is expecte > ices. > In d ia : Im p a > (Percentag e p o i"
+      },
+      "evidence": {
+        "doc_id": "imf-india-2025-article-iv",
+        "page": 13,
+        "snippet": "0.20",
+        "char_span": [
+          2438,
+          2442
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "subject": "",
+      "measure": "Q1 Growth Surprise (",
+      "kind": "numeric",
+      "value_raw": "0.5",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "ile > up > en > mob > rtn > xch > ded > are > ng > el a > tio > S > n r > DP > e G > adv > s hi > wth > f 6 > d i > t c > ow > cs > dlin > est > m Ju"
+      },
+      "evidence": {
+        "doc_id": "imf-india-2025-article-iv",
+        "page": 13,
+        "snippet": "0.5",
+        "char_span": [
+          2481,
+          2484
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "subject": "",
+      "measure": "Q1 Growth Surprise (",
+      "kind": "numeric",
+      "value_raw": "0.0",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "industry f > plied by n > t, which w > ility of pr > ers, includ > ange restr > and intro > has been > countries > nd around > ns. > S > obust, ac > growth is > ST reform > erse impa > gh U.S. ta > below po > .5 percent > n the near > hart). Hea > the 4-per > and the GS > e inflation > ic food pr > ly WEO)"
+      },
+      "evidence": {
+        "doc_id": "imf-india-2025-article-iv",
+        "page": 13,
+        "snippet": "0.0",
+        "char_span": [
+          2485,
+          2488
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "subject": "",
+      "measure": "Tariffs",
+      "kind": "numeric",
+      "value_raw": "-0.4",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "ile > up > en > mob > rtn > xch > ded > are > ng > el a > tio > S > n r > DP > e G > adv > s hi > wth > f 6 > d i > t c > ow > cs > dlin > est > m Ju"
+      },
+      "evidence": {
+        "doc_id": "imf-india-2025-article-iv",
+        "page": 13,
+        "snippet": "-0.4",
+        "char_span": [
+          2504,
+          2508
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "subject": "",
+      "measure": "Tariffs",
+      "kind": "numeric",
+      "value_raw": "-0.3",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "industry f > plied by n > t, which w > ility of pr > ers, includ > ange restr > and intro > has been > countries > nd around > ns. > S > obust, ac > growth is > ST reform > erse impa > gh U.S. ta > below po > .5 percent > n the near > hart). Hea > the 4-per > and the GS > e inflation > ic food pr > ly WEO)"
+      },
+      "evidence": {
+        "doc_id": "imf-india-2025-article-iv",
+        "page": 13,
+        "snippet": "-0.3",
+        "char_span": [
+          2509,
+          2513
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "subject": "",
+      "measure": "GST Reform",
+      "kind": "numeric",
+      "value_raw": "0.1",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "ile > up > en > mob > rtn > xch > ded > are > ng > el a > tio > S > n r > DP > e G > adv > s hi > wth > f 6 > d i > t c > ow > cs > dlin > est > m Ju"
+      },
+      "evidence": {
+        "doc_id": "imf-india-2025-article-iv",
+        "page": 13,
+        "snippet": "0.1",
+        "char_span": [
+          2525,
+          2528
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "subject": "",
+      "measure": "GST Reform",
+      "kind": "numeric",
+      "value_raw": "0.1",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "industry f > plied by n > t, which w > ility of pr > ers, includ > ange restr > and intro > has been > countries > nd around > ns. > S > obust, ac > growth is > ST reform > erse impa > gh U.S. ta > below po > .5 percent > n the near > hart). Hea > the 4-per > and the GS > e inflation > ic food pr > ly WEO)"
+      },
+      "evidence": {
+        "doc_id": "imf-india-2025-article-iv",
+        "page": 13,
+        "snippet": "0.1",
+        "char_span": [
+          2529,
+          2532
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "subject": "",
+      "measure": "GST Reform",
+      "kind": "numeric",
+      "value_raw": "0.00",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "aced with > onresident > ill eliminat > ofessionals > ing Austra > ictions ha > duced so > extended > have been > 30 anti-d > ns. > S > companie > projected > , and a 20 > ct of U.S. t > riffs (assum > tential wo > over the > term, with > dline inflat > cent target > T reform. > is expecte > ices. > In d ia : Im p a > (Percentag e p o i"
+      },
+      "evidence": {
+        "doc_id": "imf-india-2025-article-iv",
+        "page": 13,
+        "snippet": "0.00",
+        "char_span": [
+          2533,
+          2537
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "subject": "",
+      "measure": "Current",
+      "kind": "numeric",
+      "value_raw": "6.6",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "ile > up > en > mob > rtn > xch > ded > are > ng > el a > tio > S > n r > DP > e G > adv > s hi > wth > f 6 > d i > t c > ow > cs > dlin > est > m Ju"
+      },
+      "evidence": {
+        "doc_id": "imf-india-2025-article-iv",
+        "page": 13,
+        "snippet": "6.6",
+        "char_span": [
+          2572,
+          2575
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "subject": "",
+      "measure": "Current",
+      "kind": "numeric",
+      "value_raw": "6.2",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "industry f > plied by n > t, which w > ility of pr > ers, includ > ange restr > and intro > has been > countries > nd around > ns. > S > obust, ac > growth is > ST reform > erse impa > gh U.S. ta > below po > .5 percent > n the near > hart). Hea > the 4-per > and the GS > e inflation > ic food pr > ly WEO)"
+      },
+      "evidence": {
+        "doc_id": "imf-india-2025-article-iv",
+        "page": 13,
+        "snippet": "6.2",
+        "char_span": [
+          2576,
+          2579
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "subject": "",
+      "measure": "Revision",
+      "kind": "numeric",
+      "value_raw": "0.2",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "ile > up > en > mob > rtn > xch > ded > are > ng > el a > tio > S > n r > DP > e G > adv > s hi > wth > f 6 > d i > t c > ow > cs > dlin > est > m Ju"
+      },
+      "evidence": {
+        "doc_id": "imf-india-2025-article-iv",
+        "page": 13,
+        "snippet": "0.2",
+        "char_span": [
+          2812,
+          2815
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "subject": "",
+      "measure": "Revision",
+      "kind": "numeric",
+      "value_raw": "-0.2",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "industry f > plied by n > t, which w > ility of pr > ers, includ > ange restr > and intro > has been > countries > nd around > ns. > S > obust, ac > growth is > ST reform > erse impa > gh U.S. ta > below po > .5 percent > n the near > hart). Hea > the 4-per > and the GS > e inflation > ic food pr > ly WEO)"
+      },
+      "evidence": {
+        "doc_id": "imf-india-2025-article-iv",
+        "page": 13,
+        "snippet": "-0.2",
+        "char_span": [
+          2816,
+          2820
+        ]
+      }
+    }
+  ],
+  "comparison": {
+    "pairs_compared": 10,
+    "verdicts": {
+      "NOT_COMPARABLE": 10
+    },
+    "examples": [
+      {
+        "a": {
+          "subject": "",
+          "measure": "July WEO",
+          "value": "6.4",
+          "period": null,
+          "scope": null,
+          "column_label": "ile > up > en > mob > rtn > xch > ded > are > ng > el a > tio > S > n r > DP > e G > adv > s hi > wth > f 6 > d i > t c > ow > cs > dlin > est > m Ju"
+        },
+        "b": {
+          "subject": "",
+          "measure": "July WEO",
+          "value": "6.4",
+          "period": null,
+          "scope": null,
+          "column_label": "industry f > plied by n > t, which w > ility of pr > ers, includ > ange restr > and intro > has been > countries > nd around > ns. > S > obust, ac > growth is > ST reform > erse impa > gh U.S. ta > below po > .5 percent > n the near > hart). Hea > the 4-per > and the GS > e inflation > ic food pr > ly WEO)"
+        },
+        "verdict": "NOT_COMPARABLE",
+        "explanation": "entity unresolved on one side: '' / ''"
+      },
+      {
+        "a": {
+          "subject": "",
+          "measure": "July WEO",
+          "value": "6.4",
+          "period": null,
+          "scope": null,
+          "column_label": "ile > up > en > mob > rtn > xch > ded > are > ng > el a > tio > S > n r > DP > e G > adv > s hi > wth > f 6 > d i > t c > ow > cs > dlin > est > m Ju"
+        },
+        "b": {
+          "subject": "",
+          "measure": "July WEO",
+          "value": "0.20",
+          "period": null,
+          "scope": null,
+          "column_label": "aced with > onresident > ill eliminat > ofessionals > ing Austra > ictions ha > duced so > extended > have been > 30 anti-d > ns. > S > companie > projected > , and a 20 > ct of U.S. t > riffs (assum > tential wo > over the > term, with > dline inflat > cent target > T reform. > is expecte > ices. > In d ia : Im p a > (Percentag e p o i"
+        },
+        "verdict": "NOT_COMPARABLE",
+        "explanation": "entity unresolved on one side: '' / ''"
+      },
+      {
+        "a": {
+          "subject": "",
+          "measure": "July WEO",
+          "value": "6.4",
+          "period": null,
+          "scope": null,
+          "column_label": "industry f > plied by n > t, which w > ility of pr > ers, includ > ange restr > and intro > has been > countries > nd around > ns. > S > obust, ac > growth is > ST reform > erse impa > gh U.S. ta > below po > .5 percent > n the near > hart). Hea > the 4-per > and the GS > e inflation > ic food pr > ly WEO)"
+        },
+        "b": {
+          "subject": "",
+          "measure": "July WEO",
+          "value": "0.20",
+          "period": null,
+          "scope": null,
+          "column_label": "aced with > onresident > ill eliminat > ofessionals > ing Austra > ictions ha > duced so > extended > have been > 30 anti-d > ns. > S > companie > projected > , and a 20 > ct of U.S. t > riffs (assum > tential wo > over the > term, with > dline inflat > cent target > T reform. > is expecte > ices. > In d ia : Im p a > (Percentag e p o i"
+        },
+        "verdict": "NOT_COMPARABLE",
+        "explanation": "entity unresolved on one side: '' / ''"
+      },
+      {
+        "a": {
+          "subject": "",
+          "measure": "Q1 Growth Surprise (",
+          "value": "0.5",
+          "period": null,
+          "scope": null,
+          "column_label": "ile > up > en > mob > rtn > xch > ded > are > ng > el a > tio > S > n r > DP > e G > adv > s hi > wth > f 6 > d i > t c > ow > cs > dlin > est > m Ju"
+        },
+        "b": {
+          "subject": "",
+          "measure": "Q1 Growth Surprise (",
+          "value": "0.0",
+          "period": null,
+          "scope": null,
+          "column_label": "industry f > plied by n > t, which w > ility of pr > ers, includ > ange restr > and intro > has been > countries > nd around > ns. > S > obust, ac > growth is > ST reform > erse impa > gh U.S. ta > below po > .5 percent > n the near > hart). Hea > the 4-per > and the GS > e inflation > ic food pr > ly WEO)"
+        },
+        "verdict": "NOT_COMPARABLE",
+        "explanation": "entity unresolved on one side: '' / ''"
+      },
+      {
+        "a": {
+          "subject": "",
+          "measure": "Tariffs",
+          "value": "-0.4",
+          "period": null,
+          "scope": null,
+          "column_label": "ile > up > en > mob > rtn > xch > ded > are > ng > el a > tio > S > n r > DP > e G > adv > s hi > wth > f 6 > d i > t c > ow > cs > dlin > est > m Ju"
+        },
+        "b": {
+          "subject": "",
+          "measure": "Tariffs",
+          "value": "-0.3",
+          "period": null,
+          "scope": null,
+          "column_label": "industry f > plied by n > t, which w > ility of pr > ers, includ > ange restr > and intro > has been > countries > nd around > ns. > S > obust, ac > growth is > ST reform > erse impa > gh U.S. ta > below po > .5 percent > n the near > hart). Hea > the 4-per > and the GS > e inflation > ic food pr > ly WEO)"
+        },
+        "verdict": "NOT_COMPARABLE",
+        "explanation": "entity unresolved on one side: '' / ''"
+      },
+      {
+        "a": {
+          "subject": "",
+          "measure": "GST Reform",
+          "value": "0.1",
+          "period": null,
+          "scope": null,
+          "column_label": "ile > up > en > mob > rtn > xch > ded > are > ng > el a > tio > S > n r > DP > e G > adv > s hi > wth > f 6 > d i > t c > ow > cs > dlin > est > m Ju"
+        },
+        "b": {
+          "subject": "",
+          "measure": "GST Reform",
+          "value": "0.1",
+          "period": null,
+          "scope": null,
+          "column_label": "industry f > plied by n > t, which w > ility of pr > ers, includ > ange restr > and intro > has been > countries > nd around > ns. > S > obust, ac > growth is > ST reform > erse impa > gh U.S. ta > below po > .5 percent > n the near > hart). Hea > the 4-per > and the GS > e inflation > ic food pr > ly WEO)"
+        },
+        "verdict": "NOT_COMPARABLE",
+        "explanation": "entity unresolved on one side: '' / ''"
+      },
+      {
+        "a": {
+          "subject": "",
+          "measure": "GST Reform",
+          "value": "0.1",
+          "period": null,
+          "scope": null,
+          "column_label": "ile > up > en > mob > rtn > xch > ded > are > ng > el a > tio > S > n r > DP > e G > adv > s hi > wth > f 6 > d i > t c > ow > cs > dlin > est > m Ju"
+        },
+        "b": {
+          "subject": "",
+          "measure": "GST Reform",
+          "value": "0.00",
+          "period": null,
+          "scope": null,
+          "column_label": "aced with > onresident > ill eliminat > ofessionals > ing Austra > ictions ha > duced so > extended > have been > 30 anti-d > ns. > S > companie > projected > , and a 20 > ct of U.S. t > riffs (assum > tential wo > over the > term, with > dline inflat > cent target > T reform. > is expecte > ices. > In d ia : Im p a > (Percentag e p o i"
+        },
+        "verdict": "NOT_COMPARABLE",
+        "explanation": "entity unresolved on one side: '' / ''"
+      },
+      {
+        "a": {
+          "subject": "",
+          "measure": "GST Reform",
+          "value": "0.1",
+          "period": null,
+          "scope": null,
+          "column_label": "industry f > plied by n > t, which w > ility of pr > ers, includ > ange restr > and intro > has been > countries > nd around > ns. > S > obust, ac > growth is > ST reform > erse impa > gh U.S. ta > below po > .5 percent > n the near > hart). Hea > the 4-per > and the GS > e inflation > ic food pr > ly WEO)"
+        },
+        "b": {
+          "subject": "",
+          "measure": "GST Reform",
+          "value": "0.00",
+          "period": null,
+          "scope": null,
+          "column_label": "aced with > onresident > ill eliminat > ofessionals > ing Austra > ictions ha > duced so > extended > have been > 30 anti-d > ns. > S > companie > projected > , and a 20 > ct of U.S. t > riffs (assum > tential wo > over the > term, with > dline inflat > cent target > T reform. > is expecte > ices. > In d ia : Im p a > (Percentag e p o i"
+        },
+        "verdict": "NOT_COMPARABLE",
+        "explanation": "entity unresolved on one side: '' / ''"
+      },
+      {
+        "a": {
+          "subject": "",
+          "measure": "Current",
+          "value": "6.6",
+          "period": null,
+          "scope": null,
+          "column_label": "ile > up > en > mob > rtn > xch > ded > are > ng > el a > tio > S > n r > DP > e G > adv > s hi > wth > f 6 > d i > t c > ow > cs > dlin > est > m Ju"
+        },
+        "b": {
+          "subject": "",
+          "measure": "Current",
+          "value": "6.2",
+          "period": null,
+          "scope": null,
+          "column_label": "industry f > plied by n > t, which w > ility of pr > ers, includ > ange restr > and intro > has been > countries > nd around > ns. > S > obust, ac > growth is > ST reform > erse impa > gh U.S. ta > below po > .5 percent > n the near > hart). Hea > the 4-per > and the GS > e inflation > ic food pr > ly WEO)"
+        },
+        "verdict": "NOT_COMPARABLE",
+        "explanation": "entity unresolved on one side: '' / ''"
+      },
+      {
+        "a": {
+          "subject": "",
+          "measure": "Revision",
+          "value": "0.2",
+          "period": null,
+          "scope": null,
+          "column_label": "ile > up > en > mob > rtn > xch > ded > are > ng > el a > tio > S > n r > DP > e G > adv > s hi > wth > f 6 > d i > t c > ow > cs > dlin > est > m Ju"
+        },
+        "b": {
+          "subject": "",
+          "measure": "Revision",
+          "value": "-0.2",
+          "period": null,
+          "scope": null,
+          "column_label": "industry f > plied by n > t, which w > ility of pr > ers, includ > ange restr > and intro > has been > countries > nd around > ns. > S > obust, ac > growth is > ST reform > erse impa > gh U.S. ta > below po > .5 percent > n the near > hart). Hea > the 4-per > and the GS > e inflation > ic food pr > ly WEO)"
+        },
+        "verdict": "NOT_COMPARABLE",
+        "explanation": "entity unresolved on one side: '' / ''"
+      }
+    ]
+  }
+}
