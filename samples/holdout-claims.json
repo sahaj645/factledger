@@ -2,7 +2,7 @@
   "claims": [
     {
       "id": 1,
-      "subject": "CHAPTER",
+      "subject": "",
       "measure": "ETTI",
       "kind": "numeric",
       "value_raw": "01",

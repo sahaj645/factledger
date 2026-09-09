@@ -13,9 +13,9 @@ and 13.
 
 | Document | Pages | Claims kept | Seconds |
 |---|---|---|---|
-| India Economic Survey 2024-25 | 4, 14 | 2 | 214.5 |
-| RBI Annual Report 2024-25 | 22 | 1 | 136.6 |
-| IMF India 2025 Article IV | 3, 13 | 15 | 236.8 |
+| India Economic Survey 2024-25 | 4, 14 | 2 | 207.0 |
+| RBI Annual Report 2024-25 | 22 | 1 | 139.4 |
+| IMF India 2025 Article IV | 3, 13 | 15 | 221.3 |
 | **total** | | **18** | |
 
 Rejections: 20 snippet-not-a-substring, 3 kind-not-in-schema, 2 table cell without
@@ -42,6 +42,20 @@ model actually produced from these pages was, for example:
 The headline projection figures were not extracted with a matching entity, measure
 and period across the three documents, so no pair shared a coordinate system and the
 contradiction did not form. It was not constructed to make it appear.
+
+## Run again after the later fixes
+
+Several defects were found after the first cold run and fixed: a discarded column
+label, a bracketed figure read as positive, a scale stated on one side only, two cells
+sharing a character span, a value tolerance that made adjacent figures equal, a caption
+search that missed a heading grouped into its table, and a table subject taken from a
+caption rather than from a named entity. Every one of those came from the development
+corpus or from documents outside both corpora. None came from here.
+
+`coldrun.py` was then run again on this corpus. It produced the same 18 claims, the
+same rejection counts, and the same 10 not-comparable verdicts; only wall-clock time
+differed. The figures above are from that second run. Nothing was changed in response
+to anything in these documents.
 
 ## Reading of the cold run
 

@@ -11,7 +11,10 @@ and comparison), because they are where a wrong answer would be silent.
 
 ## Scale
 
-68 PDFs, 1,670 pages, 296 table claims.
+68 PDFs, 1,670 pages, 3,850 blocks, 296 table claims, 286 rejected cells.
+
+The sweep was run again after the parse and table changes that followed it, and the
+invariants below still hold on the same documents.
 
 ## Invariants checked on every document
 

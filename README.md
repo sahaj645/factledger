@@ -121,13 +121,26 @@ come out of the system. I'm stating that plainly rather than staging them.
 On the audited pages the pipeline kept 144 claims and rejected 105, an evidence
 validation pass rate of 0.738. It then clustered those into 18 groups and compared 539
 pairs, and every single pair came back NOT_COMPARABLE. Nothing corroborated, nothing
-contradicted. There are three real reasons. Within one table every cell is a different
-period, so they correctly don't share a coordinate. Across documents, a table claim
-takes the table's caption as its subject, and captions differ between documents, so the
-same measure in two files never resolves to one entity — this is the single biggest
-thing I'd fix next. And on the one page that holds the revenue table I wanted, the PDF
-parser recovered the two-level Standalone/Consolidated header but none of the data rows
-underneath it.
+contradicted. There are three real reasons.
+
+Within one table every cell is a different period, so they correctly don't share a
+coordinate.
+
+126 of those 144 claims have no subject at all, and are therefore unresolved before
+the comparison looks at measure or period. They are the earnings deck's table cells,
+and the reason is in the document: the word Delhivery does not appear anywhere on the
+pages those tables sit on. Nothing beside the data names the company. I could have
+filled the subject in from elsewhere in the file, and I decided not to — on that deck
+it wouldn't even have picked the right company, because the first entity named on its
+cover page is BSE Limited, the exchange it was filed with. Every revenue and EBITDA
+figure would have been attributed to the stock exchange. Two bugs on the way there are
+worth naming: the caption search required a block to end above the table, which never
+matched once line grouping had merged a dense table's heading into its body, so those
+tables had no caption at all; and before that the caption itself was stored as the
+subject, so a table title would have been treated as an entity.
+
+And on the one page that holds the revenue table I wanted, the PDF parser recovered the
+two-level Standalone/Consolidated header but none of the data rows underneath it.
 
 The failure counts by class, on the audited pages: 46 snippets not found in the source,
 45 claims missing a subject or measure, 7 table cells with no row label, 5 values not
@@ -159,15 +172,17 @@ forecasts. I didn't tune anything against that corpus.
 Because the brief says the solution may be tested with additional PDFs, I also ran the
 deterministic layers over 68 documents from outside both corpora — a paper, lecture
 slides, job descriptions, project reports, mostly with no currency, no fiscal year and
-no tables. 1,670 pages, no character span that failed to quote its own text back, and
-nothing asserted that couldn't be grounded. That sweep is what found the three bugs
-above. `python stress.py "some/folder/*.pdf"` runs it on anything.
+no tables. 1,670 pages and 3,850 blocks, no character span that failed to quote its own
+text back, and nothing asserted that couldn't be grounded. Two files failed to open at
+all; they are cloud placeholders the operating system can't read either, and the sweep
+reports them rather than stopping. That sweep is what found the three bugs above.
+`python stress.py "some/folder/*.pdf"` runs it on anything.
 
 `eval/cases.json` holds 24 adversarial claim pairs with the verdict each should get and
 why, covering periods, scope, units, percentage against absolute, annual against
 quarterly, state transitions, similar names, parent and subsidiary, acquired-entity
 bleed, competing projections, rounding, and each missing qualifier. All 24 pass. The
-full suite is 95 tests. Every number in this README comes from `notes/audit.md`,
+full suite is 100 tests. Every number in this README comes from `notes/audit.md`,
 `notes/coldrun.md` or `notes/stresstest.md`, and each of those says which command
 produces it.
 
