@@ -8,3 +8,4 @@ env/
 *.sqlite
 *.sqlite3
 .DS_Store
+HANDOFF.md
