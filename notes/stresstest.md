@@ -136,9 +136,35 @@ wrapped in a handler that would swallow it; a file that cannot be read should fa
 loudly. It is recorded here because an upload of such a file would surface as a
 server error rather than a message about the file.
 
+## End to end on a document from outside both corpora
+
+The sweep above exercises the deterministic layers. To check the path a reviewer
+actually takes — hand the system a new PDF and look at what comes back — one outside
+document was run through the whole pipeline, model included:
+
+| | |
+|---|---|
+| document | a 7-page model-results report, 31 blocks, 7 tables |
+| claims stored | 70 (58 from table cells, 12 from narrative blocks) |
+| rejected | 40 |
+| pairs compared | 404 |
+| verdicts | 78 uncertain, 326 not-comparable |
+| wall clock | 1,099.8 s |
+
+Nothing was corroborated or contradicted, and the column labels the earlier defect
+would have discarded came through intact: the three CAGR figures are held apart as
+`Buy-hold SPY`, `Combined (AR+JM)` and `JM-only` rather than colliding as one measure
+with three values.
+
+**Timing is the finding here.** Eighteen minutes for a seven-page document is the
+local model answering one call per narrative block on CPU. Table cells cost nothing,
+so a document that is mostly tables is fast and one that is mostly prose is not. A
+reviewer uploading a long document should expect to wait, and the `llm.py` seam is
+where that trade is changed.
+
 ## What this did not test
 
-The model-dependent narrative extraction path was not swept across all 68 documents;
-only the deterministic layers were, because they are the ones whose failures are
-silent. Nothing here measures extraction quality on unseen documents, only
-correctness and grounding of what is extracted.
+Extraction quality on unseen documents is not measured anywhere here — only that what
+is extracted is grounded, that context is not silently dropped, and that nothing is
+asserted which cannot be supported. The sweep of 68 documents covers the deterministic
+layers only; one document was taken end to end.
