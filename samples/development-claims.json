@@ -25,7 +25,7 @@
     },
     {
       "id": 2,
-      "subject": "Company",
+      "subject": "Delhivery Limited",
       "measure": "Revenue from Operations",
       "kind": "numeric",
       "value_raw": "74,540.82",
@@ -48,7 +48,7 @@
     },
     {
       "id": 3,
-      "subject": "Company",
+      "subject": "Delhivery Limited",
       "measure": "Other Income",
       "kind": "numeric",
       "value_raw": "4,753.49",
@@ -71,7 +71,7 @@
     },
     {
       "id": 4,
-      "subject": "Company",
+      "subject": "Delhivery Limited",
       "measure": "Total Income",
       "kind": "numeric",
       "value_raw": "79,294.31",
@@ -94,7 +94,7 @@
     },
     {
       "id": 5,
-      "subject": "Company",
+      "subject": "Delhivery Limited",
       "measure": "Total expenses",
       "kind": "numeric",
       "value_raw": "80,235.00",
@@ -117,7 +117,7 @@
     },
     {
       "id": 6,
-      "subject": "Company",
+      "subject": "Delhivery Limited",
       "measure": "Loss for the year",
       "kind": "numeric",
       "value_raw": "(1,679.68)",
@@ -140,7 +140,7 @@
     },
     {
       "id": 7,
-      "subject": "Your Company",
+      "subject": "Delhivery Limited",
       "measure": "stake in the equity share",
       "kind": "numeric",
       "value_raw": "10.94%",
@@ -163,7 +163,7 @@
     },
     {
       "id": 8,
-      "subject": "Your Company",
+      "subject": "Delhivery Limited",
       "measure": "logistics capital provided",
       "kind": "numeric",
       "value_raw": "\u20b9250 million",
@@ -209,7 +209,7 @@
     },
     {
       "id": 10,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Revenue for services (A)",
       "kind": "numeric",
       "value_raw": "\u20b9 1,860 cr",
@@ -232,7 +232,7 @@
     },
     {
       "id": 11,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Revenue for services (A)",
       "kind": "numeric",
       "value_raw": "\u20b9 2,194 cr",
@@ -255,7 +255,7 @@
     },
     {
       "id": 12,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Revenue for services (A)",
       "kind": "numeric",
       "value_raw": "\u20b9 2,076 cr",
@@ -278,7 +278,7 @@
     },
     {
       "id": 13,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Revenue for services (A)",
       "kind": "numeric",
       "value_raw": "(5.4%)",
@@ -301,7 +301,7 @@
     },
     {
       "id": 14,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Revenue for services (A)",
       "kind": "numeric",
       "value_raw": "11.6%",
@@ -324,7 +324,7 @@
     },
     {
       "id": 15,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Revenue for services (A)",
       "kind": "numeric",
       "value_raw": "\u20b9 7,224 cr",
@@ -347,7 +347,7 @@
     },
     {
       "id": 16,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Revenue for services (A)",
       "kind": "numeric",
       "value_raw": "\u20b9 8,142 cr",
@@ -370,7 +370,7 @@
     },
     {
       "id": 17,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Revenue for services (A)",
       "kind": "numeric",
       "value_raw": "12.7%",
@@ -393,7 +393,7 @@
     },
     {
       "id": 18,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Revenue from traded goods (B)",
       "kind": "numeric",
       "value_raw": "\u20b9 0 cr",
@@ -416,7 +416,7 @@
     },
     {
       "id": 19,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Revenue from traded goods (B)",
       "kind": "numeric",
       "value_raw": "\u20b9 2 cr",
@@ -439,7 +439,7 @@
     },
     {
       "id": 20,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Revenue from customers (A+B)",
       "kind": "numeric",
       "value_raw": "\u20b9 1,860 cr",
@@ -462,7 +462,7 @@
     },
     {
       "id": 21,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Revenue from customers (A+B)",
       "kind": "numeric",
       "value_raw": "\u20b9 2,194 cr",
@@ -485,7 +485,7 @@
     },
     {
       "id": 22,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Revenue from customers (A+B)",
       "kind": "numeric",
       "value_raw": "\u20b9 2,076 cr",
@@ -508,7 +508,7 @@
     },
     {
       "id": 23,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Revenue from customers (A+B)",
       "kind": "numeric",
       "value_raw": "(5.4%)",
@@ -531,7 +531,7 @@
     },
     {
       "id": 24,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Revenue from customers (A+B)",
       "kind": "numeric",
       "value_raw": "11.6%",
@@ -554,7 +554,7 @@
     },
     {
       "id": 25,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Revenue from customers (A+B)",
       "kind": "numeric",
       "value_raw": "\u20b9 7,225 cr",
@@ -577,7 +577,7 @@
     },
     {
       "id": 26,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Revenue from customers (A+B)",
       "kind": "numeric",
       "value_raw": "\u20b9 8,142 cr",
@@ -600,7 +600,7 @@
     },
     {
       "id": 27,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Revenue from customers (A+B)",
       "kind": "numeric",
       "value_raw": "12.7%",
@@ -623,7 +623,7 @@
     },
     {
       "id": 28,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Other income",
       "kind": "numeric",
       "value_raw": "\u20b9 75 cr",
@@ -646,7 +646,7 @@
     },
     {
       "id": 29,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Other income",
       "kind": "numeric",
       "value_raw": "\u20b9 131 cr",
@@ -669,7 +669,7 @@
     },
     {
       "id": 30,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Other income",
       "kind": "numeric",
       "value_raw": "\u20b9 119 cr",
@@ -692,7 +692,7 @@
     },
     {
       "id": 31,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Other income",
       "kind": "numeric",
       "value_raw": "(8.8%)",
@@ -715,7 +715,7 @@
     },
     {
       "id": 32,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Other income",
       "kind": "numeric",
       "value_raw": "60.0%",
@@ -738,7 +738,7 @@
     },
     {
       "id": 33,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Other income",
       "kind": "numeric",
       "value_raw": "\u20b9 305 cr",
@@ -761,7 +761,7 @@
     },
     {
       "id": 34,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Other income",
       "kind": "numeric",
       "value_raw": "\u20b9 453 cr",
@@ -784,7 +784,7 @@
     },
     {
       "id": 35,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Other income",
       "kind": "numeric",
       "value_raw": "48.4%",
@@ -807,7 +807,7 @@
     },
     {
       "id": 36,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Total income",
       "kind": "numeric",
       "value_raw": "\u20b9 1,934 cr",
@@ -830,7 +830,7 @@
     },
     {
       "id": 37,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Total income",
       "kind": "numeric",
       "value_raw": "\u20b9 2,325 cr",
@@ -853,7 +853,7 @@
     },
     {
       "id": 38,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Total income",
       "kind": "numeric",
       "value_raw": "\u20b9 2,195 cr",
@@ -876,7 +876,7 @@
     },
     {
       "id": 39,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Total income",
       "kind": "numeric",
       "value_raw": "(5.6%)",
@@ -899,7 +899,7 @@
     },
     {
       "id": 40,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Total income",
       "kind": "numeric",
       "value_raw": "13.5%",
@@ -922,7 +922,7 @@
     },
     {
       "id": 41,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Total income",
       "kind": "numeric",
       "value_raw": "\u20b9 7,530 cr",
@@ -945,7 +945,7 @@
     },
     {
       "id": 42,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Total income",
       "kind": "numeric",
       "value_raw": "\u20b9 8,594 cr",
@@ -968,7 +968,7 @@
     },
     {
       "id": 43,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Total income",
       "kind": "numeric",
       "value_raw": "14.1%",
@@ -991,7 +991,7 @@
     },
     {
       "id": 44,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Total freight, handling and servicing cost",
       "kind": "numeric",
       "value_raw": "\u20b9 1,372 cr",
@@ -1014,7 +1014,7 @@
     },
     {
       "id": 45,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Total freight, handling and servicing cost",
       "kind": "numeric",
       "value_raw": "\u20b9 1,572 cr",
@@ -1037,7 +1037,7 @@
     },
     {
       "id": 46,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Total freight, handling and servicing cost",
       "kind": "numeric",
       "value_raw": "\u20b9 1,519 cr",
@@ -1060,7 +1060,7 @@
     },
     {
       "id": 47,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Total freight, handling and servicing cost",
       "kind": "numeric",
       "value_raw": "(3.4%)",
@@ -1083,7 +1083,7 @@
     },
     {
       "id": 48,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Total freight, handling and servicing cost",
       "kind": "numeric",
       "value_raw": "10.7%",
@@ -1106,7 +1106,7 @@
     },
     {
       "id": 49,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Total freight, handling and servicing cost",
       "kind": "numeric",
       "value_raw": "\u20b9 5,669 cr",
@@ -1129,7 +1129,7 @@
     },
     {
       "id": 50,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Total freight, handling and servicing cost",
       "kind": "numeric",
       "value_raw": "\u20b9 5,971 cr",
@@ -1152,7 +1152,7 @@
     },
     {
       "id": 51,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Total freight, handling and servicing cost",
       "kind": "numeric",
       "value_raw": "5.3%",
@@ -1175,7 +1175,7 @@
     },
     {
       "id": 52,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Employee benefit expense excl. share based payments",
       "kind": "numeric",
       "value_raw": "\u20b9 284 cr",
@@ -1198,7 +1198,7 @@
     },
     {
       "id": 53,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Employee benefit expense excl. share based payments",
       "kind": "numeric",
       "value_raw": "\u20b9 306 cr",
@@ -1221,7 +1221,7 @@
     },
     {
       "id": 54,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Employee benefit expense excl. share based payments",
       "kind": "numeric",
       "value_raw": "\u20b9 308 cr",
@@ -1244,7 +1244,7 @@
     },
     {
       "id": 55,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Employee benefit expense excl. share based payments",
       "kind": "numeric",
       "value_raw": "0.8%",
@@ -1267,7 +1267,7 @@
     },
     {
       "id": 56,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Employee benefit expense excl. share based payments",
       "kind": "numeric",
       "value_raw": "8.4%",
@@ -1290,7 +1290,7 @@
     },
     {
       "id": 57,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Employee benefit expense excl. share based payments",
       "kind": "numeric",
       "value_raw": "\u20b9 1,111 cr",
@@ -1313,7 +1313,7 @@
     },
     {
       "id": 58,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Employee benefit expense excl. share based payments",
       "kind": "numeric",
       "value_raw": "\u20b9 1,211 cr",
@@ -1336,7 +1336,7 @@
     },
     {
       "id": 59,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Employee benefit expense excl. share based payments",
       "kind": "numeric",
       "value_raw": "9.0%",
@@ -1359,7 +1359,7 @@
     },
     {
       "id": 60,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Employee benefit expense: share based payments",
       "kind": "numeric",
       "value_raw": "\u20b9 73 cr",
@@ -1382,7 +1382,7 @@
     },
     {
       "id": 61,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Employee benefit expense: share based payments",
       "kind": "numeric",
       "value_raw": "\u20b9 54 cr",
@@ -1405,7 +1405,7 @@
     },
     {
       "id": 62,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Employee benefit expense: share based payments",
       "kind": "numeric",
       "value_raw": "\u20b9 49 cr",
@@ -1428,7 +1428,7 @@
     },
     {
       "id": 63,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Employee benefit expense: share based payments",
       "kind": "numeric",
       "value_raw": "(8.9%)",
@@ -1451,7 +1451,7 @@
     },
     {
       "id": 64,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Employee benefit expense: share based payments",
       "kind": "numeric",
       "value_raw": "(32.8%)",
@@ -1474,7 +1474,7 @@
     },
     {
       "id": 65,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Employee benefit expense: share based payments",
       "kind": "numeric",
       "value_raw": "\u20b9 289 cr",
@@ -1497,7 +1497,7 @@
     },
     {
       "id": 66,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Employee benefit expense: share based payments",
       "kind": "numeric",
       "value_raw": "\u20b9 226 cr",
@@ -1520,7 +1520,7 @@
     },
     {
       "id": 67,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Employee benefit expense: share based payments",
       "kind": "numeric",
       "value_raw": "(21.8%)",
@@ -1543,7 +1543,7 @@
     },
     {
       "id": 68,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Other operating expense",
       "kind": "numeric",
       "value_raw": "\u20b9 117 cr",
@@ -1566,7 +1566,7 @@
     },
     {
       "id": 69,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Other operating expense",
       "kind": "numeric",
       "value_raw": "\u20b9 154 cr",
@@ -1589,7 +1589,7 @@
     },
     {
       "id": 70,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Other operating expense",
       "kind": "numeric",
       "value_raw": "\u20b9 154 cr",
@@ -1612,7 +1612,7 @@
     },
     {
       "id": 71,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Other operating expense",
       "kind": "numeric",
       "value_raw": "0.0%",
@@ -1635,7 +1635,7 @@
     },
     {
       "id": 72,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Other operating expense",
       "kind": "numeric",
       "value_raw": "31.0%",
@@ -1658,7 +1658,7 @@
     },
     {
       "id": 73,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Other operating expense",
       "kind": "numeric",
       "value_raw": "\u20b9 606 cr",
@@ -1681,7 +1681,7 @@
     },
     {
       "id": 74,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Other operating expense",
       "kind": "numeric",
       "value_raw": "\u20b9 607 cr",
@@ -1704,7 +1704,7 @@
     },
     {
       "id": 75,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Other operating expense",
       "kind": "numeric",
       "value_raw": "0.3%",
@@ -1727,7 +1727,7 @@
     },
     {
       "id": 76,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Finance costs",
       "kind": "numeric",
       "value_raw": "\u20b9 19 cr",
@@ -1750,7 +1750,7 @@
     },
     {
       "id": 77,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Finance costs",
       "kind": "numeric",
       "value_raw": "\u20b9 22 cr",
@@ -1773,7 +1773,7 @@
     },
     {
       "id": 78,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Finance costs",
       "kind": "numeric",
       "value_raw": "\u20b9 27 cr",
@@ -1796,7 +1796,7 @@
     },
     {
       "id": 79,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Finance costs",
       "kind": "numeric",
       "value_raw": "22.3%",
@@ -1819,7 +1819,7 @@
     },
     {
       "id": 80,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Finance costs",
       "kind": "numeric",
       "value_raw": "43.4%",
@@ -1842,7 +1842,7 @@
     },
     {
       "id": 81,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Finance costs",
       "kind": "numeric",
       "value_raw": "\u20b9 89 cr",
@@ -1865,7 +1865,7 @@
     },
     {
       "id": 82,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Finance costs",
       "kind": "numeric",
       "value_raw": "\u20b9 89 cr",
@@ -1888,7 +1888,7 @@
     },
     {
       "id": 83,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Finance costs",
       "kind": "numeric",
       "value_raw": "(0.3%)",
@@ -1911,7 +1911,7 @@
     },
     {
       "id": 84,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Depreciation and amortisation expense",
       "kind": "numeric",
       "value_raw": "\u20b9 242 cr",
@@ -1934,7 +1934,7 @@
     },
     {
       "id": 85,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Depreciation and amortisation expense",
       "kind": "numeric",
       "value_raw": "\u20b9 183 cr",
@@ -1957,7 +1957,7 @@
     },
     {
       "id": 86,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Depreciation and amortisation expense",
       "kind": "numeric",
       "value_raw": "\u20b9 200 cr",
@@ -1980,7 +1980,7 @@
     },
     {
       "id": 87,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Depreciation and amortisation expense",
       "kind": "numeric",
       "value_raw": "9.7%",
@@ -2003,7 +2003,7 @@
     },
     {
       "id": 88,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Depreciation and amortisation expense",
       "kind": "numeric",
       "value_raw": "(17.3%)",
@@ -2026,7 +2026,7 @@
     },
     {
       "id": 89,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Depreciation and amortisation expense",
       "kind": "numeric",
       "value_raw": "\u20b9 831 cr",
@@ -2049,7 +2049,7 @@
     },
     {
       "id": 90,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Depreciation and amortisation expense",
       "kind": "numeric",
       "value_raw": "\u20b9 722 cr",
@@ -2072,7 +2072,7 @@
     },
     {
       "id": 91,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Depreciation and amortisation expense",
       "kind": "numeric",
       "value_raw": "(13.2%)",
@@ -2095,7 +2095,7 @@
     },
     {
       "id": 92,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Total expenses",
       "kind": "numeric",
       "value_raw": "\u20b9 2,108 cr",
@@ -2118,7 +2118,7 @@
     },
     {
       "id": 93,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Total expenses",
       "kind": "numeric",
       "value_raw": "\u20b9 2,290 cr",
@@ -2141,7 +2141,7 @@
     },
     {
       "id": 94,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Total expenses",
       "kind": "numeric",
       "value_raw": "\u20b9 2,257 cr",
@@ -2164,7 +2164,7 @@
     },
     {
       "id": 95,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Total expenses",
       "kind": "numeric",
       "value_raw": "(1.4%)",
@@ -2187,7 +2187,7 @@
     },
     {
       "id": 96,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Total expenses",
       "kind": "numeric",
       "value_raw": "7.1%",
@@ -2210,7 +2210,7 @@
     },
     {
       "id": 97,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Total expenses",
       "kind": "numeric",
       "value_raw": "\u20b9 8,597 cr",
@@ -2233,7 +2233,7 @@
     },
     {
       "id": 98,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Total expenses",
       "kind": "numeric",
       "value_raw": "\u20b9 8,825 cr",
@@ -2256,7 +2256,7 @@
     },
     {
       "id": 99,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Total expenses",
       "kind": "numeric",
       "value_raw": "2.7%",
@@ -2279,7 +2279,7 @@
     },
     {
       "id": 100,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Share of profit / (loss) of associates (net)",
       "kind": "numeric",
       "value_raw": "\u20b9 1 cr",
@@ -2302,7 +2302,7 @@
     },
     {
       "id": 101,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Share of profit / (loss) of associates (net)",
       "kind": "numeric",
       "value_raw": "\u20b9 (4) cr",
@@ -2325,7 +2325,7 @@
     },
     {
       "id": 102,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Share of profit / (loss) of associates (net)",
       "kind": "numeric",
       "value_raw": "\u20b9 6 cr",
@@ -2348,7 +2348,7 @@
     },
     {
       "id": 103,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Share of profit / (loss) of associates (net)",
       "kind": "numeric",
       "value_raw": "\u20b9 14 cr",
@@ -2371,7 +2371,7 @@
     },
     {
       "id": 104,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Share of profit / (loss) of associates (net)",
       "kind": "numeric",
       "value_raw": "\u20b9 9 cr",
@@ -2394,7 +2394,7 @@
     },
     {
       "id": 105,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Share of profit / (loss) of associates (net)",
       "kind": "numeric",
       "value_raw": "(35.9%)",
@@ -2417,7 +2417,7 @@
     },
     {
       "id": 106,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Profit / (Loss) before exceptional items and tax",
       "kind": "numeric",
       "value_raw": "\u20b9 (173) cr",
@@ -2440,7 +2440,7 @@
     },
     {
       "id": 107,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Profit / (Loss) before exceptional items and tax",
       "kind": "numeric",
       "value_raw": "\u20b9 31 cr",
@@ -2463,7 +2463,7 @@
     },
     {
       "id": 108,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Profit / (Loss) before exceptional items and tax",
       "kind": "numeric",
       "value_raw": "\u20b9 (56) cr",
@@ -2486,7 +2486,7 @@
     },
     {
       "id": 109,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Profit / (Loss) before exceptional items and tax",
       "kind": "numeric",
       "value_raw": "\u20b9 (1,053) cr",
@@ -2509,7 +2509,7 @@
     },
     {
       "id": 110,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Profit / (Loss) before exceptional items and tax",
       "kind": "numeric",
       "value_raw": "\u20b9 (222) cr",
@@ -2532,7 +2532,7 @@
     },
     {
       "id": 111,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Exceptional items",
       "kind": "numeric",
       "value_raw": "\u20b9 (8) cr",
@@ -2555,7 +2555,7 @@
     },
     {
       "id": 112,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Exceptional items",
       "kind": "numeric",
       "value_raw": "\u20b9 (15) cr",
@@ -2578,7 +2578,7 @@
     },
     {
       "id": 113,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Exceptional items",
       "kind": "numeric",
       "value_raw": "\u20b9 (22) cr",
@@ -2601,7 +2601,7 @@
     },
     {
       "id": 114,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Tax expense",
       "kind": "numeric",
       "value_raw": "\u20b9 (14) cr",
@@ -2624,7 +2624,7 @@
     },
     {
       "id": 115,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Tax expense",
       "kind": "numeric",
       "value_raw": "\u20b9 12 cr",
@@ -2647,7 +2647,7 @@
     },
     {
       "id": 116,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Tax expense",
       "kind": "numeric",
       "value_raw": "\u20b9 (2) cr",
@@ -2670,7 +2670,7 @@
     },
     {
       "id": 117,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Tax expense",
       "kind": "numeric",
       "value_raw": "\u20b9 (45) cr",
@@ -2693,7 +2693,7 @@
     },
     {
       "id": 118,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Tax expense",
       "kind": "numeric",
       "value_raw": "\u20b9 5 cr",
@@ -2716,7 +2716,7 @@
     },
     {
       "id": 119,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Profit / (Loss) after tax",
       "kind": "numeric",
       "value_raw": "\u20b9 (159) cr",
@@ -2739,7 +2739,7 @@
     },
     {
       "id": 120,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Profit / (Loss) after tax",
       "kind": "numeric",
       "value_raw": "\u20b9 12 cr",
@@ -2762,7 +2762,7 @@
     },
     {
       "id": 121,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Profit / (Loss) after tax",
       "kind": "numeric",
       "value_raw": "\u20b9 (69) cr",
@@ -2785,7 +2785,7 @@
     },
     {
       "id": 122,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Profit / (Loss) after tax",
       "kind": "numeric",
       "value_raw": "\u20b9 (1,008) cr",
@@ -2808,7 +2808,7 @@
     },
     {
       "id": 123,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "Profit / (Loss) after tax",
       "kind": "numeric",
       "value_raw": "\u20b9 (249) cr",
@@ -2831,7 +2831,7 @@
     },
     {
       "id": 124,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "EBITDA",
       "kind": "numeric",
       "value_raw": "\u20b9 13 cr",
@@ -2854,7 +2854,7 @@
     },
     {
       "id": 125,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "EBITDA",
       "kind": "numeric",
       "value_raw": "\u20b9 109 cr",
@@ -2877,7 +2877,7 @@
     },
     {
       "id": 126,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "EBITDA",
       "kind": "numeric",
       "value_raw": "\u20b9 46 cr",
@@ -2900,7 +2900,7 @@
     },
     {
       "id": 127,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "EBITDA",
       "kind": "numeric",
       "value_raw": "(58.0%)",
@@ -2923,7 +2923,7 @@
     },
     {
       "id": 128,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "EBITDA",
       "kind": "numeric",
       "value_raw": "242.5%",
@@ -2946,7 +2946,7 @@
     },
     {
       "id": 129,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "EBITDA",
       "kind": "numeric",
       "value_raw": "\u20b9 (452) cr",
@@ -2969,7 +2969,7 @@
     },
     {
       "id": 130,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "EBITDA",
       "kind": "numeric",
       "value_raw": "\u20b9 127 cr",
@@ -2992,7 +2992,7 @@
     },
     {
       "id": 131,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "EBITDA margin",
       "kind": "numeric",
       "value_raw": "0.7%",
@@ -3015,7 +3015,7 @@
     },
     {
       "id": 132,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "EBITDA margin",
       "kind": "numeric",
       "value_raw": "5.0%",
@@ -3038,7 +3038,7 @@
     },
     {
       "id": 133,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "EBITDA margin",
       "kind": "numeric",
       "value_raw": "2.2%",
@@ -3061,7 +3061,7 @@
     },
     {
       "id": 134,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "EBITDA margin",
       "kind": "numeric",
       "value_raw": "(6.3%)",
@@ -3084,7 +3084,7 @@
     },
     {
       "id": 135,
-      "subject": "",
+      "subject": "Delhivery Limited",
       "measure": "EBITDA margin",
       "kind": "numeric",
       "value_raw": "1.6%",
@@ -3316,12 +3316,13 @@
   "comparison": {
     "pairs_compared": 539,
     "verdicts": {
-      "NOT_COMPARABLE": 539
+      "UNCERTAIN": 221,
+      "NOT_COMPARABLE": 318
     },
     "examples": [
       {
         "a": {
-          "subject": "Company",
+          "subject": "Delhivery Limited",
           "measure": "Other Income",
           "value": "4,753.49",
           "period": "March 31, 2024",
@@ -3329,19 +3330,19 @@
           "column_label": null
         },
         "b": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "\u20b9 75 cr",
           "period": "Q4 FY2023",
           "scope": null,
           "column_label": null
         },
-        "verdict": "NOT_COMPARABLE",
-        "explanation": "entity unresolved on one side: 'Company' / ''"
+        "verdict": "UNCERTAIN",
+        "explanation": "a unit or magnitude is stated on only one side"
       },
       {
         "a": {
-          "subject": "Company",
+          "subject": "Delhivery Limited",
           "measure": "Other Income",
           "value": "4,753.49",
           "period": "March 31, 2024",
@@ -3349,19 +3350,19 @@
           "column_label": null
         },
         "b": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "\u20b9 131 cr",
           "period": "Q3 FY2024",
           "scope": null,
           "column_label": null
         },
-        "verdict": "NOT_COMPARABLE",
-        "explanation": "entity unresolved on one side: 'Company' / ''"
+        "verdict": "UNCERTAIN",
+        "explanation": "a unit or magnitude is stated on only one side"
       },
       {
         "a": {
-          "subject": "Company",
+          "subject": "Delhivery Limited",
           "measure": "Other Income",
           "value": "4,753.49",
           "period": "March 31, 2024",
@@ -3369,19 +3370,19 @@
           "column_label": null
         },
         "b": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "\u20b9 119 cr",
           "period": "Q4 FY2024",
           "scope": null,
           "column_label": null
         },
-        "verdict": "NOT_COMPARABLE",
-        "explanation": "entity unresolved on one side: 'Company' / ''"
+        "verdict": "UNCERTAIN",
+        "explanation": "a unit or magnitude is stated on only one side"
       },
       {
         "a": {
-          "subject": "Company",
+          "subject": "Delhivery Limited",
           "measure": "Other Income",
           "value": "4,753.49",
           "period": "March 31, 2024",
@@ -3389,7 +3390,7 @@
           "column_label": null
         },
         "b": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "(8.8%)",
           "period": null,
@@ -3397,11 +3398,11 @@
           "column_label": "QoQ%"
         },
         "verdict": "NOT_COMPARABLE",
-        "explanation": "entity unresolved on one side: 'Company' / ''"
+        "explanation": "one value is a percentage, the other absolute"
       },
       {
         "a": {
-          "subject": "Company",
+          "subject": "Delhivery Limited",
           "measure": "Other Income",
           "value": "4,753.49",
           "period": "March 31, 2024",
@@ -3409,7 +3410,7 @@
           "column_label": null
         },
         "b": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "60.0%",
           "period": null,
@@ -3417,11 +3418,11 @@
           "column_label": "YoY%"
         },
         "verdict": "NOT_COMPARABLE",
-        "explanation": "entity unresolved on one side: 'Company' / ''"
+        "explanation": "one value is a percentage, the other absolute"
       },
       {
         "a": {
-          "subject": "Company",
+          "subject": "Delhivery Limited",
           "measure": "Other Income",
           "value": "4,753.49",
           "period": "March 31, 2024",
@@ -3429,19 +3430,19 @@
           "column_label": null
         },
         "b": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "\u20b9 305 cr",
           "period": "FY2023",
           "scope": null,
           "column_label": null
         },
-        "verdict": "NOT_COMPARABLE",
-        "explanation": "entity unresolved on one side: 'Company' / ''"
+        "verdict": "UNCERTAIN",
+        "explanation": "a unit or magnitude is stated on only one side"
       },
       {
         "a": {
-          "subject": "Company",
+          "subject": "Delhivery Limited",
           "measure": "Other Income",
           "value": "4,753.49",
           "period": "March 31, 2024",
@@ -3449,19 +3450,19 @@
           "column_label": null
         },
         "b": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "\u20b9 453 cr",
           "period": "FY2024",
           "scope": null,
           "column_label": null
         },
-        "verdict": "NOT_COMPARABLE",
-        "explanation": "entity unresolved on one side: 'Company' / ''"
+        "verdict": "UNCERTAIN",
+        "explanation": "a unit or magnitude is stated on only one side"
       },
       {
         "a": {
-          "subject": "Company",
+          "subject": "Delhivery Limited",
           "measure": "Other Income",
           "value": "4,753.49",
           "period": "March 31, 2024",
@@ -3469,7 +3470,7 @@
           "column_label": null
         },
         "b": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "48.4%",
           "period": null,
@@ -3477,11 +3478,11 @@
           "column_label": "YoY%"
         },
         "verdict": "NOT_COMPARABLE",
-        "explanation": "entity unresolved on one side: 'Company' / ''"
+        "explanation": "one value is a percentage, the other absolute"
       },
       {
         "a": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "\u20b9 75 cr",
           "period": "Q4 FY2023",
@@ -3489,19 +3490,19 @@
           "column_label": null
         },
         "b": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "\u20b9 131 cr",
           "period": "Q3 FY2024",
           "scope": null,
           "column_label": null
         },
-        "verdict": "NOT_COMPARABLE",
-        "explanation": "entity unresolved on one side: '' / ''"
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 75 cr vs \u20b9 131 cr differ across period, and the difference does not account for the gap"
       },
       {
         "a": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "\u20b9 75 cr",
           "period": "Q4 FY2023",
@@ -3509,19 +3510,19 @@
           "column_label": null
         },
         "b": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "\u20b9 119 cr",
           "period": "Q4 FY2024",
           "scope": null,
           "column_label": null
         },
-        "verdict": "NOT_COMPARABLE",
-        "explanation": "entity unresolved on one side: '' / ''"
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 75 cr vs \u20b9 119 cr differ across period, and the difference does not account for the gap"
       },
       {
         "a": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "\u20b9 75 cr",
           "period": "Q4 FY2023",
@@ -3529,7 +3530,7 @@
           "column_label": null
         },
         "b": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "(8.8%)",
           "period": null,
@@ -3537,11 +3538,11 @@
           "column_label": "QoQ%"
         },
         "verdict": "NOT_COMPARABLE",
-        "explanation": "entity unresolved on one side: '' / ''"
+        "explanation": "one value is a percentage, the other absolute"
       },
       {
         "a": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "\u20b9 75 cr",
           "period": "Q4 FY2023",
@@ -3549,7 +3550,7 @@
           "column_label": null
         },
         "b": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "60.0%",
           "period": null,
@@ -3557,11 +3558,11 @@
           "column_label": "YoY%"
         },
         "verdict": "NOT_COMPARABLE",
-        "explanation": "entity unresolved on one side: '' / ''"
+        "explanation": "one value is a percentage, the other absolute"
       },
       {
         "a": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "\u20b9 75 cr",
           "period": "Q4 FY2023",
@@ -3569,19 +3570,19 @@
           "column_label": null
         },
         "b": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "\u20b9 305 cr",
           "period": "FY2023",
           "scope": null,
           "column_label": null
         },
-        "verdict": "NOT_COMPARABLE",
-        "explanation": "entity unresolved on one side: '' / ''"
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 75 cr vs \u20b9 305 cr differ across period, and the difference does not account for the gap"
       },
       {
         "a": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "\u20b9 75 cr",
           "period": "Q4 FY2023",
@@ -3589,19 +3590,19 @@
           "column_label": null
         },
         "b": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "\u20b9 453 cr",
           "period": "FY2024",
           "scope": null,
           "column_label": null
         },
-        "verdict": "NOT_COMPARABLE",
-        "explanation": "entity unresolved on one side: '' / ''"
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 75 cr vs \u20b9 453 cr differ across period, and the difference does not account for the gap"
       },
       {
         "a": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "\u20b9 75 cr",
           "period": "Q4 FY2023",
@@ -3609,7 +3610,7 @@
           "column_label": null
         },
         "b": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "48.4%",
           "period": null,
@@ -3617,11 +3618,11 @@
           "column_label": "YoY%"
         },
         "verdict": "NOT_COMPARABLE",
-        "explanation": "entity unresolved on one side: '' / ''"
+        "explanation": "one value is a percentage, the other absolute"
       },
       {
         "a": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "\u20b9 131 cr",
           "period": "Q3 FY2024",
@@ -3629,19 +3630,19 @@
           "column_label": null
         },
         "b": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "\u20b9 119 cr",
           "period": "Q4 FY2024",
           "scope": null,
           "column_label": null
         },
-        "verdict": "NOT_COMPARABLE",
-        "explanation": "entity unresolved on one side: '' / ''"
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 131 cr vs \u20b9 119 cr differ across period, and the difference does not account for the gap"
       },
       {
         "a": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "\u20b9 131 cr",
           "period": "Q3 FY2024",
@@ -3649,7 +3650,7 @@
           "column_label": null
         },
         "b": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "(8.8%)",
           "period": null,
@@ -3657,11 +3658,11 @@
           "column_label": "QoQ%"
         },
         "verdict": "NOT_COMPARABLE",
-        "explanation": "entity unresolved on one side: '' / ''"
+        "explanation": "one value is a percentage, the other absolute"
       },
       {
         "a": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "\u20b9 131 cr",
           "period": "Q3 FY2024",
@@ -3669,7 +3670,7 @@
           "column_label": null
         },
         "b": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "60.0%",
           "period": null,
@@ -3677,11 +3678,11 @@
           "column_label": "YoY%"
         },
         "verdict": "NOT_COMPARABLE",
-        "explanation": "entity unresolved on one side: '' / ''"
+        "explanation": "one value is a percentage, the other absolute"
       },
       {
         "a": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "\u20b9 131 cr",
           "period": "Q3 FY2024",
@@ -3689,19 +3690,19 @@
           "column_label": null
         },
         "b": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "\u20b9 305 cr",
           "period": "FY2023",
           "scope": null,
           "column_label": null
         },
-        "verdict": "NOT_COMPARABLE",
-        "explanation": "entity unresolved on one side: '' / ''"
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 131 cr vs \u20b9 305 cr differ across period, and the difference does not account for the gap"
       },
       {
         "a": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "\u20b9 131 cr",
           "period": "Q3 FY2024",
@@ -3709,19 +3710,19 @@
           "column_label": null
         },
         "b": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "\u20b9 453 cr",
           "period": "FY2024",
           "scope": null,
           "column_label": null
         },
-        "verdict": "NOT_COMPARABLE",
-        "explanation": "entity unresolved on one side: '' / ''"
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 131 cr vs \u20b9 453 cr differ across period, and the difference does not account for the gap"
       },
       {
         "a": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "\u20b9 131 cr",
           "period": "Q3 FY2024",
@@ -3729,7 +3730,7 @@
           "column_label": null
         },
         "b": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "48.4%",
           "period": null,
@@ -3737,11 +3738,11 @@
           "column_label": "YoY%"
         },
         "verdict": "NOT_COMPARABLE",
-        "explanation": "entity unresolved on one side: '' / ''"
+        "explanation": "one value is a percentage, the other absolute"
       },
       {
         "a": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "\u20b9 119 cr",
           "period": "Q4 FY2024",
@@ -3749,7 +3750,7 @@
           "column_label": null
         },
         "b": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "(8.8%)",
           "period": null,
@@ -3757,11 +3758,11 @@
           "column_label": "QoQ%"
         },
         "verdict": "NOT_COMPARABLE",
-        "explanation": "entity unresolved on one side: '' / ''"
+        "explanation": "one value is a percentage, the other absolute"
       },
       {
         "a": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "\u20b9 119 cr",
           "period": "Q4 FY2024",
@@ -3769,7 +3770,7 @@
           "column_label": null
         },
         "b": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "60.0%",
           "period": null,
@@ -3777,11 +3778,11 @@
           "column_label": "YoY%"
         },
         "verdict": "NOT_COMPARABLE",
-        "explanation": "entity unresolved on one side: '' / ''"
+        "explanation": "one value is a percentage, the other absolute"
       },
       {
         "a": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "\u20b9 119 cr",
           "period": "Q4 FY2024",
@@ -3789,19 +3790,19 @@
           "column_label": null
         },
         "b": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "\u20b9 305 cr",
           "period": "FY2023",
           "scope": null,
           "column_label": null
         },
-        "verdict": "NOT_COMPARABLE",
-        "explanation": "entity unresolved on one side: '' / ''"
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 119 cr vs \u20b9 305 cr differ across period, and the difference does not account for the gap"
       },
       {
         "a": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "\u20b9 119 cr",
           "period": "Q4 FY2024",
@@ -3809,15 +3810,4155 @@
           "column_label": null
         },
         "b": {
-          "subject": "",
+          "subject": "Delhivery Limited",
           "measure": "Other income",
           "value": "\u20b9 453 cr",
           "period": "FY2024",
           "scope": null,
           "column_label": null
         },
-        "verdict": "NOT_COMPARABLE",
-        "explanation": "entity unresolved on one side: '' / ''"
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 119 cr vs \u20b9 453 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Other income",
+          "value": "(8.8%)",
+          "period": null,
+          "scope": null,
+          "column_label": "QoQ%"
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Other income",
+          "value": "60.0%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "missing reporting period or as-of date on at least one claim"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Other income",
+          "value": "(8.8%)",
+          "period": null,
+          "scope": null,
+          "column_label": "QoQ%"
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Other income",
+          "value": "48.4%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "missing reporting period or as-of date on at least one claim"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Other income",
+          "value": "60.0%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Other income",
+          "value": "48.4%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "missing reporting period or as-of date on at least one claim"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Other income",
+          "value": "\u20b9 305 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Other income",
+          "value": "\u20b9 453 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 305 cr vs \u20b9 453 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total Income",
+          "value": "79,294.31",
+          "period": "March 31, 2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total income",
+          "value": "\u20b9 1,934 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "a unit or magnitude is stated on only one side"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total Income",
+          "value": "79,294.31",
+          "period": "March 31, 2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total income",
+          "value": "\u20b9 2,325 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "a unit or magnitude is stated on only one side"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total Income",
+          "value": "79,294.31",
+          "period": "March 31, 2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total income",
+          "value": "\u20b9 2,195 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "a unit or magnitude is stated on only one side"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total Income",
+          "value": "79,294.31",
+          "period": "March 31, 2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total income",
+          "value": "\u20b9 7,530 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "a unit or magnitude is stated on only one side"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total Income",
+          "value": "79,294.31",
+          "period": "March 31, 2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total income",
+          "value": "\u20b9 8,594 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "a unit or magnitude is stated on only one side"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total income",
+          "value": "\u20b9 1,934 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total income",
+          "value": "\u20b9 2,325 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 1,934 cr vs \u20b9 2,325 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total income",
+          "value": "\u20b9 1,934 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total income",
+          "value": "\u20b9 2,195 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 1,934 cr vs \u20b9 2,195 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total income",
+          "value": "\u20b9 1,934 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total income",
+          "value": "\u20b9 7,530 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 1,934 cr vs \u20b9 7,530 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total income",
+          "value": "\u20b9 1,934 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total income",
+          "value": "\u20b9 8,594 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 1,934 cr vs \u20b9 8,594 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total income",
+          "value": "\u20b9 2,325 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total income",
+          "value": "\u20b9 2,195 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 2,325 cr vs \u20b9 2,195 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total income",
+          "value": "\u20b9 2,325 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total income",
+          "value": "\u20b9 7,530 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 2,325 cr vs \u20b9 7,530 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total income",
+          "value": "\u20b9 2,325 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total income",
+          "value": "\u20b9 8,594 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 2,325 cr vs \u20b9 8,594 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total income",
+          "value": "\u20b9 2,195 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total income",
+          "value": "\u20b9 7,530 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 2,195 cr vs \u20b9 7,530 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total income",
+          "value": "\u20b9 2,195 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total income",
+          "value": "\u20b9 8,594 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 2,195 cr vs \u20b9 8,594 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total income",
+          "value": "(5.6%)",
+          "period": null,
+          "scope": null,
+          "column_label": "QoQ%"
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total income",
+          "value": "13.5%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "missing reporting period or as-of date on at least one claim"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total income",
+          "value": "(5.6%)",
+          "period": null,
+          "scope": null,
+          "column_label": "QoQ%"
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total income",
+          "value": "14.1%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "missing reporting period or as-of date on at least one claim"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total income",
+          "value": "13.5%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total income",
+          "value": "14.1%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "missing reporting period or as-of date on at least one claim"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total income",
+          "value": "\u20b9 7,530 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total income",
+          "value": "\u20b9 8,594 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 7,530 cr vs \u20b9 8,594 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total expenses",
+          "value": "80,235.00",
+          "period": "March 31, 2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total expenses",
+          "value": "\u20b9 2,108 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "a unit or magnitude is stated on only one side"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total expenses",
+          "value": "80,235.00",
+          "period": "March 31, 2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total expenses",
+          "value": "\u20b9 2,290 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "a unit or magnitude is stated on only one side"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total expenses",
+          "value": "80,235.00",
+          "period": "March 31, 2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total expenses",
+          "value": "\u20b9 2,257 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "a unit or magnitude is stated on only one side"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total expenses",
+          "value": "80,235.00",
+          "period": "March 31, 2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total expenses",
+          "value": "\u20b9 8,597 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "a unit or magnitude is stated on only one side"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total expenses",
+          "value": "80,235.00",
+          "period": "March 31, 2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total expenses",
+          "value": "\u20b9 8,825 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "a unit or magnitude is stated on only one side"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total expenses",
+          "value": "\u20b9 2,108 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total expenses",
+          "value": "\u20b9 2,290 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 2,108 cr vs \u20b9 2,290 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total expenses",
+          "value": "\u20b9 2,108 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total expenses",
+          "value": "\u20b9 2,257 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 2,108 cr vs \u20b9 2,257 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total expenses",
+          "value": "\u20b9 2,108 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total expenses",
+          "value": "\u20b9 8,597 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 2,108 cr vs \u20b9 8,597 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total expenses",
+          "value": "\u20b9 2,108 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total expenses",
+          "value": "\u20b9 8,825 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 2,108 cr vs \u20b9 8,825 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total expenses",
+          "value": "\u20b9 2,290 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total expenses",
+          "value": "\u20b9 2,257 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 2,290 cr vs \u20b9 2,257 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total expenses",
+          "value": "\u20b9 2,290 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total expenses",
+          "value": "\u20b9 8,597 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 2,290 cr vs \u20b9 8,597 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total expenses",
+          "value": "\u20b9 2,290 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total expenses",
+          "value": "\u20b9 8,825 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 2,290 cr vs \u20b9 8,825 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total expenses",
+          "value": "\u20b9 2,257 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total expenses",
+          "value": "\u20b9 8,597 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 2,257 cr vs \u20b9 8,597 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total expenses",
+          "value": "\u20b9 2,257 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total expenses",
+          "value": "\u20b9 8,825 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 2,257 cr vs \u20b9 8,825 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total expenses",
+          "value": "(1.4%)",
+          "period": null,
+          "scope": null,
+          "column_label": "QoQ%"
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total expenses",
+          "value": "7.1%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "missing reporting period or as-of date on at least one claim"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total expenses",
+          "value": "(1.4%)",
+          "period": null,
+          "scope": null,
+          "column_label": "QoQ%"
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total expenses",
+          "value": "2.7%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "missing reporting period or as-of date on at least one claim"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total expenses",
+          "value": "7.1%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total expenses",
+          "value": "2.7%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "missing reporting period or as-of date on at least one claim"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total expenses",
+          "value": "\u20b9 8,597 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total expenses",
+          "value": "\u20b9 8,825 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 8,597 cr vs \u20b9 8,825 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue for services (A)",
+          "value": "\u20b9 1,860 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue for services (A)",
+          "value": "\u20b9 2,194 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 1,860 cr vs \u20b9 2,194 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue for services (A)",
+          "value": "\u20b9 1,860 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue for services (A)",
+          "value": "\u20b9 2,076 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 1,860 cr vs \u20b9 2,076 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue for services (A)",
+          "value": "\u20b9 1,860 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue for services (A)",
+          "value": "\u20b9 7,224 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 1,860 cr vs \u20b9 7,224 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue for services (A)",
+          "value": "\u20b9 1,860 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue for services (A)",
+          "value": "\u20b9 8,142 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 1,860 cr vs \u20b9 8,142 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue for services (A)",
+          "value": "\u20b9 2,194 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue for services (A)",
+          "value": "\u20b9 2,076 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 2,194 cr vs \u20b9 2,076 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue for services (A)",
+          "value": "\u20b9 2,194 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue for services (A)",
+          "value": "\u20b9 7,224 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 2,194 cr vs \u20b9 7,224 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue for services (A)",
+          "value": "\u20b9 2,194 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue for services (A)",
+          "value": "\u20b9 8,142 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 2,194 cr vs \u20b9 8,142 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue for services (A)",
+          "value": "\u20b9 2,076 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue for services (A)",
+          "value": "\u20b9 7,224 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 2,076 cr vs \u20b9 7,224 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue for services (A)",
+          "value": "\u20b9 2,076 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue for services (A)",
+          "value": "\u20b9 8,142 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 2,076 cr vs \u20b9 8,142 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue for services (A)",
+          "value": "(5.4%)",
+          "period": null,
+          "scope": null,
+          "column_label": "QoQ%"
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue for services (A)",
+          "value": "11.6%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "missing reporting period or as-of date on at least one claim"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue for services (A)",
+          "value": "(5.4%)",
+          "period": null,
+          "scope": null,
+          "column_label": "QoQ%"
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue for services (A)",
+          "value": "12.7%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "missing reporting period or as-of date on at least one claim"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue for services (A)",
+          "value": "11.6%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue for services (A)",
+          "value": "12.7%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "missing reporting period or as-of date on at least one claim"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue for services (A)",
+          "value": "\u20b9 7,224 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue for services (A)",
+          "value": "\u20b9 8,142 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 7,224 cr vs \u20b9 8,142 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue from traded goods (B)",
+          "value": "\u20b9 0 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue from traded goods (B)",
+          "value": "\u20b9 2 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 0 cr vs \u20b9 2 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue from customers (A+B)",
+          "value": "\u20b9 1,860 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue from customers (A+B)",
+          "value": "\u20b9 2,194 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 1,860 cr vs \u20b9 2,194 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue from customers (A+B)",
+          "value": "\u20b9 1,860 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue from customers (A+B)",
+          "value": "\u20b9 2,076 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 1,860 cr vs \u20b9 2,076 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue from customers (A+B)",
+          "value": "\u20b9 1,860 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue from customers (A+B)",
+          "value": "\u20b9 7,225 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 1,860 cr vs \u20b9 7,225 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue from customers (A+B)",
+          "value": "\u20b9 1,860 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue from customers (A+B)",
+          "value": "\u20b9 8,142 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 1,860 cr vs \u20b9 8,142 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue from customers (A+B)",
+          "value": "\u20b9 2,194 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue from customers (A+B)",
+          "value": "\u20b9 2,076 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 2,194 cr vs \u20b9 2,076 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue from customers (A+B)",
+          "value": "\u20b9 2,194 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue from customers (A+B)",
+          "value": "\u20b9 7,225 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 2,194 cr vs \u20b9 7,225 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue from customers (A+B)",
+          "value": "\u20b9 2,194 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue from customers (A+B)",
+          "value": "\u20b9 8,142 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 2,194 cr vs \u20b9 8,142 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue from customers (A+B)",
+          "value": "\u20b9 2,076 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue from customers (A+B)",
+          "value": "\u20b9 7,225 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 2,076 cr vs \u20b9 7,225 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue from customers (A+B)",
+          "value": "\u20b9 2,076 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue from customers (A+B)",
+          "value": "\u20b9 8,142 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 2,076 cr vs \u20b9 8,142 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue from customers (A+B)",
+          "value": "(5.4%)",
+          "period": null,
+          "scope": null,
+          "column_label": "QoQ%"
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue from customers (A+B)",
+          "value": "11.6%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "missing reporting period or as-of date on at least one claim"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue from customers (A+B)",
+          "value": "(5.4%)",
+          "period": null,
+          "scope": null,
+          "column_label": "QoQ%"
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue from customers (A+B)",
+          "value": "12.7%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "missing reporting period or as-of date on at least one claim"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue from customers (A+B)",
+          "value": "11.6%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue from customers (A+B)",
+          "value": "12.7%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "missing reporting period or as-of date on at least one claim"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue from customers (A+B)",
+          "value": "\u20b9 7,225 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Revenue from customers (A+B)",
+          "value": "\u20b9 8,142 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 7,225 cr vs \u20b9 8,142 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total freight, handling and servicing cost",
+          "value": "\u20b9 1,372 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total freight, handling and servicing cost",
+          "value": "\u20b9 1,572 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 1,372 cr vs \u20b9 1,572 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total freight, handling and servicing cost",
+          "value": "\u20b9 1,372 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total freight, handling and servicing cost",
+          "value": "\u20b9 1,519 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 1,372 cr vs \u20b9 1,519 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total freight, handling and servicing cost",
+          "value": "\u20b9 1,372 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total freight, handling and servicing cost",
+          "value": "\u20b9 5,669 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 1,372 cr vs \u20b9 5,669 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total freight, handling and servicing cost",
+          "value": "\u20b9 1,372 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total freight, handling and servicing cost",
+          "value": "\u20b9 5,971 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 1,372 cr vs \u20b9 5,971 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total freight, handling and servicing cost",
+          "value": "\u20b9 1,572 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total freight, handling and servicing cost",
+          "value": "\u20b9 1,519 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 1,572 cr vs \u20b9 1,519 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total freight, handling and servicing cost",
+          "value": "\u20b9 1,572 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total freight, handling and servicing cost",
+          "value": "\u20b9 5,669 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 1,572 cr vs \u20b9 5,669 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total freight, handling and servicing cost",
+          "value": "\u20b9 1,572 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total freight, handling and servicing cost",
+          "value": "\u20b9 5,971 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 1,572 cr vs \u20b9 5,971 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total freight, handling and servicing cost",
+          "value": "\u20b9 1,519 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total freight, handling and servicing cost",
+          "value": "\u20b9 5,669 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 1,519 cr vs \u20b9 5,669 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total freight, handling and servicing cost",
+          "value": "\u20b9 1,519 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total freight, handling and servicing cost",
+          "value": "\u20b9 5,971 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 1,519 cr vs \u20b9 5,971 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total freight, handling and servicing cost",
+          "value": "(3.4%)",
+          "period": null,
+          "scope": null,
+          "column_label": "QoQ%"
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total freight, handling and servicing cost",
+          "value": "10.7%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "missing reporting period or as-of date on at least one claim"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total freight, handling and servicing cost",
+          "value": "(3.4%)",
+          "period": null,
+          "scope": null,
+          "column_label": "QoQ%"
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total freight, handling and servicing cost",
+          "value": "5.3%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "missing reporting period or as-of date on at least one claim"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total freight, handling and servicing cost",
+          "value": "10.7%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total freight, handling and servicing cost",
+          "value": "5.3%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "missing reporting period or as-of date on at least one claim"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Total freight, handling and servicing cost",
+          "value": "\u20b9 5,669 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Total freight, handling and servicing cost",
+          "value": "\u20b9 5,971 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 5,669 cr vs \u20b9 5,971 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense excl. share based payments",
+          "value": "\u20b9 284 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense excl. share based payments",
+          "value": "\u20b9 306 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 284 cr vs \u20b9 306 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense excl. share based payments",
+          "value": "\u20b9 284 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense excl. share based payments",
+          "value": "\u20b9 308 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 284 cr vs \u20b9 308 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense excl. share based payments",
+          "value": "\u20b9 284 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense excl. share based payments",
+          "value": "\u20b9 1,111 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 284 cr vs \u20b9 1,111 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense excl. share based payments",
+          "value": "\u20b9 284 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense excl. share based payments",
+          "value": "\u20b9 1,211 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 284 cr vs \u20b9 1,211 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense excl. share based payments",
+          "value": "\u20b9 306 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense excl. share based payments",
+          "value": "\u20b9 308 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 306 cr vs \u20b9 308 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense excl. share based payments",
+          "value": "\u20b9 306 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense excl. share based payments",
+          "value": "\u20b9 1,111 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 306 cr vs \u20b9 1,111 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense excl. share based payments",
+          "value": "\u20b9 306 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense excl. share based payments",
+          "value": "\u20b9 1,211 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 306 cr vs \u20b9 1,211 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense excl. share based payments",
+          "value": "\u20b9 308 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense excl. share based payments",
+          "value": "\u20b9 1,111 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 308 cr vs \u20b9 1,111 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense excl. share based payments",
+          "value": "\u20b9 308 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense excl. share based payments",
+          "value": "\u20b9 1,211 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 308 cr vs \u20b9 1,211 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense excl. share based payments",
+          "value": "0.8%",
+          "period": null,
+          "scope": null,
+          "column_label": "QoQ%"
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense excl. share based payments",
+          "value": "8.4%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "missing reporting period or as-of date on at least one claim"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense excl. share based payments",
+          "value": "0.8%",
+          "period": null,
+          "scope": null,
+          "column_label": "QoQ%"
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense excl. share based payments",
+          "value": "9.0%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "missing reporting period or as-of date on at least one claim"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense excl. share based payments",
+          "value": "8.4%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense excl. share based payments",
+          "value": "9.0%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "missing reporting period or as-of date on at least one claim"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense excl. share based payments",
+          "value": "\u20b9 1,111 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense excl. share based payments",
+          "value": "\u20b9 1,211 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 1,111 cr vs \u20b9 1,211 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense: share based payments",
+          "value": "\u20b9 73 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense: share based payments",
+          "value": "\u20b9 54 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 73 cr vs \u20b9 54 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense: share based payments",
+          "value": "\u20b9 73 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense: share based payments",
+          "value": "\u20b9 49 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 73 cr vs \u20b9 49 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense: share based payments",
+          "value": "\u20b9 73 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense: share based payments",
+          "value": "\u20b9 289 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 73 cr vs \u20b9 289 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense: share based payments",
+          "value": "\u20b9 73 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense: share based payments",
+          "value": "\u20b9 226 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 73 cr vs \u20b9 226 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense: share based payments",
+          "value": "\u20b9 54 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense: share based payments",
+          "value": "\u20b9 49 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 54 cr vs \u20b9 49 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense: share based payments",
+          "value": "\u20b9 54 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense: share based payments",
+          "value": "\u20b9 289 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 54 cr vs \u20b9 289 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense: share based payments",
+          "value": "\u20b9 54 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense: share based payments",
+          "value": "\u20b9 226 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 54 cr vs \u20b9 226 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense: share based payments",
+          "value": "\u20b9 49 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense: share based payments",
+          "value": "\u20b9 289 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 49 cr vs \u20b9 289 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense: share based payments",
+          "value": "\u20b9 49 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense: share based payments",
+          "value": "\u20b9 226 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 49 cr vs \u20b9 226 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense: share based payments",
+          "value": "(8.9%)",
+          "period": null,
+          "scope": null,
+          "column_label": "QoQ%"
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense: share based payments",
+          "value": "(32.8%)",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "missing reporting period or as-of date on at least one claim"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense: share based payments",
+          "value": "(8.9%)",
+          "period": null,
+          "scope": null,
+          "column_label": "QoQ%"
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense: share based payments",
+          "value": "(21.8%)",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "missing reporting period or as-of date on at least one claim"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense: share based payments",
+          "value": "(32.8%)",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense: share based payments",
+          "value": "(21.8%)",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "missing reporting period or as-of date on at least one claim"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense: share based payments",
+          "value": "\u20b9 289 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Employee benefit expense: share based payments",
+          "value": "\u20b9 226 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 289 cr vs \u20b9 226 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Other operating expense",
+          "value": "\u20b9 117 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Other operating expense",
+          "value": "\u20b9 154 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 117 cr vs \u20b9 154 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Other operating expense",
+          "value": "\u20b9 117 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Other operating expense",
+          "value": "\u20b9 154 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 117 cr vs \u20b9 154 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Other operating expense",
+          "value": "\u20b9 117 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Other operating expense",
+          "value": "\u20b9 606 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 117 cr vs \u20b9 606 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Other operating expense",
+          "value": "\u20b9 117 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Other operating expense",
+          "value": "\u20b9 607 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 117 cr vs \u20b9 607 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Other operating expense",
+          "value": "\u20b9 154 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Other operating expense",
+          "value": "\u20b9 606 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 154 cr vs \u20b9 606 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Other operating expense",
+          "value": "\u20b9 154 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Other operating expense",
+          "value": "\u20b9 607 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 154 cr vs \u20b9 607 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Other operating expense",
+          "value": "\u20b9 154 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Other operating expense",
+          "value": "\u20b9 606 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 154 cr vs \u20b9 606 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Other operating expense",
+          "value": "\u20b9 154 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Other operating expense",
+          "value": "\u20b9 607 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 154 cr vs \u20b9 607 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Other operating expense",
+          "value": "0.0%",
+          "period": null,
+          "scope": null,
+          "column_label": "QoQ%"
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Other operating expense",
+          "value": "31.0%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "missing reporting period or as-of date on at least one claim"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Other operating expense",
+          "value": "0.0%",
+          "period": null,
+          "scope": null,
+          "column_label": "QoQ%"
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Other operating expense",
+          "value": "0.3%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "missing reporting period or as-of date on at least one claim"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Other operating expense",
+          "value": "31.0%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Other operating expense",
+          "value": "0.3%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "missing reporting period or as-of date on at least one claim"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Other operating expense",
+          "value": "\u20b9 606 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Other operating expense",
+          "value": "\u20b9 607 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 606 cr vs \u20b9 607 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Finance costs",
+          "value": "\u20b9 19 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Finance costs",
+          "value": "\u20b9 22 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 19 cr vs \u20b9 22 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Finance costs",
+          "value": "\u20b9 19 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Finance costs",
+          "value": "\u20b9 27 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 19 cr vs \u20b9 27 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Finance costs",
+          "value": "\u20b9 19 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Finance costs",
+          "value": "\u20b9 89 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 19 cr vs \u20b9 89 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Finance costs",
+          "value": "\u20b9 19 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Finance costs",
+          "value": "\u20b9 89 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 19 cr vs \u20b9 89 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Finance costs",
+          "value": "\u20b9 22 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Finance costs",
+          "value": "\u20b9 27 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 22 cr vs \u20b9 27 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Finance costs",
+          "value": "\u20b9 22 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Finance costs",
+          "value": "\u20b9 89 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 22 cr vs \u20b9 89 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Finance costs",
+          "value": "\u20b9 22 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Finance costs",
+          "value": "\u20b9 89 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 22 cr vs \u20b9 89 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Finance costs",
+          "value": "\u20b9 27 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Finance costs",
+          "value": "\u20b9 89 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 27 cr vs \u20b9 89 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Finance costs",
+          "value": "\u20b9 27 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Finance costs",
+          "value": "\u20b9 89 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 27 cr vs \u20b9 89 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Finance costs",
+          "value": "22.3%",
+          "period": null,
+          "scope": null,
+          "column_label": "QoQ%"
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Finance costs",
+          "value": "43.4%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "missing reporting period or as-of date on at least one claim"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Finance costs",
+          "value": "22.3%",
+          "period": null,
+          "scope": null,
+          "column_label": "QoQ%"
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Finance costs",
+          "value": "(0.3%)",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "missing reporting period or as-of date on at least one claim"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Finance costs",
+          "value": "43.4%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Finance costs",
+          "value": "(0.3%)",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "missing reporting period or as-of date on at least one claim"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Depreciation and amortisation expense",
+          "value": "\u20b9 242 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Depreciation and amortisation expense",
+          "value": "\u20b9 183 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 242 cr vs \u20b9 183 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Depreciation and amortisation expense",
+          "value": "\u20b9 242 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Depreciation and amortisation expense",
+          "value": "\u20b9 200 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 242 cr vs \u20b9 200 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Depreciation and amortisation expense",
+          "value": "\u20b9 242 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Depreciation and amortisation expense",
+          "value": "\u20b9 831 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 242 cr vs \u20b9 831 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Depreciation and amortisation expense",
+          "value": "\u20b9 242 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Depreciation and amortisation expense",
+          "value": "\u20b9 722 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 242 cr vs \u20b9 722 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Depreciation and amortisation expense",
+          "value": "\u20b9 183 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Depreciation and amortisation expense",
+          "value": "\u20b9 200 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 183 cr vs \u20b9 200 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Depreciation and amortisation expense",
+          "value": "\u20b9 183 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Depreciation and amortisation expense",
+          "value": "\u20b9 831 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 183 cr vs \u20b9 831 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Depreciation and amortisation expense",
+          "value": "\u20b9 183 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Depreciation and amortisation expense",
+          "value": "\u20b9 722 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 183 cr vs \u20b9 722 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Depreciation and amortisation expense",
+          "value": "\u20b9 200 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Depreciation and amortisation expense",
+          "value": "\u20b9 831 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 200 cr vs \u20b9 831 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Depreciation and amortisation expense",
+          "value": "\u20b9 200 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Depreciation and amortisation expense",
+          "value": "\u20b9 722 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 200 cr vs \u20b9 722 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Depreciation and amortisation expense",
+          "value": "9.7%",
+          "period": null,
+          "scope": null,
+          "column_label": "QoQ%"
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Depreciation and amortisation expense",
+          "value": "(17.3%)",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "missing reporting period or as-of date on at least one claim"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Depreciation and amortisation expense",
+          "value": "9.7%",
+          "period": null,
+          "scope": null,
+          "column_label": "QoQ%"
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Depreciation and amortisation expense",
+          "value": "(13.2%)",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "missing reporting period or as-of date on at least one claim"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Depreciation and amortisation expense",
+          "value": "(17.3%)",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Depreciation and amortisation expense",
+          "value": "(13.2%)",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "missing reporting period or as-of date on at least one claim"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Depreciation and amortisation expense",
+          "value": "\u20b9 831 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Depreciation and amortisation expense",
+          "value": "\u20b9 722 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 831 cr vs \u20b9 722 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Share of profit / (loss) of associates (net)",
+          "value": "\u20b9 1 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Share of profit / (loss) of associates (net)",
+          "value": "\u20b9 (4) cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 1 cr vs \u20b9 (4) cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Share of profit / (loss) of associates (net)",
+          "value": "\u20b9 1 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Share of profit / (loss) of associates (net)",
+          "value": "\u20b9 6 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 1 cr vs \u20b9 6 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Share of profit / (loss) of associates (net)",
+          "value": "\u20b9 1 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Share of profit / (loss) of associates (net)",
+          "value": "\u20b9 14 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 1 cr vs \u20b9 14 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Share of profit / (loss) of associates (net)",
+          "value": "\u20b9 1 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Share of profit / (loss) of associates (net)",
+          "value": "\u20b9 9 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 1 cr vs \u20b9 9 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Share of profit / (loss) of associates (net)",
+          "value": "\u20b9 (4) cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Share of profit / (loss) of associates (net)",
+          "value": "\u20b9 6 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 (4) cr vs \u20b9 6 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Share of profit / (loss) of associates (net)",
+          "value": "\u20b9 (4) cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Share of profit / (loss) of associates (net)",
+          "value": "\u20b9 14 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 (4) cr vs \u20b9 14 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Share of profit / (loss) of associates (net)",
+          "value": "\u20b9 (4) cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Share of profit / (loss) of associates (net)",
+          "value": "\u20b9 9 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 (4) cr vs \u20b9 9 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Share of profit / (loss) of associates (net)",
+          "value": "\u20b9 6 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Share of profit / (loss) of associates (net)",
+          "value": "\u20b9 14 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 6 cr vs \u20b9 14 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Share of profit / (loss) of associates (net)",
+          "value": "\u20b9 6 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Share of profit / (loss) of associates (net)",
+          "value": "\u20b9 9 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 6 cr vs \u20b9 9 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Share of profit / (loss) of associates (net)",
+          "value": "\u20b9 14 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Share of profit / (loss) of associates (net)",
+          "value": "\u20b9 9 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 14 cr vs \u20b9 9 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Profit / (Loss) before exceptional items and tax",
+          "value": "\u20b9 (173) cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Profit / (Loss) before exceptional items and tax",
+          "value": "\u20b9 31 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 (173) cr vs \u20b9 31 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Profit / (Loss) before exceptional items and tax",
+          "value": "\u20b9 (173) cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Profit / (Loss) before exceptional items and tax",
+          "value": "\u20b9 (56) cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 (173) cr vs \u20b9 (56) cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Profit / (Loss) before exceptional items and tax",
+          "value": "\u20b9 (173) cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Profit / (Loss) before exceptional items and tax",
+          "value": "\u20b9 (1,053) cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 (173) cr vs \u20b9 (1,053) cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Profit / (Loss) before exceptional items and tax",
+          "value": "\u20b9 (173) cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Profit / (Loss) before exceptional items and tax",
+          "value": "\u20b9 (222) cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 (173) cr vs \u20b9 (222) cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Profit / (Loss) before exceptional items and tax",
+          "value": "\u20b9 31 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Profit / (Loss) before exceptional items and tax",
+          "value": "\u20b9 (56) cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 31 cr vs \u20b9 (56) cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Profit / (Loss) before exceptional items and tax",
+          "value": "\u20b9 31 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Profit / (Loss) before exceptional items and tax",
+          "value": "\u20b9 (1,053) cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 31 cr vs \u20b9 (1,053) cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Profit / (Loss) before exceptional items and tax",
+          "value": "\u20b9 31 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Profit / (Loss) before exceptional items and tax",
+          "value": "\u20b9 (222) cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 31 cr vs \u20b9 (222) cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Profit / (Loss) before exceptional items and tax",
+          "value": "\u20b9 (56) cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Profit / (Loss) before exceptional items and tax",
+          "value": "\u20b9 (1,053) cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 (56) cr vs \u20b9 (1,053) cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Profit / (Loss) before exceptional items and tax",
+          "value": "\u20b9 (56) cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Profit / (Loss) before exceptional items and tax",
+          "value": "\u20b9 (222) cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 (56) cr vs \u20b9 (222) cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Profit / (Loss) before exceptional items and tax",
+          "value": "\u20b9 (1,053) cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Profit / (Loss) before exceptional items and tax",
+          "value": "\u20b9 (222) cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 (1,053) cr vs \u20b9 (222) cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Exceptional items",
+          "value": "\u20b9 (8) cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Exceptional items",
+          "value": "\u20b9 (15) cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 (8) cr vs \u20b9 (15) cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Exceptional items",
+          "value": "\u20b9 (8) cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Exceptional items",
+          "value": "\u20b9 (22) cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 (8) cr vs \u20b9 (22) cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Exceptional items",
+          "value": "\u20b9 (15) cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Exceptional items",
+          "value": "\u20b9 (22) cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 (15) cr vs \u20b9 (22) cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Tax expense",
+          "value": "\u20b9 (14) cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Tax expense",
+          "value": "\u20b9 12 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 (14) cr vs \u20b9 12 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Tax expense",
+          "value": "\u20b9 (14) cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Tax expense",
+          "value": "\u20b9 (2) cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 (14) cr vs \u20b9 (2) cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Tax expense",
+          "value": "\u20b9 (14) cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Tax expense",
+          "value": "\u20b9 (45) cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 (14) cr vs \u20b9 (45) cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Tax expense",
+          "value": "\u20b9 (14) cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Tax expense",
+          "value": "\u20b9 5 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 (14) cr vs \u20b9 5 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Tax expense",
+          "value": "\u20b9 12 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Tax expense",
+          "value": "\u20b9 (2) cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 12 cr vs \u20b9 (2) cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Tax expense",
+          "value": "\u20b9 12 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Tax expense",
+          "value": "\u20b9 (45) cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 12 cr vs \u20b9 (45) cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Tax expense",
+          "value": "\u20b9 12 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Tax expense",
+          "value": "\u20b9 5 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 12 cr vs \u20b9 5 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Tax expense",
+          "value": "\u20b9 (2) cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Tax expense",
+          "value": "\u20b9 (45) cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 (2) cr vs \u20b9 (45) cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Tax expense",
+          "value": "\u20b9 (2) cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Tax expense",
+          "value": "\u20b9 5 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 (2) cr vs \u20b9 5 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Tax expense",
+          "value": "\u20b9 (45) cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Tax expense",
+          "value": "\u20b9 5 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 (45) cr vs \u20b9 5 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Profit / (Loss) after tax",
+          "value": "\u20b9 (159) cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Profit / (Loss) after tax",
+          "value": "\u20b9 12 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 (159) cr vs \u20b9 12 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Profit / (Loss) after tax",
+          "value": "\u20b9 (159) cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Profit / (Loss) after tax",
+          "value": "\u20b9 (69) cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 (159) cr vs \u20b9 (69) cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Profit / (Loss) after tax",
+          "value": "\u20b9 (159) cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Profit / (Loss) after tax",
+          "value": "\u20b9 (1,008) cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 (159) cr vs \u20b9 (1,008) cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Profit / (Loss) after tax",
+          "value": "\u20b9 (159) cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Profit / (Loss) after tax",
+          "value": "\u20b9 (249) cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 (159) cr vs \u20b9 (249) cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Profit / (Loss) after tax",
+          "value": "\u20b9 12 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Profit / (Loss) after tax",
+          "value": "\u20b9 (69) cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 12 cr vs \u20b9 (69) cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Profit / (Loss) after tax",
+          "value": "\u20b9 12 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Profit / (Loss) after tax",
+          "value": "\u20b9 (1,008) cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 12 cr vs \u20b9 (1,008) cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Profit / (Loss) after tax",
+          "value": "\u20b9 12 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Profit / (Loss) after tax",
+          "value": "\u20b9 (249) cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 12 cr vs \u20b9 (249) cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Profit / (Loss) after tax",
+          "value": "\u20b9 (69) cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Profit / (Loss) after tax",
+          "value": "\u20b9 (1,008) cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 (69) cr vs \u20b9 (1,008) cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Profit / (Loss) after tax",
+          "value": "\u20b9 (69) cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Profit / (Loss) after tax",
+          "value": "\u20b9 (249) cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 (69) cr vs \u20b9 (249) cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "Profit / (Loss) after tax",
+          "value": "\u20b9 (1,008) cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "Profit / (Loss) after tax",
+          "value": "\u20b9 (249) cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 (1,008) cr vs \u20b9 (249) cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA",
+          "value": "\u20b9 13 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA",
+          "value": "\u20b9 109 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 13 cr vs \u20b9 109 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA",
+          "value": "\u20b9 13 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA",
+          "value": "\u20b9 46 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 13 cr vs \u20b9 46 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA",
+          "value": "\u20b9 13 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA",
+          "value": "\u20b9 (452) cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 13 cr vs \u20b9 (452) cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA",
+          "value": "\u20b9 13 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA",
+          "value": "\u20b9 127 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 13 cr vs \u20b9 127 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA",
+          "value": "\u20b9 109 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA",
+          "value": "\u20b9 46 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 109 cr vs \u20b9 46 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA",
+          "value": "\u20b9 109 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA",
+          "value": "\u20b9 (452) cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 109 cr vs \u20b9 (452) cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA",
+          "value": "\u20b9 109 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA",
+          "value": "\u20b9 127 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 109 cr vs \u20b9 127 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA",
+          "value": "\u20b9 46 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA",
+          "value": "\u20b9 (452) cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 46 cr vs \u20b9 (452) cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA",
+          "value": "\u20b9 46 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA",
+          "value": "\u20b9 127 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 46 cr vs \u20b9 127 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA",
+          "value": "(58.0%)",
+          "period": null,
+          "scope": null,
+          "column_label": "QoQ%"
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA",
+          "value": "242.5%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "missing reporting period or as-of date on at least one claim"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA",
+          "value": "\u20b9 (452) cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA",
+          "value": "\u20b9 127 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "\u20b9 (452) cr vs \u20b9 127 cr differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA margin",
+          "value": "0.7%",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA margin",
+          "value": "5.0%",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "0.7% vs 5.0% differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA margin",
+          "value": "0.7%",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA margin",
+          "value": "2.2%",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "0.7% vs 2.2% differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA margin",
+          "value": "0.7%",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA margin",
+          "value": "(6.3%)",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "0.7% vs (6.3%) differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA margin",
+          "value": "0.7%",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA margin",
+          "value": "1.6%",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "0.7% vs 1.6% differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA margin",
+          "value": "5.0%",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA margin",
+          "value": "2.2%",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "5.0% vs 2.2% differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA margin",
+          "value": "5.0%",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA margin",
+          "value": "(6.3%)",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "5.0% vs (6.3%) differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA margin",
+          "value": "5.0%",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA margin",
+          "value": "1.6%",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "5.0% vs 1.6% differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA margin",
+          "value": "2.2%",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA margin",
+          "value": "(6.3%)",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "2.2% vs (6.3%) differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA margin",
+          "value": "2.2%",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA margin",
+          "value": "1.6%",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "2.2% vs 1.6% differ across period, and the difference does not account for the gap"
+      },
+      {
+        "a": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA margin",
+          "value": "(6.3%)",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "Delhivery Limited",
+          "measure": "EBITDA margin",
+          "value": "1.6%",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "UNCERTAIN",
+        "explanation": "(6.3%) vs 1.6% differ across period, and the difference does not account for the gap"
       }
     ]
   }

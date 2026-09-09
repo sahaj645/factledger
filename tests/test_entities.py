@@ -25,3 +25,24 @@ def test_anaphoric_and_bare_mentions_are_unresolved():
         assert e.resolved is False
         assert e.confidence == 0.0
         assert e.id == ""
+
+
+def test_document_entity_is_the_name_used_most_not_the_first_seen():
+    """A filing names the exchange it is submitted to once and its own subject many
+    times. Taking the first legal-form name would attribute every figure to the
+    exchange."""
+    from factledger.entities import document_entity
+    pages = ["Filed with BSE Limited by Acme Foods Limited",
+             "Acme Foods Limited results", "Acme Foods Limited outlook"]
+    assert document_entity(pages) == "Acme Foods Limited"
+    assert document_entity(["nothing named here"]) is None
+
+
+def test_effective_subject_fills_only_bare_or_anaphoric_mentions():
+    from factledger.entities import effective_subject
+    assert effective_subject("Company", "Acme Foods Limited") == "Acme Foods Limited"
+    assert effective_subject("", "Acme Foods Limited") == "Acme Foods Limited"
+    # a subject that names someone else is never overwritten
+    assert effective_subject("Northwind Logistics Private Limited",
+                             "Acme Foods Limited") == "Northwind Logistics Private Limited"
+    assert effective_subject("Spoton", "Acme Foods Limited") == "Spoton"

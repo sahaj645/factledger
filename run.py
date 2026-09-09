@@ -8,15 +8,18 @@
 import glob
 import os
 import sys
+from dataclasses import replace
 from typing import Callable
 
 from factledger import llm
 from factledger.parse import parse_pdf, Page
 from factledger.extract import extract_from_block, Claim, Rejection
 from factledger.tables import build_table_claims, in_table
+from factledger.entities import document_entity, effective_subject
 from factledger import store
 
 DB_PATH = os.environ.get("FACTLEDGER_DB", "factledger.db")
+ENTITY_SCAN_PAGES = 10  # enough to see who a document is about without reading it all
 
 
 def extract_page(page: Page, doc_id: str,
@@ -40,10 +43,13 @@ def ingest_document(conn, path: str, complete: Callable[[str, str], str] = llm.c
         return {"doc_id": doc.doc_id, "claims": 0, "rejected": 0, "skipped": True}
 
     store.store_document(conn, doc.doc_id, path)
+    # The entity this document is about, read from the document itself. Used only to
+    # fill in a subject that its own context left bare or anaphoric.
+    entity = document_entity([p.text for p in doc.pages[:ENTITY_SCAN_PAGES]])
     claims, rejected = [], 0
     for page in doc.pages:
         kept, dropped = extract_page(page, doc.doc_id, complete)
-        claims.extend(kept)
+        claims.extend(replace(c, subject=effective_subject(c.subject, entity)) for c in kept)
         rejected += len(dropped)
     store.store_claims(conn, claims)
     return {"doc_id": doc.doc_id, "claims": len(claims), "rejected": rejected, "skipped": False}

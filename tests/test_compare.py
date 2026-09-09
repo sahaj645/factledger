@@ -101,3 +101,20 @@ def test_state_contradiction_same_time():
     a = claim("role: director", "active", kind="entity_state", as_of="2024-03-31")
     b = claim("role: director", "resigned", kind="entity_state", as_of="2024-03-31")
     assert compare(a, b, reconcile=no).verdict == CONTRADICTED
+
+
+def test_near_identical_measure_names_are_not_the_same_measure():
+    """Two line items that share every word but one, where that word is an exclusion,
+    are opposite quantities. Comparing them by word overlap turned two correct figures
+    into a contradiction on the starter documents."""
+    a = claim("employee benefit expense excl. share based payments", "1,211 crore",
+              period="FY2024", scope="consolidated")
+    b = claim("employee benefit expense: share based payments", "226 crore",
+              period="FY2024", scope="consolidated")
+    assert compare(a, b, reconcile=no).verdict == NOT_COMPARABLE
+
+
+def test_identical_measure_names_still_compare():
+    a = claim("total income", "100 crore", period="FY2024", scope="consolidated")
+    b = claim("Total Income", "100 crore", period="FY2024", scope="consolidated")
+    assert compare(a, b, reconcile=no).verdict == CORROBORATED

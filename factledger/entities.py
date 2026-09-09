@@ -9,6 +9,7 @@ unresolved, which downstream forces NOT_COMPARABLE rather than a false contradic
 
 import json
 import re
+from collections import Counter
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Optional
@@ -69,3 +70,47 @@ def entity_in_text(text: Optional[str]) -> Optional[str]:
 def _is_name_word(token: str) -> bool:
     core = token.strip(_PUNCT)
     return bool(core) and core[0].isupper() and any(c.isalpha() for c in core)
+
+
+def entities_in_text(text: Optional[str]) -> list[str]:
+    """Every entity named in the text, in order of appearance."""
+    if not text:
+        return []
+    found, tokens = [], text.split()
+    for i, token in enumerate(tokens):
+        if token.strip(_PUNCT).lower() not in _MARKERS:
+            continue
+        start = i
+        while start > 0 and _is_name_word(tokens[start - 1]):
+            start -= 1
+        if start == i:
+            continue
+        name = " ".join(tokens[start:i + 1]).strip(_PUNCT)
+        if name:
+            found.append(name)
+    return found
+
+
+def document_entity(texts: list[str]) -> Optional[str]:
+    """The entity a document is about, taken as the one it names most often.
+
+    This is evidence from the document itself, not an assumption about which entity a
+    filing belongs to. Frequency matters rather than first appearance: a filing names
+    the exchange it is submitted to, or its advisers, once, and its own subject many
+    times. It is used only where a claim's own context names nobody, so a table that
+    does name a subsidiary or an acquired company keeps that name instead.
+    """
+    counts = Counter(name for text in texts for name in entities_in_text(text))
+    return counts.most_common(1)[0][0] if counts else None
+
+
+def effective_subject(subject: str, document_entity_name: Optional[str]) -> str:
+    """The subject to store for a claim: its own if it names an entity, otherwise the
+    document's entity when the mention was bare or anaphoric. A subject that names a
+    different entity is never overwritten."""
+    named = entity_in_text(subject)
+    if named:
+        return named
+    if resolve_entity(subject).resolved:
+        return subject
+    return document_entity_name or subject

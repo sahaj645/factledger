@@ -26,8 +26,20 @@ RECONCILED_BY_CONTEXT = "RECONCILED_BY_CONTEXT"
 UNCERTAIN = "UNCERTAIN"
 NOT_COMPARABLE = "NOT_COMPARABLE"
 
-MEASURE_THRESHOLD = 0.6
 _NUMBER = re.compile(r"-?\d[\d,]*(?:\.\d+)?")
+_WORD = re.compile(r"[a-z0-9]+")
+
+
+def _same_measure(a: str, b: str) -> bool:
+    """Two measures are the same quantity only when they are made of the same words.
+
+    Overlap is not enough. "Employee benefit expense excl. share based payments" and
+    "Employee benefit expense: share based payments" share six words out of seven and
+    are opposite line items; treating them as one measure turns two correct figures
+    into a contradiction. Retrieval may still put such claims in the same cluster —
+    that is its job — but a verdict needs the measures to actually match.
+    """
+    return set(_WORD.findall(a.lower())) == set(_WORD.findall(b.lower()))
 
 
 @dataclass(frozen=True)
@@ -47,7 +59,7 @@ def compare(a: Claim, b: Claim, reconcile: Callable[..., str] = None) -> Compari
     if ea.id != eb.id:
         return Comparison(NOT_COMPARABLE,
                           f"different entities: '{a.subject}' vs '{b.subject}'")
-    if lexical_similarity(a.measure, b.measure) < MEASURE_THRESHOLD:
+    if not _same_measure(a.measure, b.measure):
         return Comparison(NOT_COMPARABLE,
                           f"different measures: '{a.measure}' vs '{b.measure}'")
 

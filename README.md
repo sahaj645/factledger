@@ -56,6 +56,95 @@ go near the model. If you want to reproduce my numbers on a bounded set of pages
 
 *(link to be added)*
 
+### The Four Cases
+
+Everything below is output from `python casehunt.py` over claims the pipeline
+extracted from the starter PDFs. Where a case did not come out of the documents I say
+so rather than staging it.
+
+**Case 3 — apparent contradiction explained by context (demonstrated).**
+
+```
+Document A  Q4 FY24 earnings deck, page 17
+            evidence: "7,530" at char span 400-405
+            fact:     Total income = Rs 7,530 cr, period FY2023, Delhivery Limited
+
+Document B  Q4 FY24 earnings deck, page 17
+            evidence: "8,594" at char span 406-411
+            fact:     Total income = Rs 8,594 cr, period FY2024, Delhivery Limited
+
+System      RECONCILED_BY_CONTEXT   reconciling dimension: period
+            "Rs 7,530 cr vs Rs 8,594 cr differ, and the period difference
+             (FY2023 vs FY2024) accounts for it"
+```
+
+The two figures look like a disagreement about total income and are both correct. The
+deterministic gate finds the same entity and the same measure, sees the period differ,
+and treats that difference as a candidate explanation; the bounded model question then
+answers whether it accounts for the gap. The same shape holds for Q4 FY2023 against
+Q4 FY2024 and Q3 FY2024 against Q4 FY2024.
+
+**Case 4 — an extraction and reasoning failure I found and handled (demonstrated).**
+
+Once claims carried resolved entities, the comparison produced five CONTRADICTED
+verdicts on the earnings deck. All five were wrong:
+
+```
+"Employee benefit expense excl. share based payments"  Rs 1,211 cr  FY2024
+"Employee benefit expense: share based payments"       Rs 226 cr    FY2024
+System (before): CONTRADICTED - "same measure under matching context; they disagree"
+```
+
+Those are two different line items, and one of them excludes exactly what the other
+counts. The measure gate accepted them as the same measure because it compared word
+overlap, and they share six words out of seven. A near-identical measure name is not
+the same measure, so the gate now requires the two names to be made of the same words.
+The five false contradictions became NOT_COMPARABLE and no verdict was lost elsewhere.
+Other failures found the same way, on documents from outside the assignment, are in
+`notes/stresstest.md`: a discarded column label, a bracketed negative read as positive,
+and two cells sharing one character span.
+
+**Case 1 — corroboration across documents (not demonstrated; closest genuine pair
+shown).**
+
+```
+Document A  Annual report, page 22
+            evidence: "Total Income 79,294.31" (standalone column)
+            fact:     Total Income = 79,294.31, period FY2024, Delhivery Limited
+
+Document B  Q4 FY24 earnings deck, page 17
+            evidence: "8,594"
+            fact:     Total income = Rs 8,594 cr, period FY2024, Delhivery Limited
+
+System      UNCERTAIN - "a unit or magnitude is stated on only one side"
+```
+
+The system is right to decline, for two reasons. The annual report figure carries no
+unit, because the "in millions" legend sits outside the block the value was extracted
+from. And the figure it did extract is the standalone column: the same table's
+consolidated total income is 85,942.34 million, which is what the deck's Rs 8,594 cr
+equals. Supplying the missing unit without also capturing the scope would have turned
+a scope difference into a contradiction. This is the single change I would make next:
+recover all four columns of that table with their Standalone/Consolidated header, at
+which point this pair becomes the corroboration it should be.
+
+**Case 2 — a genuine contradiction (not found in the starter documents).**
+
+No pair reached CONTRADICTED once the false ones above were removed. The held-out
+macroeconomy corpus was the strongest lead — three institutions publishing different
+GDP growth figures for the same period — but the local model extracted a sub-sector
+figure and a single-quarter actual instead of the headline forecasts, so no two claims
+shared a coordinate system. `notes/coldrun.md` records that run. I did not construct
+one.
+
+### Cross-document relationships
+
+Before the entity work the system formed none: every one of 539 pairs was
+NOT_COMPARABLE, because 126 of 144 claims had no subject. It now resolves an entity for
+all 144 and compares 24 cross-document pairs, 15 of which are held at UNCERTAIN with
+the missing dimension named. Overall: 221 UNCERTAIN, 318 NOT_COMPARABLE, no
+contradictions and no corroborations.
+
 ## Approach
 
 The pipeline is: parse the PDF into layout blocks and tables with character offsets,
@@ -126,18 +215,21 @@ contradicted. There are three real reasons.
 Within one table every cell is a different period, so they correctly don't share a
 coordinate.
 
-126 of those 144 claims have no subject at all, and are therefore unresolved before
-the comparison looks at measure or period. They are the earnings deck's table cells,
-and the reason is in the document: the word Delhivery does not appear anywhere on the
-pages those tables sit on. Nothing beside the data names the company. I could have
-filled the subject in from elsewhere in the file, and I decided not to — on that deck
-it wouldn't even have picked the right company, because the first entity named on its
-cover page is BSE Limited, the exchange it was filed with. Every revenue and EBITDA
-figure would have been attributed to the stock exchange. Two bugs on the way there are
-worth naming: the caption search required a block to end above the table, which never
-matched once line grouping had merged a dense table's heading into its body, so those
-tables had no caption at all; and before that the caption itself was stored as the
-subject, so a table title would have been treated as an entity.
+Entity resolution was what blocked everything, and it took three goes. Table claims
+took their subject from the table's caption, but the caption search required a block
+to end above the table and line grouping had merged the heading into the table body,
+so those tables had no caption at all. Fixing that wasn't enough: the earnings deck's
+pages never name the company anywhere near the data, so 126 of 144 claims still had no
+subject and were unresolved before the comparison looked at anything else. A claim's
+subject now falls back to the entity the document names most often, read from the
+document itself. Frequency rather than first appearance matters — the deck names BSE
+Limited once, as the exchange it was filed with, and Delhivery Limited repeatedly, and
+first-match would have attributed every figure to the stock exchange. A claim whose own
+context names an entity keeps it, so a table belonging to a subsidiary or an acquired
+company is not absorbed into the parent. All 144 claims now resolve.
+
+What still doesn't produce a corroboration is units and scope, described under Case 1
+above.
 
 And on the one page that holds the revenue table I wanted, the PDF parser recovered the
 two-level Standalone/Consolidated header but none of the data rows underneath it.
