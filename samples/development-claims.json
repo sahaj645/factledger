@@ -1,0 +1,3824 @@
+{
+  "claims": [
+    {
+      "id": 1,
+      "subject": "Mega Gateway",
+      "measure": "receivable days",
+      "kind": "numeric",
+      "value_raw": "66",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": "March 2024",
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-annual-report-fy24",
+        "page": 4,
+        "snippet": "receivable days to 66 as of March 2024",
+        "char_span": [
+          1802,
+          1840
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "subject": "Company",
+      "measure": "Revenue from Operations",
+      "kind": "numeric",
+      "value_raw": "74,540.82",
+      "qualifiers": {
+        "period": "March 31, 2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-annual-report-fy24",
+        "page": 22,
+        "snippet": "Revenue from Operations 74,540.82",
+        "char_span": [
+          1823,
+          1856
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "subject": "Company",
+      "measure": "Other Income",
+      "kind": "numeric",
+      "value_raw": "4,753.49",
+      "qualifiers": {
+        "period": "March 31, 2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-annual-report-fy24",
+        "page": 22,
+        "snippet": "Other Income 4,753.49",
+        "char_span": [
+          1944,
+          1965
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "subject": "Company",
+      "measure": "Total Income",
+      "kind": "numeric",
+      "value_raw": "79,294.31",
+      "qualifiers": {
+        "period": "March 31, 2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-annual-report-fy24",
+        "page": 22,
+        "snippet": "Total Income 79,294.31",
+        "char_span": [
+          2107,
+          2129
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "subject": "Company",
+      "measure": "Total expenses",
+      "kind": "numeric",
+      "value_raw": "80,235.00",
+      "qualifiers": {
+        "period": "March 31, 2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-annual-report-fy24",
+        "page": 22,
+        "snippet": "Less: Total expenses 80,235.00",
+        "char_span": [
+          2266,
+          2296
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "subject": "Company",
+      "measure": "Loss for the year",
+      "kind": "numeric",
+      "value_raw": "(1,679.68)",
+      "qualifiers": {
+        "period": "March 31, 2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-annual-report-fy24",
+        "page": 22,
+        "snippet": "Loss for the year (1,679.68)",
+        "char_span": [
+          3419,
+          3447
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "subject": "Your Company",
+      "measure": "stake in the equity share",
+      "kind": "numeric",
+      "value_raw": "10.94%",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-annual-report-fy24",
+        "page": 22,
+        "snippet": "acquired 10.94% stake in the equity share",
+        "char_span": [
+          4249,
+          4290
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "subject": "Your Company",
+      "measure": "logistics capital provided",
+      "kind": "numeric",
+      "value_raw": "\u20b9250 million",
+      "qualifiers": {
+        "period": "as of March 31, 2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-annual-report-fy24",
+        "page": 22,
+        "snippet": "As of March 31, 2024, your Company provided logistics capital of Vinculum in India for a consideration of \u20b9250 million",
+        "char_span": [
+          4409,
+          4527
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "subject": "loss",
+      "measure": "reduction",
+      "kind": "numeric",
+      "value_raw": "79.32%",
+      "qualifiers": {
+        "period": "FY24",
+        "scope": null,
+        "basis": "loss for FY23",
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-annual-report-fy24",
+        "page": 22,
+        "snippet": "a reduction of loss by 79.32%",
+        "char_span": [
+          6273,
+          6302
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "subject": "",
+      "measure": "Revenue for services (A)",
+      "kind": "numeric",
+      "value_raw": "\u20b9 1,860 cr",
+      "qualifiers": {
+        "period": "Q4 FY2023",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "1,860",
+        "char_span": [
+          132,
+          137
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "subject": "",
+      "measure": "Revenue for services (A)",
+      "kind": "numeric",
+      "value_raw": "\u20b9 2,194 cr",
+      "qualifiers": {
+        "period": "Q3 FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "2,194",
+        "char_span": [
+          138,
+          143
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "subject": "",
+      "measure": "Revenue for services (A)",
+      "kind": "numeric",
+      "value_raw": "\u20b9 2,076 cr",
+      "qualifiers": {
+        "period": "Q4 FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "2,076",
+        "char_span": [
+          144,
+          149
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "subject": "",
+      "measure": "Revenue for services (A)",
+      "kind": "numeric",
+      "value_raw": "(5.4%)",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "QoQ%"
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "(5.4%)",
+        "char_span": [
+          150,
+          156
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "subject": "",
+      "measure": "Revenue for services (A)",
+      "kind": "numeric",
+      "value_raw": "11.6%",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "YoY%"
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "11.6%",
+        "char_span": [
+          157,
+          162
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "subject": "",
+      "measure": "Revenue for services (A)",
+      "kind": "numeric",
+      "value_raw": "\u20b9 7,224 cr",
+      "qualifiers": {
+        "period": "FY2023",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "7,224",
+        "char_span": [
+          163,
+          168
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "subject": "",
+      "measure": "Revenue for services (A)",
+      "kind": "numeric",
+      "value_raw": "\u20b9 8,142 cr",
+      "qualifiers": {
+        "period": "FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "8,142",
+        "char_span": [
+          169,
+          174
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "subject": "",
+      "measure": "Revenue for services (A)",
+      "kind": "numeric",
+      "value_raw": "12.7%",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "YoY%"
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "12.7%",
+        "char_span": [
+          175,
+          180
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "subject": "",
+      "measure": "Revenue from traded goods (B)",
+      "kind": "numeric",
+      "value_raw": "\u20b9 0 cr",
+      "qualifiers": {
+        "period": "Q4 FY2023",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "0",
+        "char_span": [
+          211,
+          212
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "subject": "",
+      "measure": "Revenue from traded goods (B)",
+      "kind": "numeric",
+      "value_raw": "\u20b9 2 cr",
+      "qualifiers": {
+        "period": "FY2023",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "2",
+        "char_span": [
+          221,
+          222
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "subject": "",
+      "measure": "Revenue from customers (A+B)",
+      "kind": "numeric",
+      "value_raw": "\u20b9 1,860 cr",
+      "qualifiers": {
+        "period": "Q4 FY2023",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "1,860",
+        "char_span": [
+          256,
+          261
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "subject": "",
+      "measure": "Revenue from customers (A+B)",
+      "kind": "numeric",
+      "value_raw": "\u20b9 2,194 cr",
+      "qualifiers": {
+        "period": "Q3 FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "2,194",
+        "char_span": [
+          262,
+          267
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "subject": "",
+      "measure": "Revenue from customers (A+B)",
+      "kind": "numeric",
+      "value_raw": "\u20b9 2,076 cr",
+      "qualifiers": {
+        "period": "Q4 FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "2,076",
+        "char_span": [
+          268,
+          273
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "subject": "",
+      "measure": "Revenue from customers (A+B)",
+      "kind": "numeric",
+      "value_raw": "(5.4%)",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "QoQ%"
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "(5.4%)",
+        "char_span": [
+          274,
+          280
+        ]
+      }
+    },
+    {
+      "id": 24,
+      "subject": "",
+      "measure": "Revenue from customers (A+B)",
+      "kind": "numeric",
+      "value_raw": "11.6%",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "YoY%"
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "11.6%",
+        "char_span": [
+          281,
+          286
+        ]
+      }
+    },
+    {
+      "id": 25,
+      "subject": "",
+      "measure": "Revenue from customers (A+B)",
+      "kind": "numeric",
+      "value_raw": "\u20b9 7,225 cr",
+      "qualifiers": {
+        "period": "FY2023",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "7,225",
+        "char_span": [
+          287,
+          292
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "subject": "",
+      "measure": "Revenue from customers (A+B)",
+      "kind": "numeric",
+      "value_raw": "\u20b9 8,142 cr",
+      "qualifiers": {
+        "period": "FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "8,142",
+        "char_span": [
+          293,
+          298
+        ]
+      }
+    },
+    {
+      "id": 27,
+      "subject": "",
+      "measure": "Revenue from customers (A+B)",
+      "kind": "numeric",
+      "value_raw": "12.7%",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "YoY%"
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "12.7%",
+        "char_span": [
+          299,
+          304
+        ]
+      }
+    },
+    {
+      "id": 28,
+      "subject": "",
+      "measure": "Other income",
+      "kind": "numeric",
+      "value_raw": "\u20b9 75 cr",
+      "qualifiers": {
+        "period": "Q4 FY2023",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "75",
+        "char_span": [
+          318,
+          320
+        ]
+      }
+    },
+    {
+      "id": 29,
+      "subject": "",
+      "measure": "Other income",
+      "kind": "numeric",
+      "value_raw": "\u20b9 131 cr",
+      "qualifiers": {
+        "period": "Q3 FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "131",
+        "char_span": [
+          321,
+          324
+        ]
+      }
+    },
+    {
+      "id": 30,
+      "subject": "",
+      "measure": "Other income",
+      "kind": "numeric",
+      "value_raw": "\u20b9 119 cr",
+      "qualifiers": {
+        "period": "Q4 FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "119",
+        "char_span": [
+          325,
+          328
+        ]
+      }
+    },
+    {
+      "id": 31,
+      "subject": "",
+      "measure": "Other income",
+      "kind": "numeric",
+      "value_raw": "(8.8%)",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "QoQ%"
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "(8.8%)",
+        "char_span": [
+          329,
+          335
+        ]
+      }
+    },
+    {
+      "id": 32,
+      "subject": "",
+      "measure": "Other income",
+      "kind": "numeric",
+      "value_raw": "60.0%",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "YoY%"
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "60.0%",
+        "char_span": [
+          336,
+          341
+        ]
+      }
+    },
+    {
+      "id": 33,
+      "subject": "",
+      "measure": "Other income",
+      "kind": "numeric",
+      "value_raw": "\u20b9 305 cr",
+      "qualifiers": {
+        "period": "FY2023",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "305",
+        "char_span": [
+          342,
+          345
+        ]
+      }
+    },
+    {
+      "id": 34,
+      "subject": "",
+      "measure": "Other income",
+      "kind": "numeric",
+      "value_raw": "\u20b9 453 cr",
+      "qualifiers": {
+        "period": "FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "453",
+        "char_span": [
+          346,
+          349
+        ]
+      }
+    },
+    {
+      "id": 35,
+      "subject": "",
+      "measure": "Other income",
+      "kind": "numeric",
+      "value_raw": "48.4%",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "YoY%"
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "48.4%",
+        "char_span": [
+          350,
+          355
+        ]
+      }
+    },
+    {
+      "id": 36,
+      "subject": "",
+      "measure": "Total income",
+      "kind": "numeric",
+      "value_raw": "\u20b9 1,934 cr",
+      "qualifiers": {
+        "period": "Q4 FY2023",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "1,934",
+        "char_span": [
+          369,
+          374
+        ]
+      }
+    },
+    {
+      "id": 37,
+      "subject": "",
+      "measure": "Total income",
+      "kind": "numeric",
+      "value_raw": "\u20b9 2,325 cr",
+      "qualifiers": {
+        "period": "Q3 FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "2,325",
+        "char_span": [
+          375,
+          380
+        ]
+      }
+    },
+    {
+      "id": 38,
+      "subject": "",
+      "measure": "Total income",
+      "kind": "numeric",
+      "value_raw": "\u20b9 2,195 cr",
+      "qualifiers": {
+        "period": "Q4 FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "2,195",
+        "char_span": [
+          381,
+          386
+        ]
+      }
+    },
+    {
+      "id": 39,
+      "subject": "",
+      "measure": "Total income",
+      "kind": "numeric",
+      "value_raw": "(5.6%)",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "QoQ%"
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "(5.6%)",
+        "char_span": [
+          387,
+          393
+        ]
+      }
+    },
+    {
+      "id": 40,
+      "subject": "",
+      "measure": "Total income",
+      "kind": "numeric",
+      "value_raw": "13.5%",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "YoY%"
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "13.5%",
+        "char_span": [
+          394,
+          399
+        ]
+      }
+    },
+    {
+      "id": 41,
+      "subject": "",
+      "measure": "Total income",
+      "kind": "numeric",
+      "value_raw": "\u20b9 7,530 cr",
+      "qualifiers": {
+        "period": "FY2023",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "7,530",
+        "char_span": [
+          400,
+          405
+        ]
+      }
+    },
+    {
+      "id": 42,
+      "subject": "",
+      "measure": "Total income",
+      "kind": "numeric",
+      "value_raw": "\u20b9 8,594 cr",
+      "qualifiers": {
+        "period": "FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "8,594",
+        "char_span": [
+          406,
+          411
+        ]
+      }
+    },
+    {
+      "id": 43,
+      "subject": "",
+      "measure": "Total income",
+      "kind": "numeric",
+      "value_raw": "14.1%",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "YoY%"
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "14.1%",
+        "char_span": [
+          412,
+          417
+        ]
+      }
+    },
+    {
+      "id": 44,
+      "subject": "",
+      "measure": "Total freight, handling and servicing cost",
+      "kind": "numeric",
+      "value_raw": "\u20b9 1,372 cr",
+      "qualifiers": {
+        "period": "Q4 FY2023",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "1,372",
+        "char_span": [
+          469,
+          474
+        ]
+      }
+    },
+    {
+      "id": 45,
+      "subject": "",
+      "measure": "Total freight, handling and servicing cost",
+      "kind": "numeric",
+      "value_raw": "\u20b9 1,572 cr",
+      "qualifiers": {
+        "period": "Q3 FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "1,572",
+        "char_span": [
+          475,
+          480
+        ]
+      }
+    },
+    {
+      "id": 46,
+      "subject": "",
+      "measure": "Total freight, handling and servicing cost",
+      "kind": "numeric",
+      "value_raw": "\u20b9 1,519 cr",
+      "qualifiers": {
+        "period": "Q4 FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "1,519",
+        "char_span": [
+          481,
+          486
+        ]
+      }
+    },
+    {
+      "id": 47,
+      "subject": "",
+      "measure": "Total freight, handling and servicing cost",
+      "kind": "numeric",
+      "value_raw": "(3.4%)",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "QoQ%"
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "(3.4%)",
+        "char_span": [
+          487,
+          493
+        ]
+      }
+    },
+    {
+      "id": 48,
+      "subject": "",
+      "measure": "Total freight, handling and servicing cost",
+      "kind": "numeric",
+      "value_raw": "10.7%",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "YoY%"
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "10.7%",
+        "char_span": [
+          494,
+          499
+        ]
+      }
+    },
+    {
+      "id": 49,
+      "subject": "",
+      "measure": "Total freight, handling and servicing cost",
+      "kind": "numeric",
+      "value_raw": "\u20b9 5,669 cr",
+      "qualifiers": {
+        "period": "FY2023",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "5,669",
+        "char_span": [
+          500,
+          505
+        ]
+      }
+    },
+    {
+      "id": 50,
+      "subject": "",
+      "measure": "Total freight, handling and servicing cost",
+      "kind": "numeric",
+      "value_raw": "\u20b9 5,971 cr",
+      "qualifiers": {
+        "period": "FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "5,971",
+        "char_span": [
+          506,
+          511
+        ]
+      }
+    },
+    {
+      "id": 51,
+      "subject": "",
+      "measure": "Total freight, handling and servicing cost",
+      "kind": "numeric",
+      "value_raw": "5.3%",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "YoY%"
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "5.3%",
+        "char_span": [
+          512,
+          516
+        ]
+      }
+    },
+    {
+      "id": 52,
+      "subject": "",
+      "measure": "Employee benefit expense excl. share based payments",
+      "kind": "numeric",
+      "value_raw": "\u20b9 284 cr",
+      "qualifiers": {
+        "period": "Q4 FY2023",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "284",
+        "char_span": [
+          594,
+          597
+        ]
+      }
+    },
+    {
+      "id": 53,
+      "subject": "",
+      "measure": "Employee benefit expense excl. share based payments",
+      "kind": "numeric",
+      "value_raw": "\u20b9 306 cr",
+      "qualifiers": {
+        "period": "Q3 FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "306",
+        "char_span": [
+          598,
+          601
+        ]
+      }
+    },
+    {
+      "id": 54,
+      "subject": "",
+      "measure": "Employee benefit expense excl. share based payments",
+      "kind": "numeric",
+      "value_raw": "\u20b9 308 cr",
+      "qualifiers": {
+        "period": "Q4 FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "308",
+        "char_span": [
+          602,
+          605
+        ]
+      }
+    },
+    {
+      "id": 55,
+      "subject": "",
+      "measure": "Employee benefit expense excl. share based payments",
+      "kind": "numeric",
+      "value_raw": "0.8%",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "QoQ%"
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "0.8%",
+        "char_span": [
+          606,
+          610
+        ]
+      }
+    },
+    {
+      "id": 56,
+      "subject": "",
+      "measure": "Employee benefit expense excl. share based payments",
+      "kind": "numeric",
+      "value_raw": "8.4%",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "YoY%"
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "8.4%",
+        "char_span": [
+          611,
+          615
+        ]
+      }
+    },
+    {
+      "id": 57,
+      "subject": "",
+      "measure": "Employee benefit expense excl. share based payments",
+      "kind": "numeric",
+      "value_raw": "\u20b9 1,111 cr",
+      "qualifiers": {
+        "period": "FY2023",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "1,111",
+        "char_span": [
+          616,
+          621
+        ]
+      }
+    },
+    {
+      "id": 58,
+      "subject": "",
+      "measure": "Employee benefit expense excl. share based payments",
+      "kind": "numeric",
+      "value_raw": "\u20b9 1,211 cr",
+      "qualifiers": {
+        "period": "FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "1,211",
+        "char_span": [
+          622,
+          627
+        ]
+      }
+    },
+    {
+      "id": 59,
+      "subject": "",
+      "measure": "Employee benefit expense excl. share based payments",
+      "kind": "numeric",
+      "value_raw": "9.0%",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "YoY%"
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "9.0%",
+        "char_span": [
+          628,
+          632
+        ]
+      }
+    },
+    {
+      "id": 60,
+      "subject": "",
+      "measure": "Employee benefit expense: share based payments",
+      "kind": "numeric",
+      "value_raw": "\u20b9 73 cr",
+      "qualifiers": {
+        "period": "Q4 FY2023",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "73",
+        "char_span": [
+          680,
+          682
+        ]
+      }
+    },
+    {
+      "id": 61,
+      "subject": "",
+      "measure": "Employee benefit expense: share based payments",
+      "kind": "numeric",
+      "value_raw": "\u20b9 54 cr",
+      "qualifiers": {
+        "period": "Q3 FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "54",
+        "char_span": [
+          683,
+          685
+        ]
+      }
+    },
+    {
+      "id": 62,
+      "subject": "",
+      "measure": "Employee benefit expense: share based payments",
+      "kind": "numeric",
+      "value_raw": "\u20b9 49 cr",
+      "qualifiers": {
+        "period": "Q4 FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "49",
+        "char_span": [
+          686,
+          688
+        ]
+      }
+    },
+    {
+      "id": 63,
+      "subject": "",
+      "measure": "Employee benefit expense: share based payments",
+      "kind": "numeric",
+      "value_raw": "(8.9%)",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "QoQ%"
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "(8.9%)",
+        "char_span": [
+          689,
+          695
+        ]
+      }
+    },
+    {
+      "id": 64,
+      "subject": "",
+      "measure": "Employee benefit expense: share based payments",
+      "kind": "numeric",
+      "value_raw": "(32.8%)",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "YoY%"
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "(32.8%)",
+        "char_span": [
+          696,
+          703
+        ]
+      }
+    },
+    {
+      "id": 65,
+      "subject": "",
+      "measure": "Employee benefit expense: share based payments",
+      "kind": "numeric",
+      "value_raw": "\u20b9 289 cr",
+      "qualifiers": {
+        "period": "FY2023",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "289",
+        "char_span": [
+          704,
+          707
+        ]
+      }
+    },
+    {
+      "id": 66,
+      "subject": "",
+      "measure": "Employee benefit expense: share based payments",
+      "kind": "numeric",
+      "value_raw": "\u20b9 226 cr",
+      "qualifiers": {
+        "period": "FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "226",
+        "char_span": [
+          708,
+          711
+        ]
+      }
+    },
+    {
+      "id": 67,
+      "subject": "",
+      "measure": "Employee benefit expense: share based payments",
+      "kind": "numeric",
+      "value_raw": "(21.8%)",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "YoY%"
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "(21.8%)",
+        "char_span": [
+          712,
+          719
+        ]
+      }
+    },
+    {
+      "id": 68,
+      "subject": "",
+      "measure": "Other operating expense",
+      "kind": "numeric",
+      "value_raw": "\u20b9 117 cr",
+      "qualifiers": {
+        "period": "Q4 FY2023",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "117",
+        "char_span": [
+          744,
+          747
+        ]
+      }
+    },
+    {
+      "id": 69,
+      "subject": "",
+      "measure": "Other operating expense",
+      "kind": "numeric",
+      "value_raw": "\u20b9 154 cr",
+      "qualifiers": {
+        "period": "Q3 FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "154",
+        "char_span": [
+          748,
+          751
+        ]
+      }
+    },
+    {
+      "id": 70,
+      "subject": "",
+      "measure": "Other operating expense",
+      "kind": "numeric",
+      "value_raw": "\u20b9 154 cr",
+      "qualifiers": {
+        "period": "Q4 FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "154",
+        "char_span": [
+          752,
+          755
+        ]
+      }
+    },
+    {
+      "id": 71,
+      "subject": "",
+      "measure": "Other operating expense",
+      "kind": "numeric",
+      "value_raw": "0.0%",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "QoQ%"
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "0.0%",
+        "char_span": [
+          756,
+          760
+        ]
+      }
+    },
+    {
+      "id": 72,
+      "subject": "",
+      "measure": "Other operating expense",
+      "kind": "numeric",
+      "value_raw": "31.0%",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "YoY%"
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "31.0%",
+        "char_span": [
+          761,
+          766
+        ]
+      }
+    },
+    {
+      "id": 73,
+      "subject": "",
+      "measure": "Other operating expense",
+      "kind": "numeric",
+      "value_raw": "\u20b9 606 cr",
+      "qualifiers": {
+        "period": "FY2023",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "606",
+        "char_span": [
+          767,
+          770
+        ]
+      }
+    },
+    {
+      "id": 74,
+      "subject": "",
+      "measure": "Other operating expense",
+      "kind": "numeric",
+      "value_raw": "\u20b9 607 cr",
+      "qualifiers": {
+        "period": "FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "607",
+        "char_span": [
+          771,
+          774
+        ]
+      }
+    },
+    {
+      "id": 75,
+      "subject": "",
+      "measure": "Other operating expense",
+      "kind": "numeric",
+      "value_raw": "0.3%",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "YoY%"
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "0.3%",
+        "char_span": [
+          775,
+          779
+        ]
+      }
+    },
+    {
+      "id": 76,
+      "subject": "",
+      "measure": "Finance costs",
+      "kind": "numeric",
+      "value_raw": "\u20b9 19 cr",
+      "qualifiers": {
+        "period": "Q4 FY2023",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "19",
+        "char_span": [
+          794,
+          796
+        ]
+      }
+    },
+    {
+      "id": 77,
+      "subject": "",
+      "measure": "Finance costs",
+      "kind": "numeric",
+      "value_raw": "\u20b9 22 cr",
+      "qualifiers": {
+        "period": "Q3 FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "22",
+        "char_span": [
+          797,
+          799
+        ]
+      }
+    },
+    {
+      "id": 78,
+      "subject": "",
+      "measure": "Finance costs",
+      "kind": "numeric",
+      "value_raw": "\u20b9 27 cr",
+      "qualifiers": {
+        "period": "Q4 FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "27",
+        "char_span": [
+          800,
+          802
+        ]
+      }
+    },
+    {
+      "id": 79,
+      "subject": "",
+      "measure": "Finance costs",
+      "kind": "numeric",
+      "value_raw": "22.3%",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "QoQ%"
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "22.3%",
+        "char_span": [
+          803,
+          808
+        ]
+      }
+    },
+    {
+      "id": 80,
+      "subject": "",
+      "measure": "Finance costs",
+      "kind": "numeric",
+      "value_raw": "43.4%",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "YoY%"
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "43.4%",
+        "char_span": [
+          809,
+          814
+        ]
+      }
+    },
+    {
+      "id": 81,
+      "subject": "",
+      "measure": "Finance costs",
+      "kind": "numeric",
+      "value_raw": "\u20b9 89 cr",
+      "qualifiers": {
+        "period": "FY2023",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "89",
+        "char_span": [
+          815,
+          817
+        ]
+      }
+    },
+    {
+      "id": 82,
+      "subject": "",
+      "measure": "Finance costs",
+      "kind": "numeric",
+      "value_raw": "\u20b9 89 cr",
+      "qualifiers": {
+        "period": "FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "89",
+        "char_span": [
+          818,
+          820
+        ]
+      }
+    },
+    {
+      "id": 83,
+      "subject": "",
+      "measure": "Finance costs",
+      "kind": "numeric",
+      "value_raw": "(0.3%)",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "YoY%"
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "(0.3%)",
+        "char_span": [
+          821,
+          827
+        ]
+      }
+    },
+    {
+      "id": 84,
+      "subject": "",
+      "measure": "Depreciation and amortisation expense",
+      "kind": "numeric",
+      "value_raw": "\u20b9 242 cr",
+      "qualifiers": {
+        "period": "Q4 FY2023",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "242",
+        "char_span": [
+          866,
+          869
+        ]
+      }
+    },
+    {
+      "id": 85,
+      "subject": "",
+      "measure": "Depreciation and amortisation expense",
+      "kind": "numeric",
+      "value_raw": "\u20b9 183 cr",
+      "qualifiers": {
+        "period": "Q3 FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "183",
+        "char_span": [
+          870,
+          873
+        ]
+      }
+    },
+    {
+      "id": 86,
+      "subject": "",
+      "measure": "Depreciation and amortisation expense",
+      "kind": "numeric",
+      "value_raw": "\u20b9 200 cr",
+      "qualifiers": {
+        "period": "Q4 FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "200",
+        "char_span": [
+          874,
+          877
+        ]
+      }
+    },
+    {
+      "id": 87,
+      "subject": "",
+      "measure": "Depreciation and amortisation expense",
+      "kind": "numeric",
+      "value_raw": "9.7%",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "QoQ%"
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "9.7%",
+        "char_span": [
+          878,
+          882
+        ]
+      }
+    },
+    {
+      "id": 88,
+      "subject": "",
+      "measure": "Depreciation and amortisation expense",
+      "kind": "numeric",
+      "value_raw": "(17.3%)",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "YoY%"
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "(17.3%)",
+        "char_span": [
+          883,
+          890
+        ]
+      }
+    },
+    {
+      "id": 89,
+      "subject": "",
+      "measure": "Depreciation and amortisation expense",
+      "kind": "numeric",
+      "value_raw": "\u20b9 831 cr",
+      "qualifiers": {
+        "period": "FY2023",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "831",
+        "char_span": [
+          891,
+          894
+        ]
+      }
+    },
+    {
+      "id": 90,
+      "subject": "",
+      "measure": "Depreciation and amortisation expense",
+      "kind": "numeric",
+      "value_raw": "\u20b9 722 cr",
+      "qualifiers": {
+        "period": "FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "722",
+        "char_span": [
+          895,
+          898
+        ]
+      }
+    },
+    {
+      "id": 91,
+      "subject": "",
+      "measure": "Depreciation and amortisation expense",
+      "kind": "numeric",
+      "value_raw": "(13.2%)",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "YoY%"
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "(13.2%)",
+        "char_span": [
+          899,
+          906
+        ]
+      }
+    },
+    {
+      "id": 92,
+      "subject": "",
+      "measure": "Total expenses",
+      "kind": "numeric",
+      "value_raw": "\u20b9 2,108 cr",
+      "qualifiers": {
+        "period": "Q4 FY2023",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "2,108",
+        "char_span": [
+          922,
+          927
+        ]
+      }
+    },
+    {
+      "id": 93,
+      "subject": "",
+      "measure": "Total expenses",
+      "kind": "numeric",
+      "value_raw": "\u20b9 2,290 cr",
+      "qualifiers": {
+        "period": "Q3 FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "2,290",
+        "char_span": [
+          928,
+          933
+        ]
+      }
+    },
+    {
+      "id": 94,
+      "subject": "",
+      "measure": "Total expenses",
+      "kind": "numeric",
+      "value_raw": "\u20b9 2,257 cr",
+      "qualifiers": {
+        "period": "Q4 FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "2,257",
+        "char_span": [
+          934,
+          939
+        ]
+      }
+    },
+    {
+      "id": 95,
+      "subject": "",
+      "measure": "Total expenses",
+      "kind": "numeric",
+      "value_raw": "(1.4%)",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "QoQ%"
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "(1.4%)",
+        "char_span": [
+          940,
+          946
+        ]
+      }
+    },
+    {
+      "id": 96,
+      "subject": "",
+      "measure": "Total expenses",
+      "kind": "numeric",
+      "value_raw": "7.1%",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "YoY%"
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "7.1%",
+        "char_span": [
+          947,
+          951
+        ]
+      }
+    },
+    {
+      "id": 97,
+      "subject": "",
+      "measure": "Total expenses",
+      "kind": "numeric",
+      "value_raw": "\u20b9 8,597 cr",
+      "qualifiers": {
+        "period": "FY2023",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "8,597",
+        "char_span": [
+          952,
+          957
+        ]
+      }
+    },
+    {
+      "id": 98,
+      "subject": "",
+      "measure": "Total expenses",
+      "kind": "numeric",
+      "value_raw": "\u20b9 8,825 cr",
+      "qualifiers": {
+        "period": "FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "8,825",
+        "char_span": [
+          958,
+          963
+        ]
+      }
+    },
+    {
+      "id": 99,
+      "subject": "",
+      "measure": "Total expenses",
+      "kind": "numeric",
+      "value_raw": "2.7%",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "YoY%"
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "2.7%",
+        "char_span": [
+          964,
+          968
+        ]
+      }
+    },
+    {
+      "id": 100,
+      "subject": "",
+      "measure": "Share of profit / (loss) of associates (net)",
+      "kind": "numeric",
+      "value_raw": "\u20b9 1 cr",
+      "qualifiers": {
+        "period": "Q4 FY2023",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "1",
+        "char_span": [
+          1014,
+          1015
+        ]
+      }
+    },
+    {
+      "id": 101,
+      "subject": "",
+      "measure": "Share of profit / (loss) of associates (net)",
+      "kind": "numeric",
+      "value_raw": "\u20b9 (4) cr",
+      "qualifiers": {
+        "period": "Q3 FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "(4)",
+        "char_span": [
+          1016,
+          1019
+        ]
+      }
+    },
+    {
+      "id": 102,
+      "subject": "",
+      "measure": "Share of profit / (loss) of associates (net)",
+      "kind": "numeric",
+      "value_raw": "\u20b9 6 cr",
+      "qualifiers": {
+        "period": "Q4 FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "6",
+        "char_span": [
+          1020,
+          1021
+        ]
+      }
+    },
+    {
+      "id": 103,
+      "subject": "",
+      "measure": "Share of profit / (loss) of associates (net)",
+      "kind": "numeric",
+      "value_raw": "\u20b9 14 cr",
+      "qualifiers": {
+        "period": "FY2023",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "14",
+        "char_span": [
+          1022,
+          1024
+        ]
+      }
+    },
+    {
+      "id": 104,
+      "subject": "",
+      "measure": "Share of profit / (loss) of associates (net)",
+      "kind": "numeric",
+      "value_raw": "\u20b9 9 cr",
+      "qualifiers": {
+        "period": "FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "9",
+        "char_span": [
+          1025,
+          1026
+        ]
+      }
+    },
+    {
+      "id": 105,
+      "subject": "",
+      "measure": "Share of profit / (loss) of associates (net)",
+      "kind": "numeric",
+      "value_raw": "(35.9%)",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "YoY%"
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "(35.9%)",
+        "char_span": [
+          1027,
+          1034
+        ]
+      }
+    },
+    {
+      "id": 106,
+      "subject": "",
+      "measure": "Profit / (Loss) before exceptional items and tax",
+      "kind": "numeric",
+      "value_raw": "\u20b9 (173) cr",
+      "qualifiers": {
+        "period": "Q4 FY2023",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "(173)",
+        "char_span": [
+          1084,
+          1089
+        ]
+      }
+    },
+    {
+      "id": 107,
+      "subject": "",
+      "measure": "Profit / (Loss) before exceptional items and tax",
+      "kind": "numeric",
+      "value_raw": "\u20b9 31 cr",
+      "qualifiers": {
+        "period": "Q3 FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "31",
+        "char_span": [
+          1090,
+          1092
+        ]
+      }
+    },
+    {
+      "id": 108,
+      "subject": "",
+      "measure": "Profit / (Loss) before exceptional items and tax",
+      "kind": "numeric",
+      "value_raw": "\u20b9 (56) cr",
+      "qualifiers": {
+        "period": "Q4 FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "(56)",
+        "char_span": [
+          1093,
+          1097
+        ]
+      }
+    },
+    {
+      "id": 109,
+      "subject": "",
+      "measure": "Profit / (Loss) before exceptional items and tax",
+      "kind": "numeric",
+      "value_raw": "\u20b9 (1,053) cr",
+      "qualifiers": {
+        "period": "FY2023",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "(1,053)",
+        "char_span": [
+          1098,
+          1105
+        ]
+      }
+    },
+    {
+      "id": 110,
+      "subject": "",
+      "measure": "Profit / (Loss) before exceptional items and tax",
+      "kind": "numeric",
+      "value_raw": "\u20b9 (222) cr",
+      "qualifiers": {
+        "period": "FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "(222)",
+        "char_span": [
+          1106,
+          1111
+        ]
+      }
+    },
+    {
+      "id": 111,
+      "subject": "",
+      "measure": "Exceptional items",
+      "kind": "numeric",
+      "value_raw": "\u20b9 (8) cr",
+      "qualifiers": {
+        "period": "Q3 FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "(8)",
+        "char_span": [
+          1132,
+          1135
+        ]
+      }
+    },
+    {
+      "id": 112,
+      "subject": "",
+      "measure": "Exceptional items",
+      "kind": "numeric",
+      "value_raw": "\u20b9 (15) cr",
+      "qualifiers": {
+        "period": "Q4 FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "(15)",
+        "char_span": [
+          1136,
+          1140
+        ]
+      }
+    },
+    {
+      "id": 113,
+      "subject": "",
+      "measure": "Exceptional items",
+      "kind": "numeric",
+      "value_raw": "\u20b9 (22) cr",
+      "qualifiers": {
+        "period": "FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "(22)",
+        "char_span": [
+          1143,
+          1147
+        ]
+      }
+    },
+    {
+      "id": 114,
+      "subject": "",
+      "measure": "Tax expense",
+      "kind": "numeric",
+      "value_raw": "\u20b9 (14) cr",
+      "qualifiers": {
+        "period": "Q4 FY2023",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "(14)",
+        "char_span": [
+          1160,
+          1164
+        ]
+      }
+    },
+    {
+      "id": 115,
+      "subject": "",
+      "measure": "Tax expense",
+      "kind": "numeric",
+      "value_raw": "\u20b9 12 cr",
+      "qualifiers": {
+        "period": "Q3 FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "12",
+        "char_span": [
+          1165,
+          1167
+        ]
+      }
+    },
+    {
+      "id": 116,
+      "subject": "",
+      "measure": "Tax expense",
+      "kind": "numeric",
+      "value_raw": "\u20b9 (2) cr",
+      "qualifiers": {
+        "period": "Q4 FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "(2)",
+        "char_span": [
+          1168,
+          1171
+        ]
+      }
+    },
+    {
+      "id": 117,
+      "subject": "",
+      "measure": "Tax expense",
+      "kind": "numeric",
+      "value_raw": "\u20b9 (45) cr",
+      "qualifiers": {
+        "period": "FY2023",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "(45)",
+        "char_span": [
+          1172,
+          1176
+        ]
+      }
+    },
+    {
+      "id": 118,
+      "subject": "",
+      "measure": "Tax expense",
+      "kind": "numeric",
+      "value_raw": "\u20b9 5 cr",
+      "qualifiers": {
+        "period": "FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "5",
+        "char_span": [
+          1177,
+          1178
+        ]
+      }
+    },
+    {
+      "id": 119,
+      "subject": "",
+      "measure": "Profit / (Loss) after tax",
+      "kind": "numeric",
+      "value_raw": "\u20b9 (159) cr",
+      "qualifiers": {
+        "period": "Q4 FY2023",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "(159)",
+        "char_span": [
+          1205,
+          1210
+        ]
+      }
+    },
+    {
+      "id": 120,
+      "subject": "",
+      "measure": "Profit / (Loss) after tax",
+      "kind": "numeric",
+      "value_raw": "\u20b9 12 cr",
+      "qualifiers": {
+        "period": "Q3 FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "12",
+        "char_span": [
+          1211,
+          1213
+        ]
+      }
+    },
+    {
+      "id": 121,
+      "subject": "",
+      "measure": "Profit / (Loss) after tax",
+      "kind": "numeric",
+      "value_raw": "\u20b9 (69) cr",
+      "qualifiers": {
+        "period": "Q4 FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "(69)",
+        "char_span": [
+          1214,
+          1218
+        ]
+      }
+    },
+    {
+      "id": 122,
+      "subject": "",
+      "measure": "Profit / (Loss) after tax",
+      "kind": "numeric",
+      "value_raw": "\u20b9 (1,008) cr",
+      "qualifiers": {
+        "period": "FY2023",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "(1,008)",
+        "char_span": [
+          1219,
+          1226
+        ]
+      }
+    },
+    {
+      "id": 123,
+      "subject": "",
+      "measure": "Profit / (Loss) after tax",
+      "kind": "numeric",
+      "value_raw": "\u20b9 (249) cr",
+      "qualifiers": {
+        "period": "FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "(249)",
+        "char_span": [
+          1227,
+          1232
+        ]
+      }
+    },
+    {
+      "id": 124,
+      "subject": "",
+      "measure": "EBITDA",
+      "kind": "numeric",
+      "value_raw": "\u20b9 13 cr",
+      "qualifiers": {
+        "period": "Q4 FY2023",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "13",
+        "char_span": [
+          1241,
+          1243
+        ]
+      }
+    },
+    {
+      "id": 125,
+      "subject": "",
+      "measure": "EBITDA",
+      "kind": "numeric",
+      "value_raw": "\u20b9 109 cr",
+      "qualifiers": {
+        "period": "Q3 FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "109",
+        "char_span": [
+          1244,
+          1247
+        ]
+      }
+    },
+    {
+      "id": 126,
+      "subject": "",
+      "measure": "EBITDA",
+      "kind": "numeric",
+      "value_raw": "\u20b9 46 cr",
+      "qualifiers": {
+        "period": "Q4 FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "46",
+        "char_span": [
+          1248,
+          1250
+        ]
+      }
+    },
+    {
+      "id": 127,
+      "subject": "",
+      "measure": "EBITDA",
+      "kind": "numeric",
+      "value_raw": "(58.0%)",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "QoQ%"
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "(58.0%)",
+        "char_span": [
+          1251,
+          1258
+        ]
+      }
+    },
+    {
+      "id": 128,
+      "subject": "",
+      "measure": "EBITDA",
+      "kind": "numeric",
+      "value_raw": "242.5%",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": "YoY%"
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "242.5%",
+        "char_span": [
+          1259,
+          1265
+        ]
+      }
+    },
+    {
+      "id": 129,
+      "subject": "",
+      "measure": "EBITDA",
+      "kind": "numeric",
+      "value_raw": "\u20b9 (452) cr",
+      "qualifiers": {
+        "period": "FY2023",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "(452)",
+        "char_span": [
+          1266,
+          1271
+        ]
+      }
+    },
+    {
+      "id": 130,
+      "subject": "",
+      "measure": "EBITDA",
+      "kind": "numeric",
+      "value_raw": "\u20b9 127 cr",
+      "qualifiers": {
+        "period": "FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "127",
+        "char_span": [
+          1272,
+          1275
+        ]
+      }
+    },
+    {
+      "id": 131,
+      "subject": "",
+      "measure": "EBITDA margin",
+      "kind": "numeric",
+      "value_raw": "0.7%",
+      "qualifiers": {
+        "period": "Q4 FY2023",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "0.7%",
+        "char_span": [
+          1290,
+          1294
+        ]
+      }
+    },
+    {
+      "id": 132,
+      "subject": "",
+      "measure": "EBITDA margin",
+      "kind": "numeric",
+      "value_raw": "5.0%",
+      "qualifiers": {
+        "period": "Q3 FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "5.0%",
+        "char_span": [
+          1295,
+          1299
+        ]
+      }
+    },
+    {
+      "id": 133,
+      "subject": "",
+      "measure": "EBITDA margin",
+      "kind": "numeric",
+      "value_raw": "2.2%",
+      "qualifiers": {
+        "period": "Q4 FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "2.2%",
+        "char_span": [
+          1300,
+          1304
+        ]
+      }
+    },
+    {
+      "id": 134,
+      "subject": "",
+      "measure": "EBITDA margin",
+      "kind": "numeric",
+      "value_raw": "(6.3%)",
+      "qualifiers": {
+        "period": "FY2023",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "(6.3%)",
+        "char_span": [
+          1323,
+          1329
+        ]
+      }
+    },
+    {
+      "id": 135,
+      "subject": "",
+      "measure": "EBITDA margin",
+      "kind": "numeric",
+      "value_raw": "1.6%",
+      "qualifiers": {
+        "period": "FY2024",
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-q4-fy24-earnings",
+        "page": 17,
+        "snippet": "1.6%",
+        "char_span": [
+          1330,
+          1334
+        ]
+      }
+    },
+    {
+      "id": 136,
+      "subject": "Delhivery",
+      "measure": "model",
+      "kind": "relational",
+      "value_raw": "asset-light",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-prospectus-2022",
+        "page": 44,
+        "snippet": "We follow an asset-light model.",
+        "char_span": [
+          851,
+          882
+        ]
+      }
+    },
+    {
+      "id": 137,
+      "subject": "Revenue from Services",
+      "measure": "value",
+      "kind": "numeric",
+      "value_raw": "16,538.97",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-prospectus-2022",
+        "page": 45,
+        "snippet": "Revenue from\nServices 16,538.97 100.00%",
+        "char_span": [
+          1363,
+          1402
+        ]
+      }
+    },
+    {
+      "id": 138,
+      "subject": "Revenue from Express Parcel Services",
+      "measure": "value",
+      "kind": "numeric",
+      "value_raw": "13,730.73",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-prospectus-2022",
+        "page": 45,
+        "snippet": "Revenue from\nExpress Parcel\nServices 13,730.73 83.02%",
+        "char_span": [
+          1471,
+          1524
+        ]
+      }
+    },
+    {
+      "id": 139,
+      "subject": "Revenue from Part Truck Load Services",
+      "measure": "value",
+      "kind": "numeric",
+      "value_raw": "1,402.21",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-prospectus-2022",
+        "page": 45,
+        "snippet": "Revenue from\nPart Truck\nLoad Services 1,402.21 8.48%",
+        "char_span": [
+          1593,
+          1645
+        ]
+      }
+    },
+    {
+      "id": 140,
+      "subject": "Revenue from Truck Load Services",
+      "measure": "value",
+      "kind": "numeric",
+      "value_raw": "3,659.33",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-prospectus-2022",
+        "page": 45,
+        "snippet": "Revenue from\nTruck Load\nServices \u2e3b \u2e3b 3,659.33 13.16%",
+        "char_span": [
+          1709,
+          1761
+        ]
+      }
+    },
+    {
+      "id": 141,
+      "subject": "Revenue from Supply Chain Services",
+      "measure": "value",
+      "kind": "numeric",
+      "value_raw": "1,320.09",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-prospectus-2022",
+        "page": 45,
+        "snippet": "Revenue from\nSupply Chain\nServices 1,320.09 7.98%",
+        "char_span": [
+          1807,
+          1856
+        ]
+      }
+    },
+    {
+      "id": 142,
+      "subject": "Revenue from Cross-Border Services",
+      "measure": "value",
+      "kind": "numeric",
+      "value_raw": "85.94",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-prospectus-2022",
+        "page": 45,
+        "snippet": "Revenue from\nCross-Border\nServices 85.94 0.52%",
+        "char_span": [
+          1919,
+          1965
+        ]
+      }
+    },
+    {
+      "id": 143,
+      "subject": "Revenue from Sale of Traded Goods",
+      "measure": "value",
+      "kind": "numeric",
+      "value_raw": "57.50",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-prospectus-2022",
+        "page": 45,
+        "snippet": "Revenue from\nSale of Traded\nGoods \u2e3b \u2e3b 57.50 0.21%",
+        "char_span": [
+          2071,
+          2120
+        ]
+      }
+    },
+    {
+      "id": 144,
+      "subject": "Revenue from contracts with customers",
+      "measure": "value",
+      "kind": "numeric",
+      "value_raw": "16,538.97",
+      "qualifiers": {
+        "period": null,
+        "scope": null,
+        "basis": null,
+        "as_of": null,
+        "column_label": null
+      },
+      "evidence": {
+        "doc_id": "delhivery-prospectus-2022",
+        "page": 45,
+        "snippet": "Revenue from\ncontracts with\ncustomers 16,538.97 100.00%",
+        "char_span": [
+          2161,
+          2216
+        ]
+      }
+    }
+  ],
+  "comparison": {
+    "pairs_compared": 539,
+    "verdicts": {
+      "NOT_COMPARABLE": 539
+    },
+    "examples": [
+      {
+        "a": {
+          "subject": "Company",
+          "measure": "Other Income",
+          "value": "4,753.49",
+          "period": "March 31, 2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "\u20b9 75 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "NOT_COMPARABLE",
+        "explanation": "entity unresolved on one side: 'Company' / ''"
+      },
+      {
+        "a": {
+          "subject": "Company",
+          "measure": "Other Income",
+          "value": "4,753.49",
+          "period": "March 31, 2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "\u20b9 131 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "NOT_COMPARABLE",
+        "explanation": "entity unresolved on one side: 'Company' / ''"
+      },
+      {
+        "a": {
+          "subject": "Company",
+          "measure": "Other Income",
+          "value": "4,753.49",
+          "period": "March 31, 2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "\u20b9 119 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "NOT_COMPARABLE",
+        "explanation": "entity unresolved on one side: 'Company' / ''"
+      },
+      {
+        "a": {
+          "subject": "Company",
+          "measure": "Other Income",
+          "value": "4,753.49",
+          "period": "March 31, 2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "(8.8%)",
+          "period": null,
+          "scope": null,
+          "column_label": "QoQ%"
+        },
+        "verdict": "NOT_COMPARABLE",
+        "explanation": "entity unresolved on one side: 'Company' / ''"
+      },
+      {
+        "a": {
+          "subject": "Company",
+          "measure": "Other Income",
+          "value": "4,753.49",
+          "period": "March 31, 2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "60.0%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "NOT_COMPARABLE",
+        "explanation": "entity unresolved on one side: 'Company' / ''"
+      },
+      {
+        "a": {
+          "subject": "Company",
+          "measure": "Other Income",
+          "value": "4,753.49",
+          "period": "March 31, 2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "\u20b9 305 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "NOT_COMPARABLE",
+        "explanation": "entity unresolved on one side: 'Company' / ''"
+      },
+      {
+        "a": {
+          "subject": "Company",
+          "measure": "Other Income",
+          "value": "4,753.49",
+          "period": "March 31, 2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "\u20b9 453 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "NOT_COMPARABLE",
+        "explanation": "entity unresolved on one side: 'Company' / ''"
+      },
+      {
+        "a": {
+          "subject": "Company",
+          "measure": "Other Income",
+          "value": "4,753.49",
+          "period": "March 31, 2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "48.4%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "NOT_COMPARABLE",
+        "explanation": "entity unresolved on one side: 'Company' / ''"
+      },
+      {
+        "a": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "\u20b9 75 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "\u20b9 131 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "NOT_COMPARABLE",
+        "explanation": "entity unresolved on one side: '' / ''"
+      },
+      {
+        "a": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "\u20b9 75 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "\u20b9 119 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "NOT_COMPARABLE",
+        "explanation": "entity unresolved on one side: '' / ''"
+      },
+      {
+        "a": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "\u20b9 75 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "(8.8%)",
+          "period": null,
+          "scope": null,
+          "column_label": "QoQ%"
+        },
+        "verdict": "NOT_COMPARABLE",
+        "explanation": "entity unresolved on one side: '' / ''"
+      },
+      {
+        "a": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "\u20b9 75 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "60.0%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "NOT_COMPARABLE",
+        "explanation": "entity unresolved on one side: '' / ''"
+      },
+      {
+        "a": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "\u20b9 75 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "\u20b9 305 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "NOT_COMPARABLE",
+        "explanation": "entity unresolved on one side: '' / ''"
+      },
+      {
+        "a": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "\u20b9 75 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "\u20b9 453 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "NOT_COMPARABLE",
+        "explanation": "entity unresolved on one side: '' / ''"
+      },
+      {
+        "a": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "\u20b9 75 cr",
+          "period": "Q4 FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "48.4%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "NOT_COMPARABLE",
+        "explanation": "entity unresolved on one side: '' / ''"
+      },
+      {
+        "a": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "\u20b9 131 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "\u20b9 119 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "NOT_COMPARABLE",
+        "explanation": "entity unresolved on one side: '' / ''"
+      },
+      {
+        "a": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "\u20b9 131 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "(8.8%)",
+          "period": null,
+          "scope": null,
+          "column_label": "QoQ%"
+        },
+        "verdict": "NOT_COMPARABLE",
+        "explanation": "entity unresolved on one side: '' / ''"
+      },
+      {
+        "a": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "\u20b9 131 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "60.0%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "NOT_COMPARABLE",
+        "explanation": "entity unresolved on one side: '' / ''"
+      },
+      {
+        "a": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "\u20b9 131 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "\u20b9 305 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "NOT_COMPARABLE",
+        "explanation": "entity unresolved on one side: '' / ''"
+      },
+      {
+        "a": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "\u20b9 131 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "\u20b9 453 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "NOT_COMPARABLE",
+        "explanation": "entity unresolved on one side: '' / ''"
+      },
+      {
+        "a": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "\u20b9 131 cr",
+          "period": "Q3 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "48.4%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "NOT_COMPARABLE",
+        "explanation": "entity unresolved on one side: '' / ''"
+      },
+      {
+        "a": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "\u20b9 119 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "(8.8%)",
+          "period": null,
+          "scope": null,
+          "column_label": "QoQ%"
+        },
+        "verdict": "NOT_COMPARABLE",
+        "explanation": "entity unresolved on one side: '' / ''"
+      },
+      {
+        "a": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "\u20b9 119 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "60.0%",
+          "period": null,
+          "scope": null,
+          "column_label": "YoY%"
+        },
+        "verdict": "NOT_COMPARABLE",
+        "explanation": "entity unresolved on one side: '' / ''"
+      },
+      {
+        "a": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "\u20b9 119 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "\u20b9 305 cr",
+          "period": "FY2023",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "NOT_COMPARABLE",
+        "explanation": "entity unresolved on one side: '' / ''"
+      },
+      {
+        "a": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "\u20b9 119 cr",
+          "period": "Q4 FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "b": {
+          "subject": "",
+          "measure": "Other income",
+          "value": "\u20b9 453 cr",
+          "period": "FY2024",
+          "scope": null,
+          "column_label": null
+        },
+        "verdict": "NOT_COMPARABLE",
+        "explanation": "entity unresolved on one side: '' / ''"
+      }
+    ]
+  }
+}
