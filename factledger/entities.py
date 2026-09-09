@@ -11,14 +11,12 @@ import json
 import re
 from dataclasses import dataclass
 from pathlib import Path
+from typing import Optional
 
-_ANAPHORA = set(
-    json.loads(
-        (Path(__file__).resolve().parent / "lexicon" / "anaphora.json").read_text(
-            encoding="utf-8"
-        )
-    )
-)
+_LEXICON = Path(__file__).resolve().parent / "lexicon"
+_ANAPHORA = set(json.loads((_LEXICON / "anaphora.json").read_text(encoding="utf-8")))
+_MARKERS = set(json.loads((_LEXICON / "entity_markers.json").read_text(encoding="utf-8")))
+_PUNCT = ".,;:()[]" + chr(39) + chr(8217) + chr(34)
 
 
 @dataclass(frozen=True)
@@ -40,3 +38,34 @@ def resolve_entity(subject: str) -> Entity:
 def _normalize(surface: str) -> str:
     collapsed = re.sub(r"\s+", " ", surface.lower()).strip()
     return collapsed.strip(".,;:")
+
+
+def entity_in_text(text: Optional[str]) -> Optional[str]:
+    """The name of an entity stated in this text, or None.
+
+    A name is recognised by its legal form — the markers in the lexicon — with the
+    capitalised words that run up to it. This is deliberately narrow: it answers only
+    when the text itself names an entity, so a caller can tell the difference between
+    evidence and absence. When it returns None the subject stays unresolved. It must
+    never be replaced by whichever entity the surrounding document is mostly about,
+    because a table can belong to a subsidiary or an acquired company while the
+    document is about the parent.
+    """
+    if not text:
+        return None
+    tokens = text.split()
+    for i, token in enumerate(tokens):
+        if token.strip(_PUNCT).lower() not in _MARKERS:
+            continue
+        start = i
+        while start > 0 and _is_name_word(tokens[start - 1]):
+            start -= 1
+        if start == i:  # a legal form with no name in front of it names nothing
+            continue
+        return " ".join(tokens[start:i + 1]).strip(_PUNCT) or None
+    return None
+
+
+def _is_name_word(token: str) -> bool:
+    core = token.strip(_PUNCT)
+    return bool(core) and core[0].isupper() and any(c.isalpha() for c in core)

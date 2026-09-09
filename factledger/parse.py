@@ -97,14 +97,26 @@ def _extract_tables(page, blocks: list[Block]) -> list[Table]:
 
 
 def _caption_above(table_bbox, blocks: list[Block]) -> Optional[str]:
+    """The line of text that introduces the table.
+
+    A block may sit wholly above the table, in which case the line nearest the table
+    is its last. Or it may begin above the table and run past its top, which happens
+    when line grouping pulls a heading and the table body into one block; there the
+    heading is the block's first line. Requiring a block to end above the table missed
+    that second case entirely and left the table with no caption at all.
+    """
     tx0, ttop, tx1, _ = table_bbox
     candidates = [
         b for b in blocks
-        if b.bbox[3] <= ttop + 2 and min(tx1, b.bbox[2]) - max(tx0, b.bbox[0]) > 0
+        if b.bbox[1] < ttop and min(tx1, b.bbox[2]) - max(tx0, b.bbox[0]) > 0
     ]
     if not candidates:
         return None
-    return max(candidates, key=lambda b: b.bbox[3]).text
+    block = max(candidates, key=lambda b: b.bbox[1])  # starts closest above the table
+    lines = [line.strip() for line in block.text.splitlines() if line.strip()]
+    if not lines:
+        return None
+    return lines[-1] if block.bbox[3] <= ttop + 2 else lines[0]
 
 
 def _line_text(line: list[dict]) -> str:

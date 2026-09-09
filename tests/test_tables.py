@@ -3,8 +3,10 @@
 inheritance, missing-context rejection, and grounding."""
 
 from factledger.tables import table_to_claims, _is_number, _header_row_count
-from factledger.compare import compare, RECONCILED_BY_CONTEXT
+from factledger.compare import compare, RECONCILED_BY_CONTEXT, NOT_COMPARABLE
+from factledger.parse import Block, _caption_above
 
+NL = chr(10)
 span = lambda r, c, v: (0, len(v))          # every value is grounded
 nowhere = lambda r, c, v: None              # nothing is grounded
 
@@ -111,3 +113,52 @@ def test_scope_difference_reconciles_end_to_end():
     result = compare(standalone, consolidated, reconcile=lambda **kw: "yes")
     assert result.verdict == RECONCILED_BY_CONTEXT
     assert result.reconciling_dimension == "scope"
+
+
+def block(text, top, bottom, x0=0.0, x1=900.0):
+    return Block(index=0, text=text, char_start=0, char_end=len(text),
+                 bbox=(x0, top, x1, bottom), words=[])
+
+
+TABLE_BBOX = (50.0, 80.0, 900.0, 520.0)
+
+
+def test_caption_survives_a_heading_grouped_into_the_table_block():
+    """Line grouping pulls a dense table's heading and body into one block, so the
+    block starts above the table and ends below it. Requiring the block to end above
+    the table found no caption at all and left every claim without a subject."""
+    merged = block("Quarterly results" + NL + "1,860 2,194 2,076", top=30.0, bottom=470.0)
+    assert _caption_above(TABLE_BBOX, [merged]) == "Quarterly results"
+
+
+def test_caption_is_the_nearest_line_when_the_block_sits_wholly_above():
+    above = block("Introduction" + NL + "Segment revenue", top=10.0, bottom=40.0)
+    assert _caption_above(TABLE_BBOX, [above]) == "Segment revenue"
+
+
+def test_no_caption_when_nothing_starts_above_the_table():
+    assert _caption_above(TABLE_BBOX, [block("Notes", top=600.0, bottom=620.0)]) is None
+
+
+def test_a_table_takes_only_the_entity_its_own_caption_names():
+    """The document is about the parent; this table is about a company it acquired.
+    Inheriting the document's main entity would attach the acquired company's figures
+    to the parent, which is the bleed the design exists to prevent."""
+    rows = [["Metric", "FY2022"], ["service locations", "17,488"]]
+    acquired_rows = [["Metric", "FY2022"], ["service locations", "13,087"]]
+    parent, _ = build(rows, caption="Acme Foods Limited network reach")
+    acquired, _ = build(acquired_rows,
+                        caption="a snapshot of Northwind Logistics Private Limited operations")
+    assert parent[0].subject == "Acme Foods Limited"
+    assert acquired[0].subject == "Northwind Logistics Private Limited"
+    assert compare(parent[0], acquired[0], reconcile=lambda **kw: "unknown").verdict == NOT_COMPARABLE
+
+
+def test_a_caption_naming_no_entity_leaves_the_subject_unresolved():
+    """Absence of evidence is not evidence of the document's main entity. The subject
+    stays empty and the comparison stays unresolved rather than being invented."""
+    rows = [["Metric", "FY2024"], ["Revenue", "100"]]
+    claims, _ = build(rows, caption="Quarterly and full year financial performance")
+    assert claims[0].subject == ""
+    other, _ = build(rows, caption="Quarterly and full year financial performance")
+    assert compare(claims[0], other[0], reconcile=lambda **kw: "unknown").verdict == NOT_COMPARABLE

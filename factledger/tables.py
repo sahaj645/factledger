@@ -15,6 +15,7 @@ from typing import Callable, Optional
 from factledger.parse import Page, Block, Table
 from factledger.extract import Claim, Evidence, Qualifiers, Rejection
 from factledger.normalize import normalize_scope, normalize_period, unit_context
+from factledger.entities import entity_in_text
 
 
 def build_table_claims(page: Page, doc_id: str) -> tuple[list[Claim], list[Rejection]]:
@@ -61,7 +62,11 @@ def table_to_claims(
             else:
                 value_raw = " ".join(part for part in (currency, value, magnitude) if part)
             claims.append(Claim(
-                subject=(caption or "").strip(),
+                # Only an entity the enclosing context actually names. A table can
+                # belong to a subsidiary or an acquired company while the document is
+                # about the parent, so absence of evidence leaves the subject empty
+                # and the comparison unresolved.
+                subject=entity_in_text(caption) or "",
                 measure=row_label,
                 kind="numeric",
                 value_raw=value_raw,
