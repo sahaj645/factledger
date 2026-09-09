@@ -151,13 +151,27 @@ document was run through the whole pipeline, model included:
 | claims stored | 70 (58 from table cells, 12 from narrative blocks) |
 | rejected | 40 |
 | pairs compared | 404 |
-| verdicts | 78 uncertain, 326 not-comparable |
-| wall clock | 1,099.8 s |
+| verdicts | 9 uncertain, 395 not-comparable |
+| wall clock | 1,156.3 s |
 
 Nothing was corroborated or contradicted, and the column labels the earlier defect
 would have discarded came through intact: the three CAGR figures are held apart as
 `Buy-hold SPY`, `Combined (AR+JM)` and `JM-only` rather than colliding as one measure
 with three values.
+
+This run is after the caption and entity fixes, and the verdicts moved because of
+them: 58 of the 70 claims are table cells whose caption names no entity, so they now
+carry no subject and are unresolved rather than being compared under a table title
+treated as though it were a company. Before the fix the same document produced 78
+uncertain verdicts; it now produces 9.
+
+The 12 claims that do carry a subject are the narrative ones, and they show the same
+weakness one layer up: the model supplied `The extension`, `JM-only Sharpe`, `Combined
+Model` and `$` as subjects, and entity resolution accepts any of them because none is
+an anaphor. Those 12 are what the remaining 9 uncertain verdicts come from. The
+evidence rule now applied to table subjects — take an entity only when the text names
+one — is not applied to subjects the model proposes. That is a real gap, recorded
+rather than patched.
 
 **Timing is the finding here.** Eighteen minutes for a seven-page document is the
 local model answering one call per narrative block on CPU. Table cells cost nothing,
