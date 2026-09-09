@@ -19,9 +19,9 @@ every pair.
 
 | Document | Pages | Blocks | Claims kept | Rejected | Seconds |
 |---|---|---|---|---|---|
-| annual report | 4, 22 | 54 | 9 | 22 | 734.5 |
-| Q4 FY24 earnings | 13, 16, 17 | 28 | 126 | 15 | 180.6 |
-| prospectus | 44, 45, 47 | 22 | 9 | 68 | 1364.9 |
+| annual report | 4, 22 | 54 | 9 | 22 | 683.8 |
+| Q4 FY24 earnings | 13, 16, 17 | 28 | 126 | 15 | 188.2 |
+| prospectus | 44, 45, 47 | 22 | 9 | 68 | 2360.4 |
 | **total** | | **104** | **144** | **105** | |
 
 Rejections by reason, across all pages:
@@ -61,20 +61,35 @@ pairs. Every pair returned `NOT_COMPARABLE`. No pair reached `CORROBORATED`,
 - **Within a table, each cell is a different period.** The earnings table states each
   measure across Q4 FY23, Q3 FY24, Q4 FY24, FY23 and FY24. Same entity and measure,
   different temporal coordinate — not comparable, correctly.
-- **Across documents, the subjects do not unify.** Table claims take the table's
-  caption as their subject, and captions differ between documents, so the same
-  measure in two documents does not resolve to one entity. This keeps the system
-  from asserting a cross-document corroboration it cannot ground, at the cost of not
-  forming one.
+- **Most claims have no subject at all.** 126 of the 144 stored claims carry an
+  empty subject and are therefore unresolved at the first gate of comparison, before
+  measure, period or value are examined. All 126 are the earnings deck's table cells.
+  The reason is in the source: the word "Delhivery" does not appear anywhere on the
+  pages those tables sit on. Nothing in their enclosing context names the entity, so
+  the system leaves the subject empty rather than supplying one.
+
+  Two defects were fixed here and both are worth recording. The caption search
+  required a block to end above the table; line grouping merges a dense table's
+  heading into its body, so that block starts above the table and ends below it and
+  was never considered, and the table came back with no caption at all. And the
+  subject was previously whatever the caption said, so a table title would have been
+  stored as though it were an entity. A table now takes only an entity its own caption
+  names.
+
+  What it deliberately does not do is inherit the entity the document is mostly about.
+  On the earnings deck that would not even have produced the right company: the first
+  entity named on its cover page is BSE Limited, the exchange it was filed with. Every
+  revenue and EBITDA figure would have been attributed to the stock exchange.
 
 No false contradiction and no false corroboration was produced.
 
 ## The four cases, honestly
 
 - **Case 1 (corroboration across units).** Did not emerge. The earnings deck yielded
-  adjusted-EBITDA claims, but no grounded EBITDA claim survived from the annual
-  report, and the two documents' table subjects do not unify, so no cross-document
-  pair formed.
+  12 grounded EBITDA claims, but no grounded EBITDA claim survived from the annual
+  report, and the deck's claims have no subject because its pages never name the
+  company. The pair cannot form without asserting a subject the document does not
+  state beside the data.
 - **Case 2 (genuine contradiction).** Not found in the development corpus, and not
   constructed. The lead remains the held-out macroeconomy corpus, which opens at the
   cold-run stage.
