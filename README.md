@@ -47,7 +47,7 @@ then open http://127.0.0.1:8000 and upload a PDF.
 
 One honest warning about `python run.py` with no arguments: it ingests everything in
 `data/dev` and then serves. On CPU that is hours, because the local model is called
-once per narrative block. A seven page document took 1,099.8 seconds end to end.
+once per narrative block. A seven page document took 1,156.3 seconds end to end.
 Table-heavy documents are much faster than prose-heavy ones, because table cells never
 go near the model. If you want to reproduce my numbers on a bounded set of pages,
 `python audit.py` does that and writes `notes/audit_stats.json`.

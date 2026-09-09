@@ -83,9 +83,10 @@ def table_to_claims(
 
 def _residual_header(header: str) -> Optional[str]:
     """What the column header says once the parts that became period or scope are
-    removed. A column headed "North Region / FY2024" still distinguishes its cell from
-    the neighbouring region's; without this the two would look like the same fact
-    stated twice, and differing values would read as a contradiction."""
+    removed. A column headed with a region and a year still distinguishes its cell from
+    the neighbouring region's once the year has been read as the period; without this
+    the two would look like the same fact stated twice, and differing values would read
+    as a contradiction."""
     parts = [p.strip() for p in header.split(" > ") if p.strip()]
     residual = [p for p in parts if not normalize_scope(p) and not normalize_period(p)]
     return " > ".join(residual) or None
